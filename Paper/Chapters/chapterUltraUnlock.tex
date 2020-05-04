@@ -3,7 +3,7 @@
 %======================================== 
 \chapter{{\uu}: Smartphone Authentication \protect \\ Using Gestures in the Air}
 
-In this chapter, we propose a new authentication method for smartphones. During the authentication period, the smartphone's built-in speaker transmits ultrasound signals continuously and the user draws a user-defined gesture in the air. Then the signals reflected from the user's hand are fed into a pre-trained machine learning model to get the authentication results. The key idea is to use in-phase (I) and quadrature(Q) components to represent hand movements, which not only provides high accuracy but also decrease the data size. Moreover, to calculate I/Q components, we choose to use cascaded integrator–comb (CIC) filters, which utilizes only delay and addition and subtraction. Since CIC filters require no multiplication operations, it does not introduce high computational overhead and therefore can be implemented on most smartphones. Experiments of the proposed {\uu} system on Google Nexus 6P devices show that the system can identify 3 different gestures with an average accuracy of 90.89\% and identify 6 people with and average accuracy of 78.47\%. We also propose five directions to further increase the accuracy, as a guide for future work.
+In this chapter, we propose a new authentication method for smartphones. During the authentication period, the smartphone's built-in speaker transmits ultrasound signals continuously and the user draws a user-defined gesture in the air. Then the signals reflected from the user's hand are fed into a pre-trained machine learning model to get the authentication results. The key idea is to use in-phase (I) and quadrature(Q) components to represent hand movements, which not only provides high accuracy but also decrease the data size. Moreover, to calculate I/Q components, we choose to use cascaded integrator–comb (CIC) filters, which utilizes only delay and addition and subtraction. Since CIC filters require no multiplication operations, it does not introduce high computational overhead and therefore can be implemented on most smartphones. Experiments of the proposed {\uu} system on Google Nexus 6P devices show that the system can identify 3 different gestures with an average accuracy of 90.89\% and identify 6 people with and average accuracy of 78.47\%. We also propose six directions to further increase the accuracy, as a guide for future work.
 
 
 %========================================
@@ -280,22 +280,19 @@ The classification results of 3 gestures are shown in Figure~\ref{fig:gestureCFM
 	\item Extracting more information from I/Q data instead of directly feeding them to LSTM networks. In this chapter, we feed the raw I/Q data to the machine learning model for classification. However, we could extract more information from them. With the aforementioned two improvement methods implemented, I/Q data can be used to reconstruct the hand trajectories in three dimensions. We can use the trajectories for user classification. Moreover, we could also extract time and frequency features from the I/Q data. Some commonly used temporal features include mean, min, max, RMS, ZCR, skewness, kurtosis, and peak cound. Some commonly used frequency features include spectral centroid, spectral spread,  spectral skewness,  spectral kurtosis,  spectral flatness, spectral irregularity, spectral entropy, spectral rolloff,	spectral brightness, 
 	spectral RMS, and  spectral roughness. All these features can be implemented and tested to achieve higher accuracy. In addition, {\uu} now treats the hand and the fingers as an integrated part, reconstructing the gestures from hand level to finger level may improve the gesture recognition and user authentication performance.
 	
+	\item Implementing the system fully on smartphones. The current {\uu}App only serves as a data collection app, the training and predicting procedures are done in a MacBook Pro with 2.6 GHz 6-Core Intel Core i7 and 16 GB 2400 MHz DDR4. In future work, we will move this classification part to smartphones and evaluate the latency.
 	
 	
 	\item Evaluating the performance of {\uu} under different settings. Many factors may have impact on the classification result. In the current experiments, we just showed the volunteers how to perform hand movements in the air. But we didn't restrict the users to perform the gestures in certain spaces. The volunteers were free to choose their own speed to draw the gestures and the size of the gestures is flexible too. In future work, we plan to test the influence of such factors. Moreover, current experiments are conducted in a relatively stable environment. There are no other moving objects within 1 meter of the testing smartphone. How to remove the noises from background movements is another challenge to overcome.
+	
 	
 	\item Recruiting more volunteers and testing more gestures. In this chapter, {\uu} is tested over a very limited dataset. This is because of the limited time and the difficulties of recruiting volunteers during the pandemic. To popularize this new authentication method, a lot more volunteers and gestures are required. 
 	
 \end{itemize}
 
 
-
-
-
-
-
 %========================================
 %                            Section                             
 %======================================== 	 
 \section{Conclusion}
-In this chapter, we demonstrated how to use I/Q data to represent hand movements and show the potential of using the I/Q data for smartphone authentication. 
+In this chapter, we demonstrated how to use I/Q data to represent hand movements and show the potential of using the I/Q data for smartphone authentication. Experiments showed that the proposed {\uu} system can achieve gesture recognition with accuracy of 90.8\% and user identification with accuracy of 78.47\%. This {\uu} system is till at its early stage and we pointed out six directions to improve it in future work.
