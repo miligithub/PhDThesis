@@ -1,10 +1,9 @@
 %========================================
 %                            Chapter                            
 %======================================== 
-\chapter{{\uu}: Smartphone Authentication \protect \\
-Using Gestures in the Air}
+\chapter{{\uu}: Smartphone Authentication \protect \\ Using Gestures in the Air}
 
-In this chapter, we propose a new authentication method for smartphones. During the authentication period, the smartphone's built-in speaker transmits ultrasound signals continuously and the user draws a user-defined gesture in the air. Then the signals reflected from the user's hand are fed into a pre-trained machine learning model to get the authentication results. 
+In this chapter, we propose a new authentication method for smartphones. During the authentication period, the smartphone's built-in speaker transmits ultrasound signals continuously and the user draws a user-defined gesture in the air. Then the signals reflected from the user's hand are fed into a pre-trained machine learning model to get the authentication results. The key idea is to use in-phase (I) and quadrature(Q) components to represent hand movements, which not only provides high accuracy but also decrease the data size. Moreover, to calculate I/Q components, we choose to use cascaded integrator–comb (CIC) filters, which utilizes only delay and addition and subtraction. Since CIC filters require no multiplication operations, it does not introduce high computational overhead and therefore can be implemented on most smartphones. Experiments of the proposed {\uu} system on Google Nexus 6P devices show that the system can identify 3 different gestures with an average accuracy of 90.89\% and identify 6 people with and average accuracy of 78.47\%. We also propose five directions to further increase the accuracy, as a guide for future work.
 
 
 %========================================
@@ -15,6 +14,10 @@ Smartphones have been an indispensable parts of our daily lives, and most of the
 
 Therefore, we propose a new authentication method called {\uu}, which provides silent, quick, and smooth user experience for unlocking without your hands touch the phone. It utilizes the speakers and microphones and conducts the authentication through processing ultrasound signals. The smartphone has the ability to reconstruct the user’s hand movement and determine whether it belongs to a legitimate user or not. Following the classification method proposed in~\cite{vongsingthong2015survey}, our method is a combination of knowledge-based method and identity-based method, since the user must have the knowledge of what the shape he should draw and meet the biometric features of how to draw the shape.
 
+%========================================
+%                            Section                             
+%======================================== 	 
+\section{Related Works}
 Our {\uu} system has three important building blocks: 1) smartphones can generate and process ultrasound signals 2) the ultrasound signals are sensitive to hand movements 3) hand movements are feasible features for user authentication. There have been many researches on each  building block.
 
 First, commercial on-the-shelf smartphones can transmit and receive ultrasound signals, though the band is very narrow. Smartphones nowadays are mostly equipped with speakers and microphones whose highest sample rate is either 44100 Hz or 48000 Hz~\footnote{Some models support higher resolution, for example, Samsung Galaxy S10 features 32-bit/384kHz Hi-Fi playback}. According to NyquistShannon sampling theorem, in order to sample a signal of frequency $f$, a sufficient sample rate would be $2f$. Then by the reverse, we know that commercial smartphones can generate and record sounds whose frequency are lower than 22050 Hz or 24000 Hz. Since, the range of human hearing is generally considered to be 20 Hz - 20000 Hz, we conclude that smartphone are able to create and process ultrasounds in the range of 20000 Hz - 22050 Hz or 20000 Hz - 24000 Hz.
@@ -29,11 +32,12 @@ However, all the above gestures are collected from the smartphone touch screens.
 %========================================
 %                            Section                             
 %======================================== 
-\section{Hand Movements and I/Q Modulation}\label{sec:handIQ}
+\section{Background}\label{sec:handIQ}
 The general idea of {\uu} is to treat hand movements as a special I/Q modulation on a signal with fixed frequency. Different users have different hand movements, and modulate the same carrier signal in different ways. After collecting the modulated signals, machine learning techniques can be used for modulation classification. If the modulation is classified to be the hand movement of a legitimate user, the smartphone will accept that user. 
 
 In this section, we first provides necessary background on I/Q data, and then discuss the relationship between hand movements and I/Q modulation.
 
+\subsection{I/Q components and I/Q modulation}
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=.8\linewidth]{iqdata1}
@@ -81,6 +85,7 @@ Q=~&\texttt{lowpass} (\texttt{ModulatedSignal}  \cdot \sin(2 \pi f t) ) .
 %Q= \texttt{lowpass} (\texttt{ModulatedSignal}  \cdot \sin(2 \pi f t) )
 %\end{displaymath}
 
+\subsection{Hand Movements and I/Q Data}
 Now we show how hand movements can be regarded as I/Q modulation. As shown in Figure~\ref{fig:soundpath}, the smartphone speaker plays an ultrasound signal $A\cos \left (2\pi f \frac{n}{f_s}\right)$ with the peak amplitude of $A=1$, the frequency $f = 20,000 $~Hz, and the sampling frequency of $f_s = 44,100 $~Hz. At the time $t_p = \frac{n}{f_s}$, the sound propagation path $p$ decreases by $\Delta p$ due to the hand movement. The received signal therefore becomes $2A^\prime_p \cos \left (2\pi f \frac{n}{f_s}  - 2 \pi \frac{\Delta p}{\lambda} - \theta p\right)$, where $2A^\prime_p$ is the new amplitude, the term $2 \pi \frac{\Delta p}{\lambda}$ comes from the phase lag caused by the propagation delay of $\frac{\Delta p}{\lambda}$ and $\lambda$ is the wavelength of the ultrasound. In our system, $\lambda = c/f = \frac{343 \text{~m/s}}{20,000 \text{~Hz}} = 1.72 \text{~cm}$, where $c$ is the speed of sound. The last term $ \theta p$ is the  initial phase, which is caused by the hardware delay and phase inversion due to reflection~\cite{wang2016device}.  
 In conclusion, the existence of hand movement changes the amplitude and phase of the original signal. Since I/Q data shows the changes in amplitude and phase of a waveform, we use I/Q data to represent hand movements.
 
@@ -139,13 +144,6 @@ We now provide the system design of {\uu}. The system is built based on Android 
 In {\uu}, the smartphone speaker would send continuous ultrasound waves with frequency $f = 20,000 $~Hz. The signals are encoded with 16 bit pulse-code modulation (PCM). Then we use the smartphone microphones to catch the reflective signals of the ultrasound simultaneously. Though the smartphone has more than one microphones to support stereo recording, our system only need one channel to calculate the I/Q data.  As shown in Figure~\ref{fig:ultraunlockapp}, we first normalize the signal, then multiply the received signal with $\cos \left (2\pi f \frac{n}{f_s}\right)$ and $-\sin \left (2\pi f \frac{n}{f_s}\right)$. After converting the data to fixed-point data type with 16 word length and 15 fraction length, we feed the data through Cascaded Integrator-Comb (CIC) filters to remove high frequency components and decimate the signal. To achieve better computational efficiency, we do not use a frequency compensate FIR filter after the CIC but directly output the in-phase and quadrature values.
 
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=.9\linewidth]{CICFilter}
-	\caption{Frequency Response of the Cascaded Integrator-Comb Filter}
-	\label{fig:CICFilter}
-\end{figure}
-
 
 \begin{landscape}
 	\begin{figure}[h]
@@ -158,7 +156,19 @@ In {\uu}, the smartphone speaker would send continuous ultrasound waves with fre
 	\end{figure}
 \end{landscape}
 
-Our CIC filter is a two section filter with the decimate ratio of 15 and differential delay of 16. Figure~\ref{fig:CICFilter} shows the frequency response of the CIC filter. We select the parameters so that the first and second zeros of the filter appear at 183 Hz and 366 Hz. The pass-band of the CIC filter is 0 - 100 Hz, which corresponds to the movements with a speed lower than 0.86 m/s when the wavelength is 1.72 cm. 
+
+
+CIC filter is an optimized class of finite impulse response (FIR) filter combined with an decimator. It provides linear phase response and 
+utilizing only delay and addition and subtraction. In other words, it requires no multiplication operations and therefore has less computational costs, which is more suitable to be implemented on smartphones.
+%
+Our CIC filter is a two section filter (two integrator sand two comb filters)with the decimate ratio of 15 and differential delay of 16. Figure~\ref{fig:CICFilter} shows the frequency response of the CIC filter. We select the parameters so that the first and second zeros of the filter appear at 183 Hz and 366 Hz. The pass-band of the CIC filter is 0 - 100 Hz, which corresponds to the movements with a speed lower than 0.86 m/s when the wavelength is 1.72 cm. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.9\linewidth]{CICFilter}
+	\caption{Frequency Response of the Cascaded Integrator-Comb Filter}
+	\label{fig:CICFilter}
+\end{figure}
 
 As discussed in Section~\ref{sec:handIQ}, the in-phase and quadrature components are a good indicator of the path changes. In detail, the I/Q waveforms remain static when the hand is not moving and vary like sinusoids when the hand moves. Different hand movements generate different sinusoids, which can be trained by a Long Short-Term Memory LSTM network for classification.  We use the same LSTM network as discussed in Section~\ref{sec:LSTM}, but with different parameter settings.
 
@@ -214,7 +224,7 @@ Figure~\ref{fig:androidiqdata} shows the I/Q data collected when the user moves 
 \end{figure}
 
 
-Our current machine learning modal only have two dimensions of features: the amplitude and the phase calculated from I/Q data. We tested our {\uu} system on 6 people and 3 gestures. Each user is asked to perform the same gestures for 20 times where we use half of them to train the LSTM network and the other half to test the model. The three gestures are: up-down, open-close, and drawing ``8'' in the air as shown in Figure~\ref{fig:gestures}. The 6 people are 3 females and 3 males ages 20-30. 
+Our current machine learning modal only have two dimensions of features: the amplitude and the phase calculated from I/Q data. We tested our {\uu} system on 6 people and 3 gestures. Each user is asked to perform the same gestures for 20 times where we use half of them to train the LSTM network and the other half to test the model. The three gestures are: up-down, open-close, and drawing ``8'' in the air as shown in Figure~\ref{fig:gestures}. The 6 people are 3 females and 3 males aging 20-30. 
 
 
 \begin{figure}[!h]
@@ -263,7 +273,7 @@ Our current machine learning modal only have two dimensions of features: the amp
 
 The classification results of 3 gestures are shown in Figure~\ref{fig:gestureCFM}. The average accuracy is 90.89\% and the up-down gesture has the least false negative rate. The classification results of user identification is shown in Figure~\ref{fig:userCFM}, where the average accuracy is 78.47\%.  Note that the true negative rate (specificity) is 95.68\% and the false positive rate is 4.32\%, which means there is a higher chance that a legitimate user would be rejected than the chance that an attacker get accepted by the phone. Though such setting will provide more security to the smartphone, the overall accuracy is not satisfactory. There are at least three ways to further increase it, and we leave it for future work:
 \begin{itemize}
-	\item Utilizing more speakers and microphones. 
+	\item Utilizing more speakers and microphones. In this chapter, we only utilizing one microphone and one speaker on the smartphone. However, most smartphones nowadays support stereo audio, which means the device is equipped with at least a pair of microphones and a pair of speakers. If all sensors and transmitters are adopted, we will increase the signal channel from $1\times1$ to $2 \times2$. If doing so, {\uu} will be able to localize the hand in three dimensions and the feature vectors will increase from 2 to 8. Intuitively, the performance of the classification model will be improved with more features. However, there would also be many challenges to achieve the upgrades. For example, we need to propose effective and efficient algorithms to deal with the interference caused by the simultaneous signals.
 	\item Using chirp signals instead of a single-frequency signal.
 	\item Extracting more information from I/Q data instead of directly feeding them to LSTM networks.
 	\item Recruiting more volunteers and testing more gestures.
