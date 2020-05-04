@@ -1,0 +1,70 @@
+
+
+
+\section{Threat Model in the  {\systemName} System}\label{sec:threat}
+%TODO applications
+
+%%TODO
+%{attcker vs system}
+
+The attacker's goal is to eavesdrop on everything played by the smartphone speakers  without the user's awareness. 
+
+The attack begins when the user installs a seemingly innocent application, e.g. a car racing game with motion-control steering wheel (tilt the smartphone to steer). 
+%
+We assume such a disguised app has the access to motion sensors (accelerometers and gyroscopes) as well as the network. This assumption is easy to fulfill since the permissions to motion sensors and the internet are all considered as \textit{normal} permissions by the Android operating system~\footnote{\scriptsize \url{https://developer.android.com/guide/topics/permissions/overview}}. 
+%~\cite{onlineoverview}.
+In other words, Android automatically grants the app these permissions at installation time. The operating system doesn't prompt the user to grant permissions, and users cannot revoke these permissions. Moreover, almost every smartphone has motion sensors and is able to connect to the Internet. The {\attackName} attack is therefore a threat to every smartphone user.
+
+There is no other requirement for the attacker to conduct a {\attackName} attack. The disguised app just runs in the background and keeps monitoring the motion sensors. Since the power consumption of the motion sensors is very low, the user will not know the motion sensors are in use. In addition, some smartphones are set to be ``Rotation On'' or ``Lift to Unlock", which means the operating system automatically collects motion data, and the {\systemName} system does not introduce extra consumption by using the sensors.
+
+The sensor data are sent back to the attacker over wireless networks. The attacker can choose to transmit data only when the smartphone is connected to Wi-Fi; otherwise, the user may notice the attack through suspicious cellar data usage. The data will be processed at the attacker's end. By utilizing compressed sensing, machine learning and other signal processing techniques, {\systemName} recovers \textit{critical information} from undersampled motion data.
+%
+The critical information could be, but not limited to,
+%\vspace{-.1in}
+%, the followings:
+\begin{itemize}
+	\item
+	User activity. Using motion sensor to recognize user activity is not new. However, those activities (e.g., sitting, walking, running or exercising)  are recognized based on different \textit{macro} motions. {\systemName}, on the other hand, is utilizing the \textit{micro} motions caused by speakers. Therefore, {\systemName} can tell whether a user is listening to music or watching an online talk even when the phone seems stationary.Smartphones' built-in speakers are often used for alarms, phone call ringing, music listening, background sound for game playing, and so on. Different activity plays different sound and creates different motion sensor readings. The {\systemName} system can be trained to classify the motion data to these different user activities. Put the matter another way, an attacker can know when the user wakes up, when she receives phone calls, how long she listens to music, or how long she plays games, and so on.
+	\item 
+	Speaker gender/identity. When the smartphone user has a audio call, video call, or an online meeting with others, the {\attackName} attackers can learn whether the person she talks to is female or male. {\systemName} can also learn how often the user contacts each different person. Moreover, if the attacker could get those people's voice samples (either by recording in public area, or acquiring from social media online, etc.), the attacker can know exactly who they are.
+	\item
+	Speech content. Another goal for the attacker is to recover the whole speech content by motion sensors. However, considering the tremendous gap between the sampling rate of smartphone speakers and motion sensors, there is still a long way before success. In Section~\ref{sec:design}, as a proof-of-concept, we use digit recognition to demonstrate the design of the {\systemName} system, since the most critical information such as  banking account numbers, credit card information, and certain passwords,  are essentially combinations of digits. In Section~\ref{sec:experiment}, command recognition is also tested.
+\end{itemize}
+
+%\vspace{-.1in}
+In addition, It is worth mentioning that the {\attackName} attack is built upon a speaker-independent machine learning model and does not require any specific training data from the user. Though with such data, the accuracy might be further improved. Prior works such as Gyrophone~\cite{michalevsky2014gyrophone} and AccelWord~\cite{zhang2015accelword} can only be used in the speaker-dependent case. Using their techniques, the user must obtain the victim's speech first, which is harder to be carried out in reality.
+
+%\begin{itemize}
+%	\item User activity. A loudspeaker is commonly used for alarms, phone call ringing, music listening, background sound for game playing, video calling, and so on. Different activity plays different sound and creates different motion sensor readings. {\attackName} system can be trained to classify the motion data to different user activities. Put the matter another way, an attacker can know when the user wakes up, when she receives phone calls, how long she listens to music, or how long she plays games, and so on.
+%	\item Speech 
+%\end{itemize}
+
+
+%
+%Permissions on sensors
+%
+%The system doesn't prompt the user to grant normal permissions, and users cannot revoke these permissions.
+%
+%PatternListener requires the permission to access speaker, microphone, and motion sensors (i.e., accelerometer and gyroscope) as well as network access permission. Most permissions can be granted without user approval, except the permission of accessing the microphone. However, we observe that the permis- sion of accessing microphone is very popular in Android apps. For instance, microphone permissions are required by 55\% social apps and 52\% communication apps in the Google Play marketplace. The details can be found in the appendix. Therefore, it is easy for Pat- ternListener to obtain the permission after it is disguised as an app in these categories.
+%
+%which ``tilt to steer'', 
+%
+%motion-control game app.
+%
+%Meddling with the data occurs using a seemingly innocent application, e.g. a fake flashlight app, within which holds the attacker’s exploit script. 
+%We assume the attacker build a 
+%
+%
+%The adversary’s goal is to inject voice commands into the voice controllable systems without owners’ awareness, and execute unauthenticated actions. We assume that adversaries have no direct access to the targeted device, own equipment that transmits acoustic signals, and cannot ask the owner to perform any tasks.
+%
+%Assumptions
+%
+%
+%Sample rate on Smartphones.
+%
+%
+%No Target Device Access. We assume that an adversary may target at any voice controllable systems of her choices, but she has no direct access to the target devices. She cannot physically touch them, alter the device settings, or install malware. However, we assume that she is fully aware of the characteristics of the target devices. Such knowledge can be gained by first acquiring the device model and then by analyzing the device of the same model before launching attacks.
+%No Owner Interaction. We assume that the target devices may be in the owner’s vicinity, but may not be in use and draw no attention (e.g., on the other side of a desk, with screen covered, or in a pocket). In addition, the device may be unattended, which can happen when the owner is temporarily away (e.g., leaving an Amazon Echo in a room). Alternatively, a device may be stolen, and an adversary may try every possible method to unlock the screen. Nevertheless, the adversaries cannot ask owners to perform any operation, such as pressing a button or unlocking the screen.
+%Inaudible. Since the goal of an adversary is to inject voice com- mands without being detected, she will use the sounds inaudible to human, i.e., ultrasounds (f > 20 kHz). Note that we did not use high-frequency sounds (18 kHz < f < 20 kHz) because they are still audible to kids.
+%Attacking Equipment. We assume that adversaries can acquire both the speakers designed for transmitting ultrasound and com- modity devices for playing audible sounds. An attacking speaker is in the vicinity of the target devices. For instance, she may secretly leave a remote controllable speaker around the victim’s desk or home. Alternatively, she may be carrying a portable speaker while walking by the victim.
+%

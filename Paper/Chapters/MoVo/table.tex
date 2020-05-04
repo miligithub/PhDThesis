@@ -1,0 +1,125 @@
+\begin{landscape}
+	\SingleSpacing
+	
+	\begin{longtable}{p{3cm}p{6cm}p{6cm}ccc} %p{1.5cm}
+		\caption{Related Work on Liveness Detection}
+		\label{tab:liveness}
+		\\
+		
+		\toprule
+				Authors & Method & Shortcomming & Accuracy & \shortstack{No Extra \\ Devices} &  \shortstack{No Cumbersome \\ User Interaction}  \\
+	%			& No User-specific Training\\
+		\midrule
+		
+		\endfirsthead
+		
+		\normalfont\tablename~\thetable{}~Continued\\
+		\toprule
+				Authors & Method & Shortcomming & Accuracy & \shortstack{No Extra \\ Devices} &  \shortstack{No Cumbersome \\ User Interaction}  \\
+	%			& No User-specific Training\\
+		\midrule
+		
+		\endhead
+		
+		\bottomrule		
+		\endfoot
+		
+		\endlastfoot
+			Girija Chetty and Michael Wagner~\cite{chetty2004automated} & Detecting lip movements using cameras. & Inherits shortcomings of face authentication and introduces high computational overhead. & 99\% & \xmark & \cmark \\
+%			& \xmark\\
+			Poss et al.~\cite{poss2008biometric} & Using neural tree networks to determine unique aspects of utterances and Hidden Markov Models to classify them. & The accuracy is unkown. & - & \cmark & \cmark 
+			\\
+%			& \xmark \\
+			Wei Shang and Maryhelen Stevenson~\cite{shang2010score} & Testing whether an incoming recording shares the same originating utterance as any of N stored recordings. & Performance is largely based on the pre-stored recordings. & 88.1\%/93.2\% & \cmark & \cmark 
+			\\
+%			& \xmark \\
+			Jes{\'u}s Villalba and Eduardo Lleida~\cite{villalba2011detecting} & Detecting noises and spectrum changes caused by far-field microphone and loudspeakers. & Limits the replay attackers to use far-field microphones. & 91\%-100\% & \cmark & \cmark \\
+%			& \cmark \\
+			Wang et al.~\cite{wang2011channel} & Detecting channel pattern noise caused by microphone and loudspeakers. & Limits the replay attackers to use low-quality microphones. & 97\% & \cmark & \cmark 
+			\\
+%			& \cmark \\			
+			Aley-Raz et al.~\cite{aley2013device}  & Integrating intra-session voice variation to Nuance VocalPassword~\cite{onlinenuance}. & Requires the user to cumbersomely repeat prompted sentences. & - & \cmark & \xmark 
+			\\
+%			& \cmark \\
+			Zhang et al.~\cite{zhang2016voicelive} & \textbf{VoiceLive}: Measuring the time-difference-of-arrival changes of a sequence of phoneme sounds to the two microphones of the phone. & Requires at least two high-quality microphones in one smartphone. & 99\% & \cmark & \cmark 
+			\\
+%			& \xmark \\
+			Chen et al.~\cite{chen2017you} & Detecting the magnetic field emitted from loudspeakers. & Requires the user to move the smartphone with the predefined trajectory around the sound source. & 100\% & \cmark & \xmark 
+			\\
+%			& \cmark \\			
+			Zhang et al. ~\cite{zhang2017hearing} & \textbf{VoiceGesture}: Leverages Dopler shifts in signals caused by users' articulatory gestures when speaking. & Requires high quality microphones and needs a longer computation time. & 99\% & \cmark & \cmark
+			\\
+%			 & \xmark \\
+			Feng et al.~\cite{feng2017continuous}  & \textbf{VAuth}: Utilizing the instantaneous consistency of the entire signal from the accelerometer and the microphone. & Requires the user to wear high-sampling-rate accelerometers on the facial, throat, or sternum areas. & 97\% & \xmark & \cmark 
+			\\
+%			& \cmark \\
+			Huang et al.~\cite{huang2018breathlive}  & \textbf{BreathLive}: Utilizing chest movement when making deep breaths & The sound is deep breath sound instead of human speech; Stethoscope is needed. & 91\%/94\%/96\% & \xmark & \cmark 
+			\\
+%			& \xmark \\
+			Ment et al.~\cite{meng2018wivo} & \textbf{WiVo}: Using channal state information (CSI) from WiFi signals to detect mouth movement  &  Requires WiFi antennas to collect the CSI info; the distance between antennas and human is short (20cm). & 99\% & \xmark & \cmark
+ \\
+\bottomrule
+
+\end{longtable}
+
+\end{landscape}
+
+%\begin{landscape}	
+%	\begin{table}
+%		\centering
+%%		\renewcommand{\arraystretch}{1.5}
+%%		\caption{Related Work on Liveness Detection}
+%%		\label{tab:liveness}
+%		\footnotesize
+%		\begin{tabular}{p{2.5cm}p{0.5cm}p{4.5cm}p{4.5cm}ccc} %p{1.5cm}
+%			\toprule\specialrule{0.5pt}{1.5pt}{\belowrulesep}
+%			Authors & Year & Method & Shortcomming & Accuracy & \shortstack{No Extra \\ Devices} &  \shortstack{No Cumbersome \\ User Interaction}  \\
+%%			& No User-specific Training\\
+%			\midrule
+%			Girija Chetty and Michael Wagner~\cite{chetty2004automated} & 2004 & Detecting lip movements using cameras. & Inherits shortcomings of face authentication and introduces high computational overhead. & 99\% & \xmark & \cmark \\
+%%			& \xmark\\
+%			Poss et al.~\cite{poss2008biometric} & 2008 & Using neural tree networks to determine unique aspects of utterances and Hidden Markov Models to classify them. & The accuracy is unkown. & - & \cmark & \cmark 
+%			\\
+%%			& \xmark \\
+%			Wei Shang and Maryhelen Stevenson~\cite{shang2010score} & 2010 & Testing whether an incoming recording shares the same originating utterance as any of N stored recordings. & Performance is largely based on the pre-stored recordings. & 88.1\%/93.2\% & \cmark & \cmark 
+%			\\
+%%			& \xmark \\
+%			Jes{\'u}s Villalba and Eduardo Lleida~\cite{villalba2011detecting} & 2011 & Detecting noises and spectrum changes caused by far-field microphone and loudspeakers. & Limits the replay attackers to use far-field microphones. & 91\%-100\% & \cmark & \cmark \\
+%%			& \cmark \\
+%			Wang et al.~\cite{wang2011channel} & 2011 & Detecting channel pattern noise caused by microphone and loudspeakers. & Limits the replay attackers to use low-quality microphones. & 97\% & \cmark & \cmark 
+%			\\
+%%			& \cmark \\			
+%			Aley-Raz et al.~\cite{aley2013device}  & 2013 & Integrating intra-session voice variation to Nuance VocalPassword~\cite{onlinenuance}. & Requires the user to cumbersomely repeat prompted sentences. & - & \cmark & \xmark 
+%			\\
+%%			& \cmark \\
+%			Zhang et al.~\cite{zhang2016voicelive} & 2016 & \textbf{VoiceLive}: Measuring the time-difference-of-arrival changes of a sequence of phoneme sounds to the two microphones of the phone. & Requires at least two high-quality microphones in one smartphone. & 99\% & \cmark & \cmark 
+%			\\
+%%			& \xmark \\
+%			Chen et al.~\cite{chen2017you} & 2017 & Detecting the magnetic field emitted from loudspeakers. & Requires the user to move the smartphone with the predefined trajectory around the sound source. & 100\% & \cmark & \xmark 
+%			\\
+%%			& \cmark \\			
+%			Zhang et al.~\cite{zhang2017hearing} & 2017 & \textbf{VoiceGesture}: Leverages Dopler shifts in signals caused by users' articulatory gestures when speaking. & Requires high quality microphones and needs a longer computation time. & 99\% & \cmark & \cmark
+%			\\
+%%			 & \xmark \\
+%			Feng et al.~\cite{feng2017continuous}  & 2017 & \textbf{VAuth}: Utilizing the instantaneous consistency of the entire signal from the accelerometer and the microphone. & Requires the user to wear high-sampling-rate accelerometers on the facial, throat, or sternum areas. & 97\% & \xmark & \cmark 
+%			\\
+%%			& \cmark \\
+%			Huang et al.~\cite{huang2018breathlive}  & 2018 & \textbf{BreathLive}: Utilizing chest movement when making deep breaths & The sound is deep breath sound instead of human speech; Stethoscope is needed. & 91\%/94\%/96\% & \xmark & \cmark 
+%			\\
+%%			& \xmark \\
+%			Ment et al.~\cite{meng2018wivo} & 2018 & \textbf{WiVo}: Using channal state information (CSI) from WiFi signals to detect mouth movement  &  Requires WiFi antennas to collect the CSI info; the distance between antennas and human is short (20cm). & 99\% & \xmark & \cmark
+%			\\
+%		\specialrule{0.5pt}{\aboverulesep}{1.5pt}\bottomrule
+%		\end{tabular}
+%	\end{table}
+%\end{landscape}
+
+%Shang et al.~\cite{shang2010score} propose to compare an input voice sample with stored instances of past accesses to detect the voice samples have been seen before by the authentication system. This method, however, cannot work if the attacker records the voice samples during a non-authentication time point. Villalba et al. and Wang et al. suggest that the additional channel noises introduced by the recording and loudspeaker can be used for attack detection~\cite{villalba2011detecting,wang2011channel}.
+%These approaches however have limited effec- tiveness in practice. For example, the false acceptance rates of these approaches are as high as 17\%. Chetty and Wagner propose to use video camera to extract lip movements for liveness verification~\cite{chetty2004automated}, whereas Poss et al. combine the techniques of a neural tree network and Hidden Markov Models to improve authentication accuracy~\cite{poss2008biometric}.
+%Aley-Raz et al.~\cite{aley2013device} develop a liveness detection system based on ``Intra-session voice variation'', which is integrated into Nuance VocalPassword~\cite{onlinenuance}. In addition to a user-chosen passphrase, it requires a user to repeat one or more random sentences prompted by the system for liveness detection. Such a method however increases the op- eration overhead of the user and is cumbersome due to an explicit user cooperation is required besides the standard authentication process. 
+%
+%More recently, Chen et al.~\cite{chen2017you} develop a smartphone based liveness detection system by measuring the magnetic field emit- ted from loudspeakers. It however requires the user to speak the passphrase while moving the smartphone with predefined trajectory around the sound source. Moreover, Zhang et al.~\cite{zhang2016voicelive} propose a smarthphone based solution, which measures the time-difference-of-arrival (TDoA) changes of a sequence of phoneme sounds to the two microphones of the phone when a user speaks a passphrase for liveness detection. However, it requires at least two high-accuracy microphones in one smartphone. Zhang et al.~\cite{zhang2017hearing} then propose VoiceGuesture, which leverages a user’s articulatory gestures when speaking a passphrase for liveness detection. However, the calculation overhead is high.
+%Feng et al.~\cite{feng2017continuous} present VAuth,  which utilizes the instantaneous consistency of the entire signal from the accelerometer and the microphone.  However, it requires the user to wear a security-assisting device on the facial, throat, or sternum areas. 
+%Huang et al.~\cite{huang2018breathlive} present BreathLive, which utilize the inherent correlation between sounds and chest motion caused by deep breathing to realize a reliable liveness detection system. However, it requires special gyroscope and stethoscope. Since it utilizes deep breathing, the sound period is very long (4 sec. for one deep breathing).
+%
+%In conclusion, the aforementioned approaches either require cumbersome user interaction, or require extra electronic devices, or require long recording time or processing time. Building a good liveness detection component is still an open problem.

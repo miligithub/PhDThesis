@@ -1,0 +1,29 @@
+\section{Defenses}
+%To defend against an attacker that has only user-level access to the device (an application or a web- site), it might be enough to apply low-pass filtering to the raw samples provided by the gyroscope. Judging by the sampling rate available for Blink and WebKit based browsers, it is enough to pass frequencies in the range 0 – 20 Hz. If this rate is enough for most of the applications, the filtering can be done by the driver or the OS, subvert- ing any attempt to eavesdrop on higher frequencies that reveal information about surrounding sounds. In case a certain application requires an unusually high sampling rate, it should appear in the list of permissions requested by that application, or require an explicit authorization by the user. To defend against attackers who gain root access, this kind of filtering should be performed at the hardware level, not course, it imposes a able to applications.
+%Another possible masking. It can be possibly on the case
+%being subject to configuration. Of restriction on the sample rate avail-
+%solution is some kind of acoustic applied around the sensor only, or
+%of the mobile device.
+
+%%TODO take defense?
+To defend against the {\attackName} attack, the smartphone user can adopt the hardware-based defenses or the software-based defenses if supported by the smartphone's operating systems.
+%\vspace{-.1in}
+\subsection{Hardware-based Defenses}
+%\textbf{Hardware-based Defenses: }
+The easiest way to defend the {\attackName} attack is to not use smartphone's built-in speakers. Instead, a user can use \textit{headphones} or other wireless connected loudspeakers. As long as there is no direct contact between the speakers and the motion sensors, the attack is defended~\cite{anand2018speechless}. In fact, as shown in Section~\ref{sec:impact:volume}, with lower volume setting, the {\attackName} attack can also be largely impeded. Though such hardware-based defenses may cause inconvenience to the user, their security and privacy can be protected.
+%Loudspeaker not loud
+%newly-released OSchoose to keep the OS version, do not or can not upgrade to the
+%Use headphones
+%\vspace{-.1in}
+\subsection{Software-based Defenses}
+%\textbf{Software-based Defenses: }
+The software-based defenses are better sensor management by smartphones' operating systems (OS). For example, the OS should treat the permissions to motion sensors as dangerous permissions and require users to grant permissions at installation time. Moreover, the OS should keep monitoring the sensor usage such as when the sensors are used, whether they are used in background, and what sampling rate is required by the application. 
+
+
+Though there has been some research in designing better sensor management systems~\cite{sikder20176thsense}, the {\attackName} attack may still be a big threat for at least three years. This is because the smartphone users may not or can not upgrade to the 
+newly-released OS in a timely manner. 
+%For example, more than half the Android devices are still using OS as old as Android Nougat, which was released in 2016\footnote{\scriptsize \url{https://developer.android.com/about/dashboards}}. 
+%
+Indeed, by the end of May 7, 2019, more than half the Android devices are still using OS released three years ago~\footnote{More than half the Android devices are still using OS as old as Android Nougat, which was released in 2016 according to Android Dashboards (\url{https://developer.android.com/about/dashboards})}. Therefore, three years later, there is a large chance that more than half the devices are still using the OS released so far. Since current Android OS cannot defend the SpyPhone system, those devices are vulnerable to the Man-in-the-Phone attack. However, if smartphone users know the importance of the update and cares about their security and privacy, the adoption speed may increase. Note that there is a huge lag between Google and the manufacturers such as Samsung and Huawei. Even Google release the security updates quickly enough, the manufacturer may release them too late.
+
+%~\cite{onlinedashboards}.

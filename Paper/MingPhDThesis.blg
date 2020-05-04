@@ -1,0 +1,388 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: MingPhDThesis.aux
+A level-1 auxiliary file: Chapters/chapterIntro.aux
+A level-1 auxiliary file: Chapters/chapterSpyPhone.aux
+A level-1 auxiliary file: Chapters/chapterUltraUnlock.aux
+A level-1 auxiliary file: Chapters/chapterMoVo.aux
+A level-1 auxiliary file: Chapters/chapterConcl.aux
+The style file: plain.bst
+Database file #1: References/referenceAll.bib
+Repeated entry---line 185 of file References/referenceAll.bib
+ : @article{vongsingthong2015survey
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1036 of file References/referenceAll.bib
+ : @article{mahfouz2017survey
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1061 of file References/referenceAll.bib
+ : @article{aharon2006k
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1072 of file References/referenceAll.bib
+ : @inproceedings{anand2018speechless
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1083 of file References/referenceAll.bib
+ : @misc{online2005Voice
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1103 of file References/referenceAll.bib
+ : @article{candes2004robust
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1110 of file References/referenceAll.bib
+ : @inproceedings{candes2006compressive
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1120 of file References/referenceAll.bib
+ : @article{candes2008introduction
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1129 of file References/referenceAll.bib
+ : @article{candes2008restricted
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1139 of file References/referenceAll.bib
+ : @inproceedings{crager2017information
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1148 of file References/referenceAll.bib
+ : @article{davis2014visual
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1168 of file References/referenceAll.bib
+ : @article{donoho2006compressed
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1178 of file References/referenceAll.bib
+ : @article{donoho2009observed
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1189 of file References/referenceAll.bib
+ : @article{engan2007family
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1202 of file References/referenceAll.bib
+ : @article{garofolo1993timit
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1208 of file References/referenceAll.bib
+ : @article{greff2017lstm
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1220 of file References/referenceAll.bib
+ : @inproceedings{han2017pitchln
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1229 of file References/referenceAll.bib
+ : @article{haykin2007neural
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1235 of file References/referenceAll.bib
+ : @article{hochreiter1997long
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1254 of file References/referenceAll.bib
+ : @article{ji2008bayesian
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1285 of file References/referenceAll.bib
+ : @book{ladefoged2014course
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1291 of file References/referenceAll.bib
+ : @book{ladefoged2012vowels
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1298 of file References/referenceAll.bib
+ : @article{leonard1993tidigits
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1306 of file References/referenceAll.bib
+ : @inproceedings{mairal2009online
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1325 of file References/referenceAll.bib
+ : @inproceedings{matyunin2018zero
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1343 of file References/referenceAll.bib
+ : @inproceedings{michalevsky2014gyrophone
+ :                                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1353 of file References/referenceAll.bib
+ : @article{natarajan1995sparse
+ :                             ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1365 of file References/referenceAll.bib
+ :  author={Novikov, Boris Konstantinovich and Rudenko, Oleg Vladimirovich and Timoshenko, Valeri{\u\i}} 
+ :                                                                                                       Ivanovich},
+I'm skipping whatever remains of this entry
+Repeated entry---line 1369 of file References/referenceAll.bib
+ : @article{figueiredo2007gradient
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1382 of file References/referenceAll.bib
+ : @article{peterson1952control
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1400 of file References/referenceAll.bib
+ : @article{qaisar2013compressive
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1412 of file References/referenceAll.bib
+ : @inbook{rabiner2011theory
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1421 of file References/referenceAll.bib
+ : @article{rani2018systematic
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1430 of file References/referenceAll.bib
+ : @article{remi2010dictionary
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1440 of file References/referenceAll.bib
+ : @inproceedings{roy2016listening
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1453 of file References/referenceAll.bib
+ : @inproceedings{siddamal2015survey
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1470 of file References/referenceAll.bib
+ : @inproceedings{skretting2017sparse
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1478 of file References/referenceAll.bib
+ : @article{skretting2010recursive
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1490 of file References/referenceAll.bib
+ : @inbook{titze1994principles
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1499 of file References/referenceAll.bib
+ : @article{titze2015toward
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1510 of file References/referenceAll.bib
+ : @article{tropp2007signal
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1519 of file References/referenceAll.bib
+ : @article{tropp2010computational
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1562 of file References/referenceAll.bib
+ : @article{wolfe2016experimentally
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1573 of file References/referenceAll.bib
+ : @article{xu2017survey
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1586 of file References/referenceAll.bib
+ : @inproceedings{zhang2015accelword
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1596 of file References/referenceAll.bib
+ : @article{jafari2011fast
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1612 of file References/referenceAll.bib
+ : @inproceedings{sikder20176thsense
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1620 of file References/referenceAll.bib
+ : @misc{report2019forrester
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1627 of file References/referenceAll.bib
+ : @misc{report2018newzoo
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1654 of file References/referenceAll.bib
+ : @book{fant1960acoustic
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1662 of file References/referenceAll.bib
+ : @inbook{baken1987clinical
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1671 of file References/referenceAll.bib
+ : @article{bojinov2014mobile
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1678 of file References/referenceAll.bib
+ : @inproceedings{das2016tracking
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1685 of file References/referenceAll.bib
+ : @inproceedings{fuse2018sound
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1696 of file References/referenceAll.bib
+ : @inproceedings{han2012accomplice
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1704 of file References/referenceAll.bib
+ : @article{huang2018breathlive
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1715 of file References/referenceAll.bib
+ : @article{hawley2018visualizing
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1726 of file References/referenceAll.bib
+ : @inproceedings{kwonghard
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1734 of file References/referenceAll.bib
+ : @article{liang2017location
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1743 of file References/referenceAll.bib
+ : @inproceedings{lee2018inferring
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1753 of file References/referenceAll.bib
+ : @inproceedings{miluzzo2012tapprints
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1762 of file References/referenceAll.bib
+ : @inproceedings{owusu2012accessory
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1771 of file References/referenceAll.bib
+ : @inproceedings{roy2015ripple
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1779 of file References/referenceAll.bib
+ : @article{sikder2018survey
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1786 of file References/referenceAll.bib
+ : @article{shoaib2015survey
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1799 of file References/referenceAll.bib
+ : @article{wang2019deep
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1809 of file References/referenceAll.bib
+ : @inproceedings{wang2015mole
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1817 of file References/referenceAll.bib
+ : @inproceedings{wang2016friend
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1826 of file References/referenceAll.bib
+ : @article{zhang2015survey
+ :                         ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "onlinegoogle" isn't style-file defined
+--line 1843 of file References/referenceAll.bib
+Warning--entry type for "onlinemarket" isn't style-file defined
+--line 1849 of file References/referenceAll.bib
+Warning--entry type for "onlinewechat" isn't style-file defined
+--line 1855 of file References/referenceAll.bib
+Warning--entry type for "onlinebio" isn't style-file defined
+--line 1861 of file References/referenceAll.bib
+Warning--entry type for "onlineciti" isn't style-file defined
+--line 1867 of file References/referenceAll.bib
+Warning--entry type for "onlinesaytec" isn't style-file defined
+--line 1873 of file References/referenceAll.bib
+Warning--entry type for "onlineblockchain" isn't style-file defined
+--line 1880 of file References/referenceAll.bib
+Warning--entry type for "onlinenuance" isn't style-file defined
+--line 1886 of file References/referenceAll.bib
+Warning--entry type for "onlinelist" isn't style-file defined
+--line 1904 of file References/referenceAll.bib
+Warning--entry type for "onlinesyllable" isn't style-file defined
+--line 1911 of file References/referenceAll.bib
+Repeated entry---line 2019 of file References/referenceAll.bib
+ : @article{greff2017lstm
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2030 of file References/referenceAll.bib
+ : @inproceedings{han2017pitchln
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2038 of file References/referenceAll.bib
+ : @article{hochreiter1997long
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2057 of file References/referenceAll.bib
+ : @article{huang2018breathlive
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2130 of file References/referenceAll.bib
+ : @inproceedings{michalevsky2014gyrophone
+ :                                        ,
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "John S. Garofolo, Lori F. Lamel, William M. Fisher, Jonathan G. Fiscus, David S. Pallett, Nancy L. Dahlgren, Victor Zue" for entry garofolo1993timit
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "John S. Garofolo, Lori F. Lamel, William M. Fisher, Jonathan G. Fiscus, David S. Pallett, Nancy L. Dahlgren, Victor Zue" for entry garofolo1993timit
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "John S. Garofolo, Lori F. Lamel, William M. Fisher, Jonathan G. Fiscus, David S. Pallett, Nancy L. Dahlgren, Victor Zue" for entry garofolo1993timit
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "John S. Garofolo, Lori F. Lamel, William M. Fisher, Jonathan G. Fiscus, David S. Pallett, Nancy L. Dahlgren, Victor Zue" for entry garofolo1993timit
+while executing---line 1049 of file plain.bst
+Warning--empty journal in haykin2007neural
+Too many commas in name 1 of "John S. Garofolo, Lori F. Lamel, William M. Fisher, Jonathan G. Fiscus, David S. Pallett, Nancy L. Dahlgren, Victor Zue" for entry garofolo1993timit
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "John S. Garofolo, Lori F. Lamel, William M. Fisher, Jonathan G. Fiscus, David S. Pallett, Nancy L. Dahlgren, Victor Zue" for entry garofolo1993timit
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "John S. Garofolo, Lori F. Lamel, William M. Fisher, Jonathan G. Fiscus, David S. Pallett, Nancy L. Dahlgren, Victor Zue" for entry garofolo1993timit
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "John S. Garofolo, Lori F. Lamel, William M. Fisher, Jonathan G. Fiscus, David S. Pallett, Nancy L. Dahlgren, Victor Zue" for entry garofolo1993timit
+while executing---line 1090 of file plain.bst
+Warning--empty year in kwonghard
+Warning--empty publisher in novikov1987nonlinear
+Warning--empty year in novikov1987nonlinear
+You've used 136 entries,
+            2118 wiz_defined-function locations,
+            1202 strings with 29171 characters,
+and the built_in function-call counts, 51912 in all, are:
+= -- 5192
+> -- 2469
+< -- 57
++ -- 990
+- -- 834
+* -- 3497
+:= -- 8218
+add.period$ -- 432
+call.type$ -- 136
+change.case$ -- 813
+chr.to.int$ -- 0
+cite$ -- 140
+duplicate$ -- 2026
+empty$ -- 4057
+format.name$ -- 834
+if$ -- 11180
+int.to.chr$ -- 0
+int.to.str$ -- 136
+missing$ -- 128
+newline$ -- 671
+num.names$ -- 272
+pop$ -- 993
+preamble$ -- 1
+purify$ -- 684
+quote$ -- 0
+skip$ -- 1546
+stack$ -- 0
+substring$ -- 3262
+swap$ -- 629
+text.length$ -- 57
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 528
+warning$ -- 4
+while$ -- 508
+width$ -- 139
+write$ -- 1479
+(There were 82 error messages)

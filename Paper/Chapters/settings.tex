@@ -1,0 +1,90 @@
+%========================================
+%                           Packages                             
+%========================================
+\usepackage{lipsum} % dummy text
+\usepackage{graphicx} % for images
+\usepackage{natbib} % for Chicago style references
+% hyperref is a package that frequently requires compiling twice 
+\PassOptionsToPackage{hyphens}{url}
+%\usepackage{hyperref}
+\usepackage{hyperref} % for \url and links 
+\usepackage{pdflscape} % for landscape mode page
+\usepackage{everypage} % for landscape mode page numbering 
+\usepackage{afterpage} 
+\usepackage{longtable} % for really long tables
+
+% Place all chapter tex files in ``Chapters'' folder
+% Place all references bib files in ``References'' folder
+
+% Place all figures in ``Figures'' folder
+\graphicspath{{Figures/}{Figures/SpyPhone/}{Figures/MoVo/}{Figures/UltraUnlock/}{/Users/mili/Desktop/EavesProcessFinal/}{/Users/mili/Documents/UltraUnlock/}} 
+% Or define several directories to be searched for figures.
+% \graphicspath{{Figures/}{../figures/}{C:/Users/me/Documents/project/figures/}}
+
+\DeclareUnicodeCharacter{FF09}{FIX ME!!!!}
+%========================================
+%                           Abbreviation                            
+%========================================
+
+\newcommand{\uu}{Ultra-Unlock}
+\newcommand{\spp}{Spy-Phone}
+\newcommand{\mv}{MoVo}
+
+%========================================
+%                           SpyPhone                       
+%========================================
+%\newcommand{\shortName}{Smartphone or Spy-phone? }
+\newcommand{\shortName}{Spy-Phone}
+\newcommand{\attackName}{Man-in-the-Phone}
+\newcommand{\systemName}{\mbox{Spy-Phone}}
+\newcommand{\systemNameCap}{\mbox{SPY-PHONE}}
+\newcommand{\longName}{\emph{\shortName}: Eavesdropping on \\Smartphone Speakers with Motion Sensors}
+
+\usepackage{booktabs}
+%\usepackage{pifont} %\cmark \xmark
+
+\usepackage{makecell} %\makecell
+\usepackage[ruled,vlined]{algorithm2e}
+
+\usepackage{amsmath}
+\DeclareMathOperator*{\argmin}{argmin}  
+
+%\usepackage[font=small,labelfont=bf]{caption} \normalsize
+
+\usepackage{float} %for figure position
+
+\setcounter{MaxMatrixCols}{20} %amsmath uses 10 array columns internally
+
+\usepackage{multirow}
+
+%\usepackage{subfig}
+\usepackage[labelfont={bf},skip=15pt]{caption,subcaption} %,
+
+
+%========================================
+%                           MoVo                  
+%========================================
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\newcommand{\shortname}{MoVo}
+%
+%\usepackage{subcaption} %\subfigure
+%\usepackage[pdftex]{graphicx}
+%\graphicspath{{figs/}}
+
+%
+\usepackage{pifont} %\cmark \xmarks
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
+%\usepackage{lscape} %\landscape paper
+%\usepackage{longtable}
+%\usepackage{booktabs}
+%\usepackage{amsmath}
+%\usepackage{hyperref}
+
+%\usepackage{tikz}  %\tikzpicture
+
+%\usepackage[para,symbol*]{footmisc}

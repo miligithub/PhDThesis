@@ -1,0 +1,110 @@
+
+\section{Related Work}
+
+\subsection{Inferring  Information From Smartphone Motion Sensors}
+%Modern mobile devices such as smartphones are equipped with more and more powerful motion sensors(i.e., accelerometer, gyroscope).
+%
+In recent years, much attention has been paid to inferring private information  through motion sensors in the literature.
+%
+A typical side-channel attack is keystrokes inference on smartphones through motion sensors~\cite{owusu2012accessory,miluzzo2012tapprints}. 
+%
+The general idea of these attacks is that when typing on different locations on a screen, the keystrokes cause distinct vibrations or rotations. 
+%
+In addition, Wang \emph{et al.}~\cite{wang2015mole} proposed to track the movement of the wrist to infer what the user has typed.
+% 
+Similarly, a practical attack has been shown in~\cite{wang2016friend}, which infers a user’s personal PIN sequence by exploiting wearable devices.
+%
+The feasibility of inferring user’s location information using motion sensors instead of GPS data has been shown in~\cite{liang2017location,han2012accomplice}.
+%
+Bojinov \emph{et al.}~\cite{bojinov2014mobile} demonstrated that motion sensors can be used as device fingerprint to uniquely identify a device. 
+%
+This motion sensor-based device fingerprint was further utilized by~\cite{das2016tracking} to track a user across multiple visits to websites.
+%
+In~\cite{lee2018inferring}, Lee \emph{et al.} proposed to use motion sensors to infer users' handwritten patterns.
+%
+Huang \emph{et al.}~\cite{huang2018breathlive} implemented a reliable liveness detection system called Breathlive, which is based on the inherent correlation between sounds and chest motion caused by deep breathing.
+%
+Roy \emph{et al.}~\cite{roy2015ripple} demonstrated the possibility of communication through motion sensors by modulating the vibration motor and decoding through accelerometers. 
+%
+Recent works on activity recognition using motion sensors are presented in~\cite{shoaib2015survey,wang2019deep}.
+%
+In addition, a detailed survey of works on sensor-based threats for smart devices can be found in~\cite{sikder2018survey, crager2017information}.
+%===========================================================
+%
+Note that we only list related works using smartphone motion sensors, but not works using standalone sensors. This is because smartphone motion sensors can only report readings at a low frequency, but standalone accelerometers or gyroscopes can record signals with frequencies as high as 10 KHz. Some special models of piezoelectric accelerometers can even measure 1~MHz signals.
+\subsection{Eavesdropping Sound Signals By Non-Acoustic Sensors}
+Recent studies have shown that sound signals can be eavesdropped through non-acoustic sensors instead of microphones.
+%
+Among these side-channel attacks, MEMS motion sensors are widely used since motion sensors are prone to acoustic signals.
+%
+Michalevsky \emph{et al.}~\cite{michalevsky2014gyrophone} found that the MEMS gyro sensors are able to pick up air vibrations from sound. 
+%
+They proposed GyroPhone, a new threat which uses  gyroscope on smartphone to intercept human speech.  
+%
+Zhang \emph{et al.}~\cite{zhang2015accelword} proposed to utilize accelerometer  for hotword detection to reduce power consumption.
+%
+In addition, Anand \emph{et al.}~\cite{anand2018speechless} also demonstrated that it is possible to eavesdrop speech signals in certain scenarios by using inertial sensors in a smartphone. 
+%
+Han \emph{et al.}~\cite{han2017pitchln} proposed to combine multiple signals from non-acoustic sensors to create a higher sample rate signal for speech reconstruction.
+%
+Hawley \emph{et al.}~\cite{hawley2018visualizing} proposed to use sensors on smartphone to visualize the properties of sound directivity, interference and other acoustical phenomena. 
+%
+Recently, other techniques have been proposed to eavesdrop sound signals besides motion sensors.
+%
+Roy \emph{et al.}~\cite{roy2016listening} have shown that the vibration motor  can be used as microphone since the vibrating mass inside the motor responds to air vibrations from nearby sounds.
+%
+Davis \emph{et al.}~\cite{davis2014visual} used a high speed camera to retrieve digital audio by capturing the vibration of objects near the sound source.
+%
+Similarly, Fuse \emph{et al.}~\cite{fuse2018sound} found that a better sound can be obtained by trying to recover the sound based on the vibration direction of the object.
+%
+Kwong \emph{et al.}~\cite{kwonghard} demonstrated that the mechanical components in magnetic hard disk drives can be used to extract and parse human speech with sufficient precision. 
+
+
+%
+%\section{Related Work}
+%
+%Eaves sound signal using non- acoustic sensor;;
+%
+%
+%Information using motion sensor on smartphone
+%acce -> keytroke, pin, ...
+%
+%
+%used to measure angular rotation, across x, y, and z axes.
+%Motion sensors have been shown prone to acoustic noise particularly at high frequency and power level in [12], [13], [14], which showed that MEMS gyroscopes are susceptible to high power, high frequency noise that contains frequency components in proximity of the resonating frequency of the gyroscope’s proof mass. This concept of work was further utilized by Son et al. [15] to interfere with the flight control system of a drone using intentional sounds that were produced by a Bluetooth speaker attached to the drones with a sound 
+%
+%but On smartphones, ~\cite{michalevsky2014gyrophone} are first.
+%
+%\subsection{Eavasdrop sound signals on smartphones}
+%
+%visual
+%vibration sensor
+%
+%
+%
+%
+%\subsection{Eavasdrop sound signals using sensors other than microphone}
+%
+%
+%Security of sensor-equipped devices
+%
+%
+%Sensor-based threats [76] on mobile devices have be- come more prevalent than before with the use of dif- ferent sensors in smartphones such as user’s location, keystroke information, etc. Different works [73] have in- vestigated the possibility of these threats and presented different potential threats in recent years. One of the most common threats is keystroke inference in smart- phones. Smartphones use on-screen QWERTY keyboard which has specific position for each button. When a user types in this keyboard, values in smartphone’s motion sensor (i.e., accelerometer and gyroscope) change ac- cordingly [16]. As different keystrokes yield different, but specific values in motion sensors, typing informa- tion on smartphones can be inferred from an unautho- rized sensor such as motion sensor data or motion sen- sor data patterns collected either in the device or from a nearby device can be used to extract users’ input in smartphones [9, 66, 52]. The motion sensor data can be analyzed using different techniques (e.g., machine learning, frequency domain analysis, shared-memory ac- cess, etc.) to improve the accuracy of inference tech- niques such as [12, 53, 81, 46, 58, 47]. Another form of
+%keystroke inference threat can be performed by observ- ing only gyroscope data. Smartphones have a feature of creating vibrations while a user types on the touch- pad. The gyroscope is sensitive to this vibrational force and it can be used to distinguish different inputs given by the users on the touchpad [51, 15, 44]. Recently, ICS-CERT also issued an alert for accelerometer-based attacks that can deactivate any device by matching vi- bration frequency of the accelerometer [2, 1, 70]. Light sensor readings also change while a user types on the smartphone; hence, the user input in a smartphone can be inferred by differentiating the light sensor data in nor- mal and typing modes [71]. The light sensor can also be used as a medium to transfer malicious code and trigger message to activate malware [28, 76]. The audio sen- sor of a smartphone can be exploited to launch different malicious attacks (e.g., information leakage, eavesdrop- ping, etc.) on the device. Attackers can infer keystrokes by recording tap noises on touchpad [24], record conver- sation of users [63], transfer malicious code to the device [73, 76], or even replicate voice commands used in voice- enabled different Apps like Siri, Google Voice Search, etc. [21, 39]. Modern smartphone cameras can be used to covertly capture screenshot or video and to infer infor- mation about surroundings or user activities [68, 43, 67]. GPS of a smartphone can be exploited to perform a false data injection attack on smartphones and infer the loca- tion of a specific device [75, 19].
+%
+%
+%
+%%\input{table}
+%
+%Privacy leakage through sensors.
+%
+%
+%information leaks using motion sensors.
+%
+%
+%WALNUT:
+%
+%Information Leakage
+%Information leakage from physical properties, or side-channels, of computing systems are also relevant to analog cybersecurity. Recent studies show that gyroscopes and accelerometers can leak personal information [12]–[13][14][15][16]. Michalevsky et al. show that gyroscopes in smart-phones can be used as a microphone to eavesdrop on conversations [16]. Marquardt et al. demonstrate that smart-phone accelerometers leak enough information to infer keystrokes from a nearby keyboard [12]. Similarly, Owusu and Aviv show smart-phone accelerometer information leakage can be leveraged to infer user touchscreen gestures and key presses to leak passwords and PIN codes to unlock phones [14], [15]. Dey et al. found that process variation in accelerometers yields a unique fingerprint that can uniquely identify a device [13]. These efforts are a reminder that physical attacks on analog sensors render securing data integrity, authentication, and confidentiality between sensors and microprocessors challenging.
+%
+%~\cite{aaaGoogleSearch,anand2018speechless,crager2017information,davis2014visual,han2017pitchln,jafari2011fast,jafaridictionary,khalifa2016feasibility,khan2018firearm,maruri2018v,matic2012speech,michalevsky2014gyrophone,michalevsky2014gyrophone,roy2016listening,sikder20176thsense,song2016my,wei2015acoustic,welsh2017smartphone,zhang2015accelword}

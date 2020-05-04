@@ -1,0 +1,2176 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  4 MAY 2020 04:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**MingPhDThesis.tex
+(./MingPhDThesis.tex
+LaTeX2e <2018-12-01>
+(./mines-thesis.cls
+Document Class: mines-thesis 2020/01/10 v1.0 Colorado School of Mines dissertat
+ion/thesis class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks14
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count80
+\calc@Bcount=\count81
+\calc@Adimen=\dimen102
+\calc@Bdimen=\dimen103
+\calc@Askip=\skip41
+\calc@Bskip=\skip42
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count82
+\calc@Cskip=\skip43
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2018/12/12 v3.7h configurable book, report, article docu
+ment class
+\onelineskip=\skip44
+\lxvchars=\skip45
+\xlvchars=\skip46
+\@memcnta=\count83
+\c@@memmarkcntra=\count84
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ifetex/ifetex.sty
+Package: ifetex 2018/03/31 v1.2a ifetex
+
+(/usr/local/texlive/2019/texmf-dist/tex/plain/ifetex/ifetex.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+\stockheight=\skip47
+\stockwidth=\skip48
+\trimtop=\skip49
+\trimedge=\skip50
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/memoir/mem12.clo
+File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+)
+\binding=\skip51
+\spinemargin=\skip52
+\foremargin=\skip53
+\uppermargin=\skip54
+\lowermargin=\skip55
+\headdrop=\skip56
+\normalrulethickness=\skip57
+\mem@maxheadheight=\skip58
+\mem@maxfootheight=\skip59
+\headwidth=\skip60
+\c@storedpagenumber=\count85
+\memPD=\dimen104
+\m@mabparskip=\skip61
+\thanksmarkwidth=\skip62
+\thanksmarksep=\skip63
+\droptitle=\skip64
+\c@book=\count86
+\c@part=\count87
+\c@chapter=\count88
+\c@section=\count89
+\c@subsection=\count90
+\c@subsubsection=\count91
+\c@paragraph=\count92
+\c@subparagraph=\count93
+\beforechapskip=\skip65
+\midchapskip=\skip66
+\afterchapskip=\skip67
+\chapindent=\skip68
+\bottomsectionskip=\skip69
+\secindent=\skip70
+\beforesecskip=\skip71
+\aftersecskip=\skip72
+\subsecindent=\skip73
+\beforesubsecskip=\skip74
+\aftersubsecskip=\skip75
+\subsubsecindent=\skip76
+\beforesubsubsecskip=\skip77
+\aftersubsubsecskip=\skip78
+\paraindent=\skip79
+\beforeparaskip=\skip80
+\afterparaskip=\skip81
+\subparaindent=\skip82
+\beforesubparaskip=\skip83
+\aftersubparaskip=\skip84
+\pfbreakskip=\skip85
+\c@@ppsavesec=\count94
+\c@@ppsaveapp=\count95
+\ragrparindent=\dimen105
+\everylistparindent=\dimen106
+\parsepi=\skip86
+\topsepi=\skip87
+\itemsepi=\skip88
+\parsepii=\skip89
+\topsepii=\skip90
+\topsepiii=\skip91
+\itemsepii=\skip92
+\itemsepiii=\skip93
+\partopsepii=\skip94
+\partopsepiii=\skip95
+\m@msavetopsep=\skip96
+\m@msavepartopsep=\skip97
+\@enLab=\toks15
+\abstitleskip=\skip98
+\absleftindent=\skip99
+\abs@leftindent=\dimen107
+\absrightindent=\skip100
+\absparindent=\skip101
+\absparsep=\skip102
+\c@vslineno=\count96
+\c@poemline=\count97
+\c@modulo@vs=\count98
+\c@memfvsline=\count99
+\vleftskip=\skip103
+\vrightskip=\skip104
+\stanzaskip=\skip105
+\versewidth=\skip106
+\vgap=\skip107
+\vindent=\skip108
+\vleftmargin=\dimen108
+\c@verse=\count100
+\c@chrsinstr=\count101
+\beforepoemtitleskip=\skip109
+\afterpoemtitleskip=\skip110
+\c@poem=\count102
+\beforePoemTitleskip=\skip111
+\midPoemTitleskip=\skip112
+\afterPoemTitleskip=\skip113
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen109
+\ar@mcellbox=\box27
+\extrarowheight=\dimen110
+\NC@list=\toks16
+\extratabsurround=\skip114
+\backup@length=\skip115
+\ar@cellbox=\box28
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+\TX@col@width=\dimen111
+\TX@old@table=\dimen112
+\TX@old@col=\dimen113
+\TX@target=\dimen114
+\TX@delta=\dimen115
+\TX@cols=\count103
+\TX@ftn=\toks17
+)
+\heavyrulewidth=\dimen116
+\lightrulewidth=\dimen117
+\cmidrulewidth=\dimen118
+\belowrulesep=\dimen119
+\belowbottomsep=\dimen120
+\aboverulesep=\dimen121
+\abovetopsep=\dimen122
+\cmidrulesep=\dimen123
+\cmidrulekern=\dimen124
+\defaultaddspace=\dimen125
+\@cmidla=\count104
+\@cmidlb=\count105
+\@aboverulesep=\dimen126
+\@belowrulesep=\dimen127
+\@thisruleclass=\count106
+\@lastruleclass=\count107
+\@thisrulewidth=\dimen128
+\ctableftskip=\skip116
+\ctabrightskip=\skip117
+\abovecolumnspenalty=\count108
+\@linestogo=\count109
+\@cellstogo=\count110
+\@cellsincolumn=\count111
+\crtok=\toks18
+\@mincolumnwidth=\dimen129
+\c@newflo@tctr=\count112
+\mem@margin@floatbox=\box29
+\@contcwidth=\skip118
+\@contindw=\skip119
+\abovecaptionskip=\skip120
+\belowcaptionskip=\skip121
+\subfloattopskip=\skip122
+\subfloatcapskip=\skip123
+\subfloatcaptopadj=\skip124
+\subfloatbottomskip=\skip125
+\subfloatlabelskip=\skip126
+\subfloatcapmargin=\dimen130
+\c@@contsubnum=\count113
+\m@mscap@capbox=\box30
+\m@mscap@fbox=\box31
+\sidecapsep=\dimen131
+\sidecapwidth=\dimen132
+\m@m@tempdima=\dimen133
+\m@mscapraise=\dimen134
+\sidecapraise=\dimen135
+\m@mscapmainwidth=\dimen136
+\m@mscaplkern=\dimen137
+\beforeepigraphskip=\skip127
+\afterepigraphskip=\skip128
+\epigraphwidth=\skip129
+\epigraphrule=\skip130
+LaTeX Info: Redefining \em on input line 7592.
+LaTeX Info: Redefining \emph on input line 7600.
+\tocentryskip=\skip131
+\tocbaseline=\skip132
+\cftparskip=\skip133
+\cftbeforebookskip=\skip134
+\cftbookindent=\dimen138
+\cftbooknumwidth=\dimen139
+\cftbeforepartskip=\skip135
+\cftpartindent=\skip136
+\cftpartnumwidth=\skip137
+\cftbeforechapterskip=\skip138
+\cftchapterindent=\skip139
+\cftchapternumwidth=\skip140
+\cftbeforesectionskip=\skip141
+\cftsectionindent=\skip142
+\cftsectionnumwidth=\skip143
+\cftbeforesubsectionskip=\skip144
+\cftsubsectionindent=\skip145
+\cftsubsectionnumwidth=\skip146
+\cftbeforesubsubsectionskip=\skip147
+\cftsubsubsectionindent=\skip148
+\cftsubsubsectionnumwidth=\skip149
+\cftbeforeparagraphskip=\skip150
+\cftparagraphindent=\skip151
+\cftparagraphnumwidth=\skip152
+\cftbeforesubparagraphskip=\skip153
+\cftsubparagraphindent=\skip154
+\cftsubparagraphnumwidth=\skip155
+\prechapterprecisshift=\dimen140
+\c@maxsecnumdepth=\count114
+\bibindent=\dimen141
+\bibitemsep=\skip156
+\indexcolsep=\skip157
+\indexrule=\skip158
+\indexmarkstyle=\toks19
+\@indexbox=\insert199
+\glossarycolsep=\dimen142
+\glossaryrule=\dimen143
+\sideparvshift=\skip159
+\sideins=\insert198
+\sidebartopsep=\skip160
+\sidebarhsep=\skip161
+\sidebarvsep=\skip162
+\sidebarwidth=\skip163
+\footmarkwidth=\skip164
+\footmarksep=\skip165
+\footparindent=\skip166
+\footinsdim=\skip167
+\footinsv@r=\insert197
+\@mpfootinsv@r=\insert196
+\m@m@k=\count115
+\m@m@h=\dimen144
+\m@mipn@skip=\skip168
+\sidefootins=\insert195
+\sidefootadjust=\skip169
+\sidefootheight=\skip170
+\sidefoothsep=\skip171
+\sidefootvsep=\skip172
+\sidefootwidth=\skip173
+\m@mdownsf=\skip174
+\c@sidefootnote=\count116
+\sidefootmarkwidth=\skip175
+\sidefootmarksep=\skip176
+\sidefootparindent=\skip177
+\c@pagenote=\count117
+\c@pagenoteshadow=\count118
+\mem@pn@lastkern=\skip178
+\every@verbatim=\toks20
+\afterevery@verbatim=\toks21
+\verbatim@line=\toks22
+\tab@position=\count119
+\verbatim@in@stream=\read1
+\verbatimindent=\skip179
+\verbatim@out=\write3
+\bvboxsep=\skip180
+\c@memfbvline=\count120
+\c@bvlinectr=\count121
+\bvnumlength=\skip181
+\fb@frw=\dimen145
+\fb@frh=\dimen146
+\FrameRule=\dimen147
+\FrameSep=\dimen148
+\c@cp@cntr=\count122
+LaTeX Info: Redefining \: on input line 12114.
+LaTeX Info: Redefining \! on input line 12116.
+\c@ism@mctr=\count123
+\c@xsm@mctr=\count124
+\c@csm@mctr=\count125
+\c@ksm@mctr=\count126
+\c@xksm@mctr=\count127
+\c@cksm@mctr=\count128
+\c@msm@mctr=\count129
+\c@xmsm@mctr=\count130
+\c@cmsm@mctr=\count131
+\c@bsm@mctr=\count132
+\c@workm@mctr=\count133
+\c@sheetsequence=\count134
+\c@lastsheet=\count135
+\c@lastpage=\count136
+\c@figure=\count137
+\c@lofdepth=\count138
+\cftbeforefigureskip=\skip182
+\cftfigureindent=\skip183
+\cftfigurenumwidth=\skip184
+\c@table=\count139
+\c@lotdepth=\count140
+\cftbeforetableskip=\skip185
+\cfttableindent=\skip186
+\cfttablenumwidth=\skip187
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package mparhack [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+)
+
+******************************************************
+Stock height and width: 794.96999pt by 614.295pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 794.96999pt by 614.295pt
+Text height and width: 659.93202pt by 469pt
+Spine and edge margins: 72.26999pt and 72.26999pt
+Upper and lower margins: 72.26999pt and 62.76797pt
+Headheight and headsep: 14.5pt and 29pt
+Footskip: 29pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 58.26999pt
+Sidecapsep and sidecapwidth: 7pt and 50pt
+Sidebarhsep and sidebarwidth: 7pt and 50pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 546.64995pt
+Sidefoothsep and sidefootwidth: 7pt and 50pt
+Sidefootvsep and sidefootheight: 14.5pt and 546.64995pt
+******************************************************
+
+)
+\@input{Chapters/settings.aux}
+\openout2 = `Chapters/settings.aux'.
+
+(./Chapters/settings.tex
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-05-07 L3 programming layer (loader) 
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-05-07 L3 programming layer (code)
+\c_max_int=\count141
+\l_tmpa_int=\count142
+\l_tmpb_int=\count143
+\g_tmpa_int=\count144
+\g_tmpb_int=\count145
+\g__kernel_prg_map_int=\count146
+\c__ior_term_ior=\count147
+\c_log_iow=\count148
+\l_iow_line_count_int=\count149
+\l__iow_line_target_int=\count150
+\l__iow_one_indent_int=\count151
+\l__iow_indent_int=\count152
+\c_zero_dim=\dimen149
+\c_max_dim=\dimen150
+\l_tmpa_dim=\dimen151
+\l_tmpb_dim=\dimen152
+\g_tmpa_dim=\dimen153
+\g_tmpb_dim=\dimen154
+\c_zero_skip=\skip188
+\c_max_skip=\skip189
+\l_tmpa_skip=\skip190
+\l_tmpb_skip=\skip191
+\g_tmpa_skip=\skip192
+\g_tmpb_skip=\skip193
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+\l_keys_choice_int=\count153
+\l__intarray_loop_int=\count154
+\c__intarray_sp_dim=\dimen155
+\g__intarray_font_int=\count155
+\c__fp_leading_shift_int=\count156
+\c__fp_middle_shift_int=\count157
+\c__fp_trailing_shift_int=\count158
+\c__fp_big_leading_shift_int=\count159
+\c__fp_big_middle_shift_int=\count160
+\c__fp_big_trailing_shift_int=\count161
+\c__fp_Bigg_leading_shift_int=\count162
+\c__fp_Bigg_middle_shift_int=\count163
+\c__fp_Bigg_trailing_shift_int=\count164
+\c__kernel_randint_max_int=\count165
+\g__fp_array_int=\count166
+\l__fp_array_loop_int=\count167
+\l__sort_length_int=\count168
+\l__sort_min_int=\count169
+\l__sort_top_int=\count170
+\l__sort_max_int=\count171
+\l__sort_true_max_int=\count172
+\l__sort_block_int=\count173
+\l__sort_begin_int=\count174
+\l__sort_end_int=\count175
+\l__sort_A_int=\count176
+\l__sort_B_int=\count177
+\l__sort_C_int=\count178
+\l__tl_analysis_normal_int=\count179
+\l__tl_analysis_index_int=\count180
+\l__tl_analysis_nesting_int=\count181
+\l__tl_analysis_type_int=\count182
+\l__regex_internal_a_int=\count183
+\l__regex_internal_b_int=\count184
+\l__regex_internal_c_int=\count185
+\l__regex_balance_int=\count186
+\l__regex_group_level_int=\count187
+\l__regex_mode_int=\count188
+\c__regex_cs_in_class_mode_int=\count189
+\c__regex_cs_mode_int=\count190
+\l__regex_catcodes_int=\count191
+\l__regex_default_catcodes_int=\count192
+\c__regex_catcode_D_int=\count193
+\c__regex_catcode_S_int=\count194
+\c__regex_catcode_L_int=\count266
+\c__regex_catcode_O_int=\count267
+\c__regex_catcode_A_int=\count268
+\c__regex_all_catcodes_int=\count269
+\l__regex_show_lines_int=\count270
+\l__regex_min_state_int=\count271
+\l__regex_max_state_int=\count272
+\l__regex_left_state_int=\count273
+\l__regex_right_state_int=\count274
+\l__regex_capturing_group_int=\count275
+\l__regex_min_pos_int=\count276
+\l__regex_max_pos_int=\count277
+\l__regex_curr_pos_int=\count278
+\l__regex_start_pos_int=\count279
+\l__regex_success_pos_int=\count280
+\l__regex_curr_char_int=\count281
+\l__regex_curr_catcode_int=\count282
+\l__regex_last_char_int=\count283
+\l__regex_case_changed_char_int=\count284
+\l__regex_curr_state_int=\count285
+\l__regex_step_int=\count286
+\l__regex_min_active_int=\count287
+\l__regex_max_active_int=\count288
+\l__regex_replacement_csnames_int=\count289
+\l__regex_match_count_int=\count290
+\l__regex_min_submatch_int=\count291
+\l__regex_submatch_int=\count292
+\l__regex_zeroth_submatch_int=\count293
+\g__regex_trace_regex_int=\count294
+\c_empty_box=\box32
+\l_tmpa_box=\box33
+\l_tmpb_box=\box34
+\g_tmpa_box=\box35
+\g_tmpb_box=\box36
+\l__box_top_dim=\dimen156
+\l__box_bottom_dim=\dimen157
+\l__box_left_dim=\dimen158
+\l__box_right_dim=\dimen159
+\l__box_top_new_dim=\dimen160
+\l__box_bottom_new_dim=\dimen161
+\l__box_left_new_dim=\dimen162
+\l__box_right_new_dim=\dimen163
+\l__box_internal_box=\box37
+\l__coffin_internal_box=\box38
+\l__coffin_internal_dim=\dimen164
+\l__coffin_offset_x_dim=\dimen165
+\l__coffin_offset_y_dim=\dimen166
+\l__coffin_x_dim=\dimen167
+\l__coffin_y_dim=\dimen168
+\l__coffin_x_prime_dim=\dimen169
+\l__coffin_y_prime_dim=\dimen170
+\c_empty_coffin=\box39
+\l__coffin_aligned_coffin=\box40
+\l__coffin_aligned_internal_coffin=\box41
+\l_tmpa_coffin=\box42
+\l_tmpb_coffin=\box43
+\g_tmpa_coffin=\box44
+\g_tmpb_coffin=\box45
+\l__coffin_bounding_shift_dim=\dimen171
+\l__coffin_left_corner_dim=\dimen172
+\l__coffin_right_corner_dim=\dimen173
+\l__coffin_bottom_corner_dim=\dimen174
+\l__coffin_top_corner_dim=\dimen175
+\l__coffin_scaled_total_height_dim=\dimen176
+\l__coffin_scaled_width_dim=\dimen177
+\c__coffin_empty_coffin=\box46
+\l__coffin_display_coffin=\box47
+\l__coffin_display_coord_coffin=\box48
+\l__coffin_display_pole_coffin=\box49
+\l__coffin_display_offset_dim=\dimen178
+\l__coffin_display_x_dim=\dimen179
+\l__coffin_display_y_dim=\dimen180
+\g__file_internal_ior=\read2
+\l__seq_internal_a_int=\count295
+\l__seq_internal_b_int=\count296
+\c__deprecation_minus_one=\count297
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count298
+\l__driver_pdf_tmp_box=\box50
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2019-05-03 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count299
+\g__xparse_grabber_int=\count300
+\l__xparse_m_args_int=\count301
+\l__xparse_v_nesting_int=\count302
+)
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen181
+\Gin@req@width=\dimen182
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip194
+\bibsep=\skip256
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count303
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen183
+\Hy@linkcounter=\count304
+\Hy@pagecounter=\count305
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count306
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count307
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen184
+\Fld@menulength=\count308
+\Field@Width=\dimen185
+\Fld@charsize=\dimen186
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count309
+\c@Item=\count310
+\c@Hfootnote=\count311
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/memoir/memhfixc.sty
+Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
+ass
+\c@memhycontfloat=\count312
+\c@Hpagenote=\count313
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count314
+\c@bookmark@seq@number=\count315
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip257
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/everypage/everypage.sty
+Package: everypage 2007/06/20 1.1 Hooks to run on every page
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks24
+\AP@partial=\box51
+\AP@footins=\box52
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip258
+\LTright=\skip259
+\LTpre=\skip260
+\LTpost=\skip261
+\LTchunksize=\count316
+\LTcapwidth=\dimen187
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@cols=\count317
+\LT@rows=\count318
+\c@LT@tables=\count319
+\c@LT@chunks=\count320
+\LT@p@ftn=\toks25
+)
+   defining Unicode char U+FF09 (decimal 65289)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen188
+\c@nlinenum=\count321
+\TeXr@lab=\toks26
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count322
+\algocf@hangindent=\skip262
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count323
+LaTeX Info: Redefining \checkoddpage on input line 45.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip263
+\skiplinenumber=\skip264
+\skiprule=\skip265
+\skiphlne=\skip266
+\skiptext=\skip267
+\skiplength=\skip268
+\algomargin=\skip269
+\skipalgocfslide=\skip270
+\algowidth=\dimen189
+\inoutsize=\dimen190
+\inoutindent=\dimen191
+\interspacetitleruled=\dimen192
+\interspacealgoruled=\dimen193
+\interspacetitleboxruled=\dimen194
+\algocf@ruledwidth=\skip271
+\algocf@inoutbox=\box57
+\algocf@inputbox=\box58
+\AlCapSkip=\skip272
+\AlCapHSkip=\skip273
+\algoskipindent=\skip274
+\algocf@nlbox=\box59
+\algocf@hangingbox=\box60
+\algocf@untilbox=\box61
+\algocf@skipuntil=\skip275
+\algocf@capbox=\box62
+\algocf@lcaptionbox=\skip276
+\algoheightruledefault=\skip277
+\algoheightrule=\skip278
+\algotitleheightruledefault=\skip279
+\algotitleheightrule=\skip280
+\c@algocfline=\count324
+\c@algocfproc=\count325
+\c@algocf=\count326
+\algocf@algoframe=\box63
+\algocf@algobox=\box64
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip281
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks27
+\ex@=\dimen256
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen257
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count327
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count328
+\leftroot@=\count329
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count330
+\DOTSCASE@=\count331
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box65
+\strutbox@=\box66
+\big@size=\dimen258
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count332
+\c@MaxMatrixCols=\count333
+\dotsspace@=\muskip17
+\c@parentequation=\count334
+\dspbrk@lvl=\count335
+\tag@help=\toks28
+\row@=\count336
+\column@=\count337
+\maxfields@=\count338
+\andhelp@=\toks29
+\eqnshift@=\dimen259
+\alignsep@=\dimen260
+\tagshift@=\dimen261
+\tagwidth@=\dimen262
+\totwidth@=\dimen263
+\lineht@=\dimen264
+\@envbody=\toks30
+\multlinegap=\skip282
+\multlinetaggap=\skip283
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count339
+\float@exts=\toks32
+\float@box=\box67
+\@float@everytoks=\toks33
+\@floatcapt=\box68
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip284
+\multirow@cntb=\count340
+\multirow@dima=\skip285
+\bigstrutjot=\dimen265
+)
+
+Class memoir Warning: You are using the caption package with the memoir class. 
+To prepare we will now reset all captioning macros and configurations to kernel
+ defaults, and then let the caption package take over. Please remember to use
+ the caption package interfaces in order to
+ configure your captions.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen266
+\captionmargin@=\dimen267
+\captionwidth=\dimen268
+\caption@tempdima=\dimen269
+\caption@indent=\dimen270
+\caption@parindent=\dimen271
+\caption@hangindent=\dimen272
+)
+\c@caption@flags=\count341
+\c@ContinuedFloat=\count342
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count343
+\c@subtable=\count344
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)))
+(./MingPhDThesis.aux (./Chapters/chapterIntro.aux)
+(./Chapters/chapterSpyPhone.aux) (./Chapters/chapterUltraUnlock.aux)
+(./Chapters/chapterMoVo.aux
+
+LaTeX Warning: Label `sec:voice' multiply defined.
+
+) (./Chapters/chapterConcl.aux))
+\openout1 = `MingPhDThesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+\bibskiplen=\skip286
+\bibskipscale=\skip287
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count345
+\scratchdimen=\dimen273
+\scratchbox=\box69
+\nofMPsegments=\count346
+\nofMParguments=\count347
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count348
+\MPscratchDim=\dimen274
+\MPnumerator=\count349
+\makeMPintoPDFobject=\count350
+\everyMPtoPDFconversion=\toks35
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box70
+Package hyperref Info: Link coloring OFF on input line 28.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count351
+)
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
+(./MingPhDThesis.out) (./MingPhDThesis.out)
+\@outlinefile=\write4
+\openout4 = `MingPhDThesis.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ [1
+
+
+
+\providecommand \oddpage@label [2]{}
+
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.90 \makefrontmatter
+                      [2
+
+
+] [3
+
+
+
+] (./MingPhDThesis.toc [4
+
+] [5]) [6]
+(./MingPhDThesis.lof [7
+
+] [8]) [9] (./MingPhDThesis.lot) [10
+
+]
+\openout2 = `Chapters/chapterIntro.aux'.
+
+
+(./Chapters/chapterIntro.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+
+Overfull \vbox (7.17058pt too high) has occurred while \output is active []
+
+
+[1
+
+
+
+] [2]
+Overfull \hbox (17.3719pt too wide) in paragraph at lines 59--68
+ [][] 
+ []
+
+[3]
+<Figures/sensors1.png, id=583, 1576.89125pt x 3213.00375pt>
+File: Figures/sensors1.png Graphic file (type png)
+<use Figures/sensors1.png>
+Package pdftex.def Info: Figures/sensors1.png  used on input line 78.
+(pdftex.def)             Requested size: 164.14928pt x 334.45828pt.
+
+Overfull \hbox (46.89928pt too wide) in paragraph at lines 78--79
+[][] 
+ []
+
+<Figures/sensors2.png, id=585, 1576.89125pt x 3213.00375pt>
+File: Figures/sensors2.png Graphic file (type png)
+<use Figures/sensors2.png>
+Package pdftex.def Info: Figures/sensors2.png  used on input line 82.
+(pdftex.def)             Requested size: 164.14928pt x 334.45828pt.
+
+Overfull \hbox (46.89928pt too wide) in paragraph at lines 82--83
+[][] 
+ []
+
+<Figures/sensors3.png, id=586, 1576.89125pt x 3213.00375pt>
+File: Figures/sensors3.png Graphic file (type png)
+<use Figures/sensors3.png>
+Package pdftex.def Info: Figures/sensors3.png  used on input line 86.
+(pdftex.def)             Requested size: 164.14928pt x 334.45828pt.
+
+Overfull \hbox (46.89928pt too wide) in paragraph at lines 86--87
+[][] 
+ []
+
+<Figures/sensors4.png, id=587, 1576.89125pt x 3213.00375pt>
+File: Figures/sensors4.png Graphic file (type png)
+<use Figures/sensors4.png>
+Package pdftex.def Info: Figures/sensors4.png  used on input line 90.
+(pdftex.def)             Requested size: 164.14928pt x 334.45828pt.
+
+Overfull \hbox (46.89928pt too wide) in paragraph at lines 90--91
+[][] 
+ []
+
+[4
+
+ <./Figures/sensors1.png> <./Figures/sensors2.png> <./Figures/sensors3.png> <./
+Figures/sensors4.png>]) [5
+
+]
+\openout2 = `Chapters/chapterSpyPhone.aux'.
+
+ (./Chapters/chapterSpyPhone.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 4.
+
+(./Chapters/SpyPhone/intro.tex [6
+
+
+
+]
+<Figures/SpyPhone/teaserpic.pdf, id=612, 1156.32pt x 289.08pt>
+File: Figures/SpyPhone/teaserpic.pdf Graphic file (type pdf)
+<use Figures/SpyPhone/teaserpic.pdf>
+Package pdftex.def Info: Figures/SpyPhone/teaserpic.pdf  used on input line 36.
+
+(pdftex.def)             Requested size: 469.0pt x 117.24878pt.
+ [7 <./Figures/SpyPhone/teaserpic.pdf>]
+Overfull \vbox (2.96819pt too high) has occurred while \output is active []
+
+
+[8] [9]
+<Figures/SpyPhone/speakerDependent.pdf, id=678, 1011.78pt x 1084.05pt>
+File: Figures/SpyPhone/speakerDependent.pdf Graphic file (type pdf)
+<use Figures/SpyPhone/speakerDependent.pdf>
+Package pdftex.def Info: Figures/SpyPhone/speakerDependent.pdf  used on input l
+ine 177.
+(pdftex.def)             Requested size: 296.96739pt x 318.18748pt.
+<Figures/SpyPhone/speakerIndependent.pdf, id=679, 1011.78pt x 542.025pt>
+File: Figures/SpyPhone/speakerIndependent.pdf Graphic file (type pdf)
+<use Figures/SpyPhone/speakerIndependent.pdf>
+Package pdftex.def Info: Figures/SpyPhone/speakerIndependent.pdf  used on input
+ line 186.
+(pdftex.def)             Requested size: 296.96739pt x 159.09373pt.
+ [10
+
+ <./Figures/SpyPhone/speakerDependent.pdf> <./Figures/SpyPhone/speakerIndepende
+nt.pdf>]) (./Chapters/SpyPhone/background.tex [11
+
+]
+<Figures/SpyPhone/compressed.pdf, id=867, 722.7pt x 939.51pt>
+File: Figures/SpyPhone/compressed.pdf Graphic file (type pdf)
+<use Figures/SpyPhone/compressed.pdf>
+Package pdftex.def Info: Figures/SpyPhone/compressed.pdf  used on input line 51
+.
+(pdftex.def)             Requested size: 398.65286pt x 518.2517pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12] [13 <./Figures/SpyPhone/compressed.pdf>] [14]
+<Figures/SpyPhone/speaker.pdf, id=978, 1156.32pt x 722.7pt>
+File: Figures/SpyPhone/speaker.pdf Graphic file (type pdf)
+<use Figures/SpyPhone/speaker.pdf>
+Package pdftex.def Info: Figures/SpyPhone/speaker.pdf  used on input line 210.
+(pdftex.def)             Requested size: 398.65286pt x 249.15532pt.
+ [15 <./Figures/SpyPhone/speaker.pdf>]) (./Chapters/SpyPhone/threat.tex
+Overfull \vbox (5.8359pt too high) has occurred while \output is active []
+
+
+[16] [17]) (./Chapters/SpyPhone/design.tex [18]
+<Figures/SpyPhone/attackflow.pdf, id=1030, 2264.46pt x 1084.05pt>
+File: Figures/SpyPhone/attackflow.pdf Graphic file (type pdf)
+<use Figures/SpyPhone/attackflow.pdf>
+Package pdftex.def Info: Figures/SpyPhone/attackflow.pdf  used on input line 19
+.
+(pdftex.def)             Requested size: 659.93202pt x 315.92133pt.
+ [19
+
+ <./Figures/SpyPhone/attackflow.pdf>] [20
+
+]
+
+Package relsize Warning: Font size 7.60419pt is too small.
+(relsize)                Using 8.0pt instead on input line 140.
+
+
+Package relsize Warning: Font size 7.60419pt is too small.
+(relsize)                Using 8.0pt instead on input line 158.
+
+
+Package relsize Warning: Font size 7.60419pt is too small.
+(relsize)                Using 8.0pt instead on input line 158.
+
+
+Package relsize Warning: Font size 7.60419pt is too small.
+(relsize)                Using 8.0pt instead on input line 158.
+
+
+Package relsize Warning: Font size 7.60419pt is too small.
+(relsize)                Using 8.0pt instead on input line 158.
+
+
+Package relsize Warning: Font size 7.60419pt is too small.
+(relsize)                Using 8.0pt instead on input line 158.
+
+
+Package relsize Warning: Font size 7.60419pt is too small.
+(relsize)                Using 8.0pt instead on input line 158.
+
+
+Package relsize Warning: Font size 7.60419pt is too small.
+(relsize)                Using 8.0pt instead on input line 158.
+
+
+Package relsize Warning: Font size 7.60419pt is too small.
+(relsize)                Using 8.0pt instead on input line 158.
+
+
+Package relsize Warning: Font size 7.60419pt is too small.
+(relsize)                Using 8.0pt instead on input line 159.
+
+[21] [22] [23]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/dict.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
+n <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/dict.pdf, id=1204, 548.0475pt x 762.85pt
+>
+File: /Users/mili/Desktop/EavesProcessFinal/dict.pdf Graphic file (type pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/dict.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/dict.pdf  used o
+n input line 235.
+(pdftex.def)             Requested size: 257.95143pt x 359.05171pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/preprocess0.pdf): PDF inclusion: found PDF version <1.7>, but at most
+ version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/preprocess0.pdf, id=1208, 947.54pt x 676
+.5275pt>
+File: /Users/mili/Desktop/EavesProcessFinal/preprocess0.pdf Graphic file (type 
+pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/preprocess0.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess0.pdf 
+ used on input line 246.
+(pdftex.def)             Requested size: 375.20143pt x 267.88094pt.
+[24 </Users/mili/Desktop/EavesProcessFinal/dict.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/preprocess1.pdf): PDF inclusion: found PDF version <1.7>, but at most
+ version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/preprocess1.pdf, id=1225, 656.4525pt x 4
+50.68375pt>
+File: /Users/mili/Desktop/EavesProcessFinal/preprocess1.pdf Graphic file (type 
+pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/preprocess1.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess1.pdf 
+ used on input line 259.
+(pdftex.def)             Requested size: 211.04857pt x 144.89568pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/preprocess2.pdf): PDF inclusion: found PDF version <1.7>, but at most
+ version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/preprocess2.pdf, id=1226, 656.4525pt x 4
+73.77pt>
+File: /Users/mili/Desktop/EavesProcessFinal/preprocess2.pdf Graphic file (type 
+pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/preprocess2.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess2.pdf 
+ used on input line 260.
+(pdftex.def)             Requested size: 211.04857pt x 152.31795pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/preprocess3.pdf): PDF inclusion: found PDF version <1.7>, but at most
+ version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/preprocess3.pdf, id=1227, 649.42625pt x 
+473.77pt>
+File: /Users/mili/Desktop/EavesProcessFinal/preprocess3.pdf Graphic file (type 
+pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/preprocess3.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess3.pdf 
+ used on input line 264.
+(pdftex.def)             Requested size: 211.04857pt x 153.95897pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/preprocess4.pdf): PDF inclusion: found PDF version <1.7>, but at most
+ version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/preprocess4.pdf, id=1228, 665.48625pt x 
+473.77pt>
+File: /Users/mili/Desktop/EavesProcessFinal/preprocess4.pdf Graphic file (type 
+pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/preprocess4.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess4.pdf 
+ used on input line 276.
+(pdftex.def)             Requested size: 211.04857pt x 150.24318pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/preprocess5.pdf): PDF inclusion: found PDF version <1.7>, but at most
+ version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/preprocess5.pdf, id=1229, 654.445pt x 45
+0.68375pt>
+File: /Users/mili/Desktop/EavesProcessFinal/preprocess5.pdf Graphic file (type 
+pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/preprocess5.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess5.pdf 
+ used on input line 280.
+(pdftex.def)             Requested size: 211.04857pt x 145.33578pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/preprocess6.pdf): PDF inclusion: found PDF version <1.7>, but at most
+ version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/preprocess6.pdf, id=1230, 654.445pt x 47
+3.77pt>
+File: /Users/mili/Desktop/EavesProcessFinal/preprocess6.pdf Graphic file (type 
+pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/preprocess6.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess6.pdf 
+ used on input line 281.
+(pdftex.def)             Requested size: 211.04857pt x 152.78061pt.
+[25 </Users/mili/Desktop/EavesProcessFinal/preprocess0.pdf>] [26 </Users/mili/D
+esktop/EavesProcessFinal/preprocess1.pdf> </Users/mili/Desktop/EavesProcessFina
+l/preprocess2.pdf> </Users/mili/Desktop/EavesProcessFinal/preprocess3.pdf> </Us
+ers/mili/Desktop/EavesProcessFinal/preprocess4.pdf> </Users/mili/Desktop/EavesP
+rocessFinal/preprocess5.pdf> </Users/mili/Desktop/EavesProcessFinal/preprocess6
+.pdf>]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 309.
+
+<Figures/SpyPhone/rnn.pdf, id=1290, 975.645pt x 1069.9975pt>
+File: Figures/SpyPhone/rnn.pdf Graphic file (type pdf)
+<use Figures/SpyPhone/rnn.pdf>
+Package pdftex.def Info: Figures/SpyPhone/rnn.pdf  used on input line 391.
+(pdftex.def)             Requested size: 304.84714pt x 334.32442pt.
+[27] [28 <./Figures/SpyPhone/rnn.pdf>]) (./Chapters/SpyPhone/experiment.tex
+[29]
+Overfull \hbox (10.27599pt too wide) in paragraph at lines 44--44
+ []\OT1/cmr/m/n/12 Compressed 
+ []
+
+
+Overfull \hbox (15.78827pt too wide) in paragraph at lines 26--51
+ [][] 
+ []
+
+[30
+
+]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/digitCFM.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/digitCFM.pdf, id=1338, 742.775pt x 764.8
+575pt>
+File: /Users/mili/Desktop/EavesProcessFinal/digitCFM.pdf Graphic file (type pdf
+)
+<use /Users/mili/Desktop/EavesProcessFinal/digitCFM.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/digitCFM.pdf  us
+ed on input line 57.
+(pdftex.def)             Requested size: 375.20143pt x 386.36086pt.
+[31
+
+ </Users/mili/Desktop/EavesProcessFinal/digitCFM.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/digitCFMGender.pdf): PDF inclusion: found PDF version <1.7>, but at m
+ost version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/digitCFMGender.pdf, id=1355, 253.94875pt
+ x 265.99374pt>
+File: /Users/mili/Desktop/EavesProcessFinal/digitCFMGender.pdf Graphic file (ty
+pe pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/digitCFMGender.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/digitCFMGender.p
+df  used on input line 94.
+(pdftex.def)             Requested size: 147.73657pt x 154.74728pt.
+[32 </Users/mili/Desktop/EavesProcessFinal/digitCFMGender.pdf>] [33]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/activityCFM.pdf): PDF inclusion: found PDF version <1.7>, but at most
+ version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/activityCFM.pdf, id=1379, 347.2975pt x 3
+55.3275pt>
+File: /Users/mili/Desktop/EavesProcessFinal/activityCFM.pdf Graphic file (type 
+pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/activityCFM.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/activityCFM.pdf 
+ used on input line 200.
+(pdftex.def)             Requested size: 187.60071pt x 191.94446pt.
+) (./Chapters/SpyPhone/impact.tex [34 </Users/mili/Desktop/EavesProcessFinal/ac
+tivityCFM.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/trainSize.pdf): PDF inclusion: found PDF version <1.7>, but at most v
+ersion <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/trainSize.pdf, id=1395, 647.41875pt x 51
+4.92375pt>
+File: /Users/mili/Desktop/EavesProcessFinal/trainSize.pdf Graphic file (type pd
+f)
+<use /Users/mili/Desktop/EavesProcessFinal/trainSize.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/trainSize.pdf  u
+sed on input line 16.
+(pdftex.def)             Requested size: 234.5pt x 186.51167pt.
+[35 </Users/mili/Desktop/EavesProcessFinal/trainSize.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/downsample.pdf): PDF inclusion: found PDF version <1.7>, but at most 
+version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/downsample.pdf, id=1407, 772.8875pt x 51
+4.92375pt>
+File: /Users/mili/Desktop/EavesProcessFinal/downsample.pdf Graphic file (type p
+df)
+<use /Users/mili/Desktop/EavesProcessFinal/downsample.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/downsample.pdf  
+used on input line 35.
+(pdftex.def)             Requested size: 281.40286pt x 187.4781pt.
+[36 </Users/mili/Desktop/EavesProcessFinal/downsample.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/volume.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
+ion <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/volume.pdf, id=1420, 995.72pt x 509.905p
+t>
+File: /Users/mili/Desktop/EavesProcessFinal/volume.pdf Graphic file (type pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/volume.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/volume.pdf  used
+ on input line 77.
+(pdftex.def)             Requested size: 422.09714pt x 216.15822pt.
+[37 </Users/mili/Desktop/EavesProcessFinal/volume.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/noise.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
+on <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/noise.pdf, id=1431, 794.97pt x 514.92375
+pt>
+File: /Users/mili/Desktop/EavesProcessFinal/noise.pdf Graphic file (type pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/noise.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/noise.pdf  used 
+on input line 90.
+(pdftex.def)             Requested size: 281.40286pt x 182.2767pt.
+<Figures/SpyPhone/noisetest.jpg, id=1433, 3015.265pt x 3057.4225pt>
+File: Figures/SpyPhone/noisetest.jpg Graphic file (type jpg)
+<use Figures/SpyPhone/noisetest.jpg>
+Package pdftex.def Info: Figures/SpyPhone/noisetest.jpg  used on input line 98.
+
+(pdftex.def)             Requested size: 234.5pt x 237.74089pt.
+[38 </Users/mili/Desktop/EavesProcessFinal/noise.pdf> <./Figures/SpyPhone/noise
+test.jpg>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/digitDB55CFM.pdf): PDF inclusion: found PDF version <1.7>, but at mos
+t version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/digitDB55CFM.pdf, id=1444, 742.775pt x 7
+64.8575pt>
+File: /Users/mili/Desktop/EavesProcessFinal/digitDB55CFM.pdf Graphic file (type
+ pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/digitDB55CFM.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/digitDB55CFM.pdf
+  used on input line 107.
+(pdftex.def)             Requested size: 217.77876pt x 224.25385pt.
+
+Overfull \hbox (0.80879pt too wide) in paragraph at lines 107--117
+ [] 
+ []
+
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/digitDB60CFM.pdf): PDF inclusion: found PDF version <1.7>, but at mos
+t version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/digitDB60CFM.pdf, id=1445, 742.775pt x 7
+64.8575pt>
+File: /Users/mili/Desktop/EavesProcessFinal/digitDB60CFM.pdf Graphic file (type
+ pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/digitDB60CFM.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/digitDB60CFM.pdf
+  used on input line 121.
+(pdftex.def)             Requested size: 217.77876pt x 224.25385pt.
+
+Overfull \hbox (0.80879pt too wide) in paragraph at lines 121--131
+ [] 
+ []
+
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/digitDB65CFM.pdf): PDF inclusion: found PDF version <1.7>, but at mos
+t version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/digitDB65CFM.pdf, id=1446, 742.775pt x 7
+64.8575pt>
+File: /Users/mili/Desktop/EavesProcessFinal/digitDB65CFM.pdf Graphic file (type
+ pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/digitDB65CFM.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/digitDB65CFM.pdf
+  used on input line 135.
+(pdftex.def)             Requested size: 217.77876pt x 224.25385pt.
+
+Overfull \hbox (0.80879pt too wide) in paragraph at lines 135--145
+ [] 
+ []
+
+[39
+
+ </Users/mili/Desktop/EavesProcessFinal/digitDB55CFM.pdf> </Users/mili/Desktop/
+EavesProcessFinal/digitDB60CFM.pdf> </Users/mili/Desktop/EavesProcessFinal/digi
+tDB65CFM.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/move.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
+n <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/move.pdf, id=1483, 794.97pt x 514.92375p
+t>
+File: /Users/mili/Desktop/EavesProcessFinal/move.pdf Graphic file (type pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/move.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/move.pdf  used o
+n input line 162.
+(pdftex.def)             Requested size: 281.40286pt x 182.2767pt.
+[40
+
+ </Users/mili/Desktop/EavesProcessFinal/move.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/digitWalkCFM.pdf): PDF inclusion: found PDF version <1.7>, but at mos
+t version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/digitWalkCFM.pdf, id=1493, 742.775pt x 7
+64.8575pt>
+File: /Users/mili/Desktop/EavesProcessFinal/digitWalkCFM.pdf Graphic file (type
+ pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/digitWalkCFM.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/digitWalkCFM.pdf
+  used on input line 173.
+(pdftex.def)             Requested size: 316.76454pt x 326.18636pt.
+
+Overfull \hbox (4.4602pt too wide) in paragraph at lines 173--182
+ [] 
+ []
+
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
+cessFinal/digitDriveCFM.pdf): PDF inclusion: found PDF version <1.7>, but at mo
+st version <1.5> allowed
+</Users/mili/Desktop/EavesProcessFinal/digitDriveCFM.pdf, id=1494, 742.775pt x 
+764.8575pt>
+File: /Users/mili/Desktop/EavesProcessFinal/digitDriveCFM.pdf Graphic file (typ
+e pdf)
+<use /Users/mili/Desktop/EavesProcessFinal/digitDriveCFM.pdf>
+Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/digitDriveCFM.pd
+f  used on input line 185.
+(pdftex.def)             Requested size: 316.76454pt x 326.18636pt.
+
+Overfull \hbox (4.4602pt too wide) in paragraph at lines 185--194
+ [] 
+ []
+
+[41
+
+ </Users/mili/Desktop/EavesProcessFinal/digitWalkCFM.pdf> </Users/mili/Desktop/
+EavesProcessFinal/digitDriveCFM.pdf>]) (./Chapters/SpyPhone/defenses.tex
+Overfull \vbox (7.38596pt too high) has occurred while \output is active []
+
+
+[42
+
+]) (./Chapters/SpyPhone/related.tex [43])
+(./Chapters/SpyPhone/conclusion.tex [44] [45]))
+\openout2 = `Chapters/chapterUltraUnlock.aux'.
+
+
+(./Chapters/chapterUltraUnlock.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 5.
+
+[46
+
+
+
+]
+Overfull \vbox (4.80249pt too high) has occurred while \output is active []
+
+
+[47] [48]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
+nlock/iqdata1.pdf): PDF inclusion: found PDF version <1.7>, but at most version
+ <1.5> allowed
+</Users/mili/Documents/UltraUnlock/iqdata1.pdf, id=1621, 1084.05pt x 562.1pt>
+File: /Users/mili/Documents/UltraUnlock/iqdata1.pdf Graphic file (type pdf)
+<use /Users/mili/Documents/UltraUnlock/iqdata1.pdf>
+Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/iqdata1.pdf  used on
+ input line 39.
+(pdftex.def)             Requested size: 375.20143pt x 194.55083pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
+nlock/iqdata2.pdf): PDF inclusion: found PDF version <1.7>, but at most version
+ <1.5> allowed
+</Users/mili/Documents/UltraUnlock/iqdata2.pdf, id=1622, 557.08125pt x 438.6387
+5pt>
+File: /Users/mili/Documents/UltraUnlock/iqdata2.pdf Graphic file (type pdf)
+<use /Users/mili/Documents/UltraUnlock/iqdata2.pdf>
+Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/iqdata2.pdf  used on
+ input line 41.
+(pdftex.def)             Requested size: 187.59714pt x 147.70956pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
+nlock/iqdata3.pdf): PDF inclusion: found PDF version <1.7>, but at most version
+ <1.5> allowed
+</Users/mili/Documents/UltraUnlock/iqdata3.pdf, id=1623, 649.42625pt x 306.1437
+5pt>
+File: /Users/mili/Documents/UltraUnlock/iqdata3.pdf Graphic file (type pdf)
+<use /Users/mili/Documents/UltraUnlock/iqdata3.pdf>
+Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/iqdata3.pdf  used on
+ input line 45.
+(pdftex.def)             Requested size: 234.5pt x 110.54332pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
+nlock/iqdata4.pdf): PDF inclusion: found PDF version <1.7>, but at most version
+ <1.5> allowed
+</Users/mili/Documents/UltraUnlock/iqdata4.pdf, id=1624, 649.42625pt x 315.1775
+pt>
+File: /Users/mili/Documents/UltraUnlock/iqdata4.pdf Graphic file (type pdf)
+<use /Users/mili/Documents/UltraUnlock/iqdata4.pdf>
+Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/iqdata4.pdf  used on
+ input line 46.
+(pdftex.def)             Requested size: 234.5pt x 113.80527pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49] [50 </Users/mili/Documents/UltraUnlock/iqdata1.pdf> </Users/mili/Documents
+/UltraUnlock/iqdata2.pdf> </Users/mili/Documents/UltraUnlock/iqdata3.pdf> </Use
+rs/mili/Documents/UltraUnlock/iqdata4.pdf>]
+<Figures/UltraUnlock/path.pdf, id=1657, 1228.59pt x 542.025pt>
+File: Figures/UltraUnlock/path.pdf Graphic file (type pdf)
+<use Figures/UltraUnlock/path.pdf>
+Package pdftex.def Info: Figures/UltraUnlock/path.pdf  used on input line 89.
+(pdftex.def)             Requested size: 375.20143pt x 165.52827pt.
+ [51 <./Figures/UltraUnlock/path.pdf>] [52]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
+nlock/CICFilter.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
+on <1.5> allowed
+</Users/mili/Documents/UltraUnlock/CICFilter.pdf, id=1785, 1117.17375pt x 663.4
+7874pt>
+File: /Users/mili/Documents/UltraUnlock/CICFilter.pdf Graphic file (type pdf)
+<use /Users/mili/Documents/UltraUnlock/CICFilter.pdf>
+Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/CICFilter.pdf  used 
+on input line 144.
+(pdftex.def)             Requested size: 422.09714pt x 250.67682pt.
+[53 </Users/mili/Documents/UltraUnlock/CICFilter.pdf>]
+</Users/mili/Documents/UltraUnlock/UltraUnlockApp.pdf, id=1798, 794.97pt x 614.
+295pt>
+File: /Users/mili/Documents/UltraUnlock/UltraUnlockApp.pdf Graphic file (type p
+df)
+<use /Users/mili/Documents/UltraUnlock/UltraUnlockApp.pdf>
+Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/UltraUnlockApp.pdf  
+used on input line 154.
+(pdftex.def)             Requested size: 659.93202pt x 509.95845pt.
+ [54
+
+ </Users/mili/Documents/UltraUnlock/UltraUnlockApp.pdf>]
+<Figures/UltraUnlock/realiqdata0.png, id=1823, 3213.00375pt x 1578.89874pt>
+File: Figures/UltraUnlock/realiqdata0.png Graphic file (type png)
+<use Figures/UltraUnlock/realiqdata0.png>
+Package pdftex.def Info: Figures/UltraUnlock/realiqdata0.png  used on input lin
+e 177.
+(pdftex.def)             Requested size: 281.40286pt x 138.26411pt.
+<Figures/UltraUnlock/realiqdata1.png, id=1824, 3213.00375pt x 1578.89874pt>
+File: Figures/UltraUnlock/realiqdata1.png Graphic file (type png)
+<use Figures/UltraUnlock/realiqdata1.png>
+Package pdftex.def Info: Figures/UltraUnlock/realiqdata1.png  used on input lin
+e 180.
+(pdftex.def)             Requested size: 281.40286pt x 138.26411pt.
+<Figures/UltraUnlock/realiqdata2.png, id=1825, 3213.00375pt x 1578.89874pt>
+File: Figures/UltraUnlock/realiqdata2.png Graphic file (type png)
+<use Figures/UltraUnlock/realiqdata2.png>
+Package pdftex.def Info: Figures/UltraUnlock/realiqdata2.png  used on input lin
+e 183.
+(pdftex.def)             Requested size: 281.40286pt x 138.26411pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
+nlock/androidiqdata1.pdf): PDF inclusion: found PDF version <1.7>, but at most 
+version <1.5> allowed
+</Users/mili/Documents/UltraUnlock/androidiqdata1.pdf, id=1826, 1325.95375pt x 
+752.8125pt>
+File: /Users/mili/Documents/UltraUnlock/androidiqdata1.pdf Graphic file (type p
+df)
+<use /Users/mili/Documents/UltraUnlock/androidiqdata1.pdf>
+Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/androidiqdata1.pdf  
+used on input line 192.
+(pdftex.def)             Requested size: 375.20143pt x 213.01453pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
+nlock/androidiqdata2.pdf): PDF inclusion: found PDF version <1.7>, but at most 
+version <1.5> allowed
+</Users/mili/Documents/UltraUnlock/androidiqdata2.pdf, id=1827, 647.41875pt x 6
+38.385pt>
+File: /Users/mili/Documents/UltraUnlock/androidiqdata2.pdf Graphic file (type p
+df)
+<use /Users/mili/Documents/UltraUnlock/androidiqdata2.pdf>
+Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/androidiqdata2.pdf  
+used on input line 194.
+(pdftex.def)             Requested size: 187.59714pt x 184.98079pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
+nlock/androidiqdata3.pdf): PDF inclusion: found PDF version <1.7>, but at most 
+version <1.5> allowed
+</Users/mili/Documents/UltraUnlock/androidiqdata3.pdf, id=1828, 790.955pt x 456
+.70625pt>
+File: /Users/mili/Documents/UltraUnlock/androidiqdata3.pdf Graphic file (type p
+df)
+<use /Users/mili/Documents/UltraUnlock/androidiqdata3.pdf>
+Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/androidiqdata3.pdf  
+used on input line 198.
+(pdftex.def)             Requested size: 234.5pt x 135.40314pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
+nlock/androidiqdata4.pdf): PDF inclusion: found PDF version <1.7>, but at most 
+version <1.5> allowed
+</Users/mili/Documents/UltraUnlock/androidiqdata4.pdf, id=1829, 777.90625pt x 4
+56.70625pt>
+File: /Users/mili/Documents/UltraUnlock/androidiqdata4.pdf Graphic file (type p
+df)
+<use /Users/mili/Documents/UltraUnlock/androidiqdata4.pdf>
+Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/androidiqdata4.pdf  
+used on input line 199.
+(pdftex.def)             Requested size: 234.5pt x 137.67496pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[55
+
+] [56 <./Figures/UltraUnlock/realiqdata0.png> <./Figures/UltraUnlock/realiqdata
+1.png> <./Figures/UltraUnlock/realiqdata2.png>] [57 </Users/mili/Documents/Ultr
+aUnlock/androidiqdata1.pdf> </Users/mili/Documents/UltraUnlock/androidiqdata2.p
+df> </Users/mili/Documents/UltraUnlock/androidiqdata3.pdf> </Users/mili/Documen
+ts/UltraUnlock/androidiqdata4.pdf>]
+<Figures/UltraUnlock/gestures.pdf, id=1868, 1589.94pt x 722.7pt>
+File: Figures/UltraUnlock/gestures.pdf Graphic file (type pdf)
+<use Figures/UltraUnlock/gestures.pdf>
+Package pdftex.def Info: Figures/UltraUnlock/gestures.pdf  used on input line 2
+10.
+(pdftex.def)             Requested size: 281.40286pt x 127.90796pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
+nlock/gestureCFM.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
+ion <1.5> allowed
+</Users/mili/Documents/UltraUnlock/gestureCFM.pdf, id=1870, 403.5075pt x 411.53
+75pt>
+File: /Users/mili/Documents/UltraUnlock/gestureCFM.pdf Graphic file (type pdf)
+<use /Users/mili/Documents/UltraUnlock/gestureCFM.pdf>
+Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/gestureCFM.pdf  used
+ on input line 223.
+(pdftex.def)             Requested size: 164.15286pt x 167.41904pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
+nlock/userCFM.pdf): PDF inclusion: found PDF version <1.7>, but at most version
+ <1.5> allowed
+</Users/mili/Documents/UltraUnlock/userCFM.pdf, id=1871, 502.87875pt x 529.98pt
+>
+File: /Users/mili/Documents/UltraUnlock/userCFM.pdf Graphic file (type pdf)
+<use /Users/mili/Documents/UltraUnlock/userCFM.pdf>
+Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/userCFM.pdf  used on
+ input line 245.
+(pdftex.def)             Requested size: 211.04857pt x 222.42024pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[58 <./Figures/UltraUnlock/gestures.pdf>]
+
+LaTeX Warning: Text page 59 contains only floats.
+
+[59 </Users/mili/Documents/UltraUnlock/gestureCFM.pdf> </Users/mili/Documents/U
+ltraUnlock/userCFM.pdf>]) [60]
+\openout2 = `Chapters/chapterMoVo.aux'.
+
+ (./Chapters/chapterMoVo.tex
+Overfull \hbox (9.77364pt too wide) in paragraph at lines 4--4
+ []\OT1/cmr/m/n/12 MOVO: A SPOOF-PROOF VOICE AU-THEN-TI-CA-TION SYS-TEM FOR SMA
+RT-PHONES  
+ []
+
+(./Chapters/MoVo/introduction.tex [61
+
+
+
+] [62] [63]
+<Figures/MoVo/voicematch.png, id=2005, 1084.05pt x 1927.2pt>
+File: Figures/MoVo/voicematch.png Graphic file (type png)
+<use Figures/MoVo/voicematch.png>
+Package pdftex.def Info: Figures/MoVo/voicematch.png  used on input line 186.
+(pdftex.def)             Requested size: 185.72455pt x 330.14864pt.
+
+Overfull \hbox (37.75368pt too wide) in paragraph at lines 186--187
+[][] 
+ []
+
+<Figures/MoVo/voicematch2.png, id=2006, 1084.05pt x 1927.2pt>
+File: Figures/MoVo/voicematch2.png Graphic file (type png)
+<use Figures/MoVo/voicematch2.png>
+Package pdftex.def Info: Figures/MoVo/voicematch2.png  used on input line 192.
+(pdftex.def)             Requested size: 185.72455pt x 330.14864pt.
+
+Overfull \hbox (37.75368pt too wide) in paragraph at lines 192--193
+[][] 
+ []
+
+<Figures/MoVo/email.png, id=2007, 1084.05pt x 1927.2pt>
+File: Figures/MoVo/email.png Graphic file (type png)
+<use Figures/MoVo/email.png>
+Package pdftex.def Info: Figures/MoVo/email.png  used on input line 198.
+(pdftex.def)             Requested size: 185.72455pt x 330.14864pt.
+
+Overfull \hbox (37.75368pt too wide) in paragraph at lines 198--199
+[][] 
+ []
+
+[64
+
+ <./Figures/MoVo/voicematch.png> <./Figures/MoVo/voicematch2.png> <./Figures/Mo
+Vo/email.png>] (./Chapters/MoVo/table.tex [65
+
+]
+Overfull \hbox (48.2905pt too wide) in alignment at lines 4--14
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (16.14763pt too wide) in paragraph at lines 16--17
+[]|\OT1/cmr/m/n/12 Table 4.1 Con-tin-ued| 
+ []
+
+
+Overfull \hbox (48.2905pt too wide) in alignment at lines 14--22
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.2905pt too wide) in alignment at lines 22--25
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.2905pt too wide) in alignment at lines 25--27
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.2905pt too wide) in alignment at lines 27--63
+ [] [] [] [] [] [] 
+ []
+
+[66
+
+] [67])
+Overfull \vbox (4.80501pt too high) has occurred while \output is active []
+
+
+[68
+
+]
+<Figures/MoVo/standing.png, id=2078, 174.6525pt x 452.69125pt>
+File: Figures/MoVo/standing.png Graphic file (type png)
+<use Figures/MoVo/standing.png>
+Package pdftex.def Info: Figures/MoVo/standing.png  used on input line 252.
+(pdftex.def)             Requested size: 50.18687pt x 130.08621pt.
+<Figures/MoVo/walking.png, id=2079, 405.515pt x 733.74126pt>
+File: Figures/MoVo/walking.png Graphic file (type png)
+<use Figures/MoVo/walking.png>
+Package pdftex.def Info: Figures/MoVo/walking.png  used on input line 258.
+(pdftex.def)             Requested size: 71.89433pt x 130.08621pt.
+
+Overfull \hbox (1.5472pt too wide) in paragraph at lines 258--259
+ [][] 
+ []
+
+<Figures/MoVo/sitting.png, id=2080, 312.16624pt x 422.57875pt>
+File: Figures/MoVo/sitting.png Graphic file (type png)
+<use Figures/MoVo/sitting.png>
+Package pdftex.def Info: Figures/MoVo/sitting.png  used on input line 264.
+(pdftex.def)             Requested size: 96.0989pt x 130.08621pt.
+
+Overfull \hbox (25.75177pt too wide) in paragraph at lines 264--265
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[69] [70 <./Figures/MoVo/standing.png> <./Figures/MoVo/walking.png> <./Figures/
+MoVo/sitting.png>]
+Overfull \vbox (7.79997pt too high) has occurred while \output is active []
+
+
+[71]) (./Chapters/MoVo/background.tex
+Overfull \vbox (2.1849pt too high) has occurred while \output is active []
+
+
+[72]
+<Figures/MoVo/modulation.pdf, id=2134, 469.755pt x 173.64874pt>
+File: Figures/MoVo/modulation.pdf Graphic file (type pdf)
+<use Figures/MoVo/modulation.pdf>
+Package pdftex.def Info: Figures/MoVo/modulation.pdf  used on input line 51.
+(pdftex.def)             Requested size: 281.40286pt x 104.02312pt.
+
+Overfull \vbox (5.87912pt too high) has occurred while \output is active []
+
+
+[73 <./Figures/MoVo/modulation.pdf>] [74] [75]) (./Chapters/MoVo/proof.tex
+<Figures/MoVo/SPSC.pdf, id=2173, 1063.975pt x 644.4075pt>
+File: Figures/MoVo/SPSC.pdf Graphic file (type pdf)
+<use Figures/MoVo/SPSC.pdf>
+Package pdftex.def Info: Figures/MoVo/SPSC.pdf  used on input line 6.
+(pdftex.def)             Requested size: 422.09714pt x 255.64436pt.
+<Figures/MoVo/DPSC.pdf, id=2174, 1063.975pt x 644.4075pt>
+File: Figures/MoVo/DPSC.pdf Graphic file (type pdf)
+<use Figures/MoVo/DPSC.pdf>
+Package pdftex.def Info: Figures/MoVo/DPSC.pdf  used on input line 12.
+(pdftex.def)             Requested size: 422.09714pt x 255.64436pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/MoVo/SPDC.pdf, id=2175, 1063.975pt x 644.4075pt>
+File: Figures/MoVo/SPDC.pdf Graphic file (type pdf)
+<use Figures/MoVo/SPDC.pdf>
+Package pdftex.def Info: Figures/MoVo/SPDC.pdf  used on input line 19.
+(pdftex.def)             Requested size: 422.09714pt x 255.64436pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/MoVo/device.pdf, id=2176, 1145.27875pt x 726.715pt>
+File: Figures/MoVo/device.pdf Graphic file (type pdf)
+<use Figures/MoVo/device.pdf>
+Package pdftex.def Info: Figures/MoVo/device.pdf  used on input line 25.
+(pdftex.def)             Requested size: 422.09714pt x 267.83798pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[76 <./Figures/MoVo/SPSC.pdf>] [77 <./Figures/MoVo/DPSC.pdf>] [78 <./Figures/Mo
+Vo/SPDC.pdf>]) (./Chapters/MoVo/attack.tex
+<Figures/MoVo/attack.pdf, id=2233, 1589.94pt x 469.755pt>
+File: Figures/MoVo/attack.pdf Graphic file (type pdf)
+<use Figures/MoVo/attack.pdf>
+Package pdftex.def Info: Figures/MoVo/attack.pdf  used on input line 5.
+(pdftex.def)             Requested size: 422.09714pt x 124.70668pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[79 <./Figures/MoVo/device.pdf>]
+Overfull \vbox (3.04189pt too high) has occurred while \output is active []
+
+
+[80 <./Figures/MoVo/attack.pdf>]) (./Chapters/MoVo/system.tex
+<Figures/MoVo/workflow.pdf, id=2408, 1300.86pt x 339.2675pt>
+File: Figures/MoVo/workflow.pdf Graphic file (type pdf)
+<use Figures/MoVo/workflow.pdf>
+Package pdftex.def Info: Figures/MoVo/workflow.pdf  used on input line 6.
+(pdftex.def)             Requested size: 469.0pt x 122.31738pt.
+ [81 <./Figures/MoVo/workflow.pdf>]
+<Figures/MoVo/syllable.pdf, id=2474, 1100.11pt x 665.48625pt>
+File: Figures/MoVo/syllable.pdf Graphic file (type pdf)
+<use Figures/MoVo/syllable.pdf>
+Package pdftex.def Info: Figures/MoVo/syllable.pdf  used on input line 47.
+(pdftex.def)             Requested size: 469.0pt x 283.70627pt.
+ [82] [83 <./Figures/MoVo/syllable.pdf>]
+<Figures/MoVo/preprocess.pdf, id=2497, 1055.945pt x 620.3175pt>
+File: Figures/MoVo/preprocess.pdf Graphic file (type pdf)
+<use Figures/MoVo/preprocess.pdf>
+Package pdftex.def Info: Figures/MoVo/preprocess.pdf  used on input line 115.
+(pdftex.def)             Requested size: 469.0pt x 275.51509pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[84] [85 <./Figures/MoVo/preprocess.pdf>]
+<Figures/MoVo/nonmajority.pdf, id=2524, 1191.45125pt x 658.46pt>
+File: Figures/MoVo/nonmajority.pdf Graphic file (type pdf)
+<use Figures/MoVo/nonmajority.pdf>
+Package pdftex.def Info: Figures/MoVo/nonmajority.pdf  used on input line 160.
+(pdftex.def)             Requested size: 234.5pt x 129.58978pt.
+<Figures/MoVo/majority.pdf, id=2525, 1166.3575pt x 658.46pt>
+File: Figures/MoVo/majority.pdf Graphic file (type pdf)
+<use Figures/MoVo/majority.pdf>
+Package pdftex.def Info: Figures/MoVo/majority.pdf  used on input line 167.
+(pdftex.def)             Requested size: 234.5pt x 132.38292pt.
+ [86]) (./Chapters/MoVo/evaluation.tex [87 <./Figures/MoVo/nonmajority.pdf> <./
+Figures/MoVo/majority.pdf>]
+<Figures/MoVo/phone.jpeg, id=2549, 3035.34pt x 3035.34pt>
+File: Figures/MoVo/phone.jpeg Graphic file (type jpg)
+<use Figures/MoVo/phone.jpeg>
+Package pdftex.def Info: Figures/MoVo/phone.jpeg  used on input line 11.
+(pdftex.def)             Requested size: 211.01341pt x 211.04857pt.
+<Figures/MoVo/laptop.jpg, id=2550, 3035.34pt x 3035.34pt>
+File: Figures/MoVo/laptop.jpg Graphic file (type jpg)
+<use Figures/MoVo/laptop.jpg>
+Package pdftex.def Info: Figures/MoVo/laptop.jpg  used on input line 17.
+(pdftex.def)             Requested size: 211.01341pt x 211.04857pt.
+<Figures/MoVo/desktop.jpg, id=2551, 3035.34pt x 3035.34pt>
+File: Figures/MoVo/desktop.jpg Graphic file (type jpg)
+<use Figures/MoVo/desktop.jpg>
+Package pdftex.def Info: Figures/MoVo/desktop.jpg  used on input line 23.
+(pdftex.def)             Requested size: 211.01341pt x 211.04857pt.
+<Figures/MoVo/mimic.png, id=2552, 548.0475pt x 425.59pt>
+File: Figures/MoVo/mimic.png Graphic file (type png)
+<use Figures/MoVo/mimic.png>
+Package pdftex.def Info: Figures/MoVo/mimic.png  used on input line 29.
+(pdftex.def)             Requested size: 271.77356pt x 211.04857pt.
+
+Overfull \hbox (60.72499pt too wide) in paragraph at lines 29--30
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures/movohuman.png, id=2553, 2569.6pt x 1445.4pt>
+File: Figures/movohuman.png Graphic file (type png)
+<use Figures/movohuman.png>
+Package pdftex.def Info: Figures/movohuman.png  used on input line 39.
+(pdftex.def)             Requested size: 234.5pt x 131.88889pt.
+<Figures/movodevice.png, id=2554, 2569.6pt x 1445.4pt>
+File: Figures/movodevice.png Graphic file (type png)
+<use Figures/movodevice.png>
+Package pdftex.def Info: Figures/movodevice.png  used on input line 40.
+(pdftex.def)             Requested size: 234.5pt x 131.88889pt.
+File: Figures/movodevice.png Graphic file (type png)
+<use Figures/movodevice.png>
+Package pdftex.def Info: Figures/movodevice.png  used on input line 41.
+(pdftex.def)             Requested size: 234.5pt x 131.88889pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/MoVo/defend.pdf, id=2555, 794.60756pt x 271.8709pt>
+File: Figures/MoVo/defend.pdf Graphic file (type pdf)
+<use Figures/MoVo/defend.pdf>
+Package pdftex.def Info: Figures/MoVo/defend.pdf  used on input line 48.
+(pdftex.def)             Requested size: 469.0pt x 160.46466pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[88] [89 <./Figures/MoVo/phone.jpeg> <./Figures/MoVo/laptop.jpg> <./Figures/MoV
+o/desktop.jpg> <./Figures/MoVo/mimic.png>]
+<Figures/MoVo/commandmat.pdf, id=2567, 308.15125pt x 318.18875pt>
+File: Figures/MoVo/commandmat.pdf Graphic file (type pdf)
+<use Figures/MoVo/commandmat.pdf>
+Package pdftex.def Info: Figures/MoVo/commandmat.pdf  used on input line 73.
+(pdftex.def)             Requested size: 187.59714pt x 193.71129pt.
+ [90 <./Figures/movohuman.png> <./Figures/movodevice.png>]
+<Figures/MoVo/usermat.pdf, id=2580, 708.6475pt x 737.75626pt>
+File: Figures/MoVo/usermat.pdf Graphic file (type pdf)
+<use Figures/MoVo/usermat.pdf>
+Package pdftex.def Info: Figures/MoVo/usermat.pdf  used on input line 98.
+(pdftex.def)             Requested size: 469.0pt x 488.2715pt.
+<Figures/MoVo/time.pdf, id=2581, 1141.26375pt x 380.42125pt>
+File: Figures/MoVo/time.pdf Graphic file (type pdf)
+<use Figures/MoVo/time.pdf>
+Package pdftex.def Info: Figures/MoVo/time.pdf  used on input line 117.
+(pdftex.def)             Requested size: 469.0pt x 156.3336pt.
+ [91 <./Figures/MoVo/defend.pdf, page is rotated 270 degrees> <./Figures/MoVo/c
+ommandmat.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/MoVo/axis.pdf, id=2616, 1124.2pt x 672.5125pt>
+File: Figures/MoVo/axis.pdf Graphic file (type pdf)
+<use Figures/MoVo/axis.pdf>
+Package pdftex.def Info: Figures/MoVo/axis.pdf  used on input line 128.
+(pdftex.def)             Requested size: 281.40286pt x 168.33293pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Chapters/MoVo/conclusion.tex)) [92] [93 <./Figures/MoVo/usermat.pdf>]
+[94 <./Figures/MoVo/time.pdf> <./Figures/MoVo/axis.pdf>]
+\openout2 = `Chapters/chapterConcl.aux'.
+
+
+(./Chapters/chapterConcl.tex) [95
+
+
+
+] [96] (./MingPhDThesis.bbl [97
+
+
+] [98] [99]
+[100] [101] [102] [103] [104] [105]) [106]
+\tf@toc=\write5
+\openout5 = `MingPhDThesis.toc'.
+
+\tf@lof=\write6
+\openout6 = `MingPhDThesis.lof'.
+
+\tf@lot=\write7
+\openout7 = `MingPhDThesis.lot'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
+ (./MingPhDThesis.aux
+(./Chapters/chapterIntro.aux) (./Chapters/chapterSpyPhone.aux)
+(./Chapters/chapterUltraUnlock.aux) (./Chapters/chapterMoVo.aux)
+(./Chapters/chapterConcl.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
+Package rerunfilecheck Info: File `MingPhDThesis.out' has not changed.
+(rerunfilecheck)             Checksum: 63C5AC62E342494AA58BE224FD7F2C0F;4711.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
+ ) 
+Here is how much of TeX's memory you used:
+ 23350 strings out of 492616
+ 409261 string characters out of 6129482
+ 600326 words of memory out of 5000000
+ 26495 multiletter control sequences out of 15000+600000
+ 542106 words of font info for 60 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 48i,19n,65p,2020b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2019/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2019/texmf-dist/fonts/
+type1/urw/zapfding/uzdr.pfb>
+Output written on MingPhDThesis.pdf (117 pages, 25198774 bytes).
+PDF statistics:
+ 2865 PDF objects out of 2984 (max. 8388607)
+ 2200 compressed objects within 22 object streams
+ 410 named destinations out of 1000 (max. 500000)
+ 911 words of extra memory for PDF output out of 10000 (max. 10000000)
+
