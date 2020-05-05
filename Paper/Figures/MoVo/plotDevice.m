@@ -165,7 +165,7 @@ for k = 1 : length(files)
     ylabel({'Sensor';'Reading'});
     legend({'acc-x','acc-y','acc-z'},...
         'Location','northeast');
-    
+    set(gca,'Xtick',0:400:10*motionFs);
     
     set(gcf,'Unit', 'normalized','position',plotsize);
     pause(1);
@@ -187,7 +187,7 @@ for k = 1 : length(files)
     ylabel({'Sensor';'Reading'});
     legend({'gyro-x','gyro-y','gyro-z'},...
         'Location','northeast');
-    
+    set(gca,'Xtick',0:400:10*motionFs);
     
     set(gcf,'Unit', 'normalized','position',plotsize);
     pause(1);

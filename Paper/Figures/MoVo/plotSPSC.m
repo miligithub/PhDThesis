@@ -161,7 +161,7 @@ for k = 1 : length(files)
     set(gcf,'Unit', 'normalized','position',plotsize);
     annotation('textbox',[.25 .7 .1 .2],'String','O-K--Goo-Gle','EdgeColor','none')
     annotation('textbox',[.625 .7 .1 .2],'String','O-K--Goo-Gle','EdgeColor','none')
-    
+    set(gca,'Xtick',0:8000:6*audioFs);
     pause(1);
     
     figfilename=[folder num2str(0)];
@@ -179,7 +179,7 @@ for k = 1 : length(files)
     ylabel({'Sensor';'Reading'});
     legend({'acc-x','acc-y','acc-z'},...
         'Location','northeast');
-    
+    set(gca,'Xtick',0:400:6*motionFs);
     
     set(gcf,'Unit', 'normalized','position',plotsize);
     pause(1);
@@ -201,7 +201,7 @@ for k = 1 : length(files)
     ylabel({'Sensor';'Reading'});
     legend({'gyro-x','gyro-y','gyro-z'},...
         'Location','northeast');
-    
+    set(gca,'Xtick',0:400:6*motionFs);
     
     set(gcf,'Unit', 'normalized','position',plotsize);
     pause(1);
