@@ -13,58 +13,58 @@
 \contentsline {section}{\numberline {2.3}Threat Model in the {\unhbox \voidb@x \hbox {Spy-Phone}} System}{16}{section.2.3}% 
 \contentsline {section}{\numberline {2.4}Attack Design}{18}{section.2.4}% 
 \contentsline {subsection}{\numberline {2.4.1}Training Dataset}{20}{subsection.2.4.1}% 
-\contentsline {subsection}{\numberline {2.4.2}Dictionary Learning}{21}{subsection.2.4.2}% 
-\contentsline {subsection}{\numberline {2.4.3}Motion Data Preprocessing}{24}{subsection.2.4.3}% 
+\contentsline {subsection}{\numberline {2.4.2}Dictionary Learning}{22}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Motion Data Preprocessing}{25}{subsection.2.4.3}% 
 \contentsline {subsection}{\numberline {2.4.4}Signal Reconstruction}{27}{subsection.2.4.4}% 
 \contentsline {subsection}{\numberline {2.4.5}Bi-LSTM Learing}{28}{subsection.2.4.5}% 
 \contentsline {section}{\numberline {2.5}Feasibility Experiments }{29}{section.2.5}% 
-\contentsline {subsection}{\numberline {2.5.1}Speech Content Learning (Digits)}{29}{subsection.2.5.1}% 
-\contentsline {subsection}{\numberline {2.5.2}Speech Content Learning (Commands)}{32}{subsection.2.5.2}% 
-\contentsline {subsection}{\numberline {2.5.3}Speaker Gender Classification and Speaker Identification}{32}{subsection.2.5.3}% 
-\contentsline {subsection}{\numberline {2.5.4}User Activity Classification (Sound Type)}{33}{subsection.2.5.4}% 
-\contentsline {section}{\numberline {2.6}Impact Evaluation}{34}{section.2.6}% 
-\contentsline {subsection}{\numberline {2.6.1}Impact of Training Data Size}{35}{subsection.2.6.1}% 
-\contentsline {subsection}{\numberline {2.6.2}Impact of Downsample Rate}{35}{subsection.2.6.2}% 
-\contentsline {subsection}{\numberline {2.6.3}Impact of Training Device}{36}{subsection.2.6.3}% 
-\contentsline {subsection}{\numberline {2.6.4}Impact of Sound Volume}{36}{subsection.2.6.4}% 
-\contentsline {subsection}{\numberline {2.6.5}Impact of Surrounding Environment}{37}{subsection.2.6.5}% 
-\contentsline {subsection}{\numberline {2.6.6}Impact of User Mobility}{40}{subsection.2.6.6}% 
-\contentsline {section}{\numberline {2.7}Defenses}{42}{section.2.7}% 
-\contentsline {subsection}{\numberline {2.7.1}Hardware-based Defenses}{42}{subsection.2.7.1}% 
-\contentsline {subsection}{\numberline {2.7.2}Software-based Defenses}{42}{subsection.2.7.2}% 
-\contentsline {section}{\numberline {2.8}Related Work}{43}{section.2.8}% 
-\contentsline {subsection}{\numberline {2.8.1}Inferring Information From Smartphone Motion Sensors}{43}{subsection.2.8.1}% 
-\contentsline {subsection}{\numberline {2.8.2}Eavesdropping Sound Signals By Non-Acoustic Sensors}{44}{subsection.2.8.2}% 
-\contentsline {section}{\numberline {2.9}Conclusion}{44}{section.2.9}% 
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {{Ultra-Unlock}: Smartphone Authentication \\ Using Gestures in the Air}}{46}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Introduction}{46}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Related Works}{47}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Background}{49}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}I/Q components and I/Q modulation}{49}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Hand Movements and I/Q Data}{51}{subsection.3.3.2}% 
-\contentsline {section}{\numberline {3.4}System Design}{53}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Experiment Results}{56}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Conclusion}{62}{section.3.6}% 
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {{MoVo}: A Spoof-proof Voice Authentication System for Smartphones}}{63}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Introduction}{63}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}The Popularity of Voice Authentication on Smartphones}{63}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Voice Spoofing Attacks}{64}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Liveness Detection}{67}{subsection.4.1.3}% 
-\contentsline {subsection}{\numberline {4.1.4}Overview of {MoVo}}{72}{subsection.4.1.4}% 
-\contentsline {section}{\numberline {4.2}Background}{74}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Voice Acoustics}{74}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Self Demodulation}{75}{subsection.4.2.2}% 
-\contentsline {subsection}{\numberline {4.2.3}Acoustic Attenuation}{76}{subsection.4.2.3}% 
-\contentsline {section}{\numberline {4.3}Attack Model}{83}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}System Design}{84}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}System Overview}{84}{subsection.4.4.1}% 
-\contentsline {subsection}{\numberline {4.4.2}Syllable Separation}{85}{subsection.4.4.2}% 
-\contentsline {subsection}{\numberline {4.4.3}Preprocessing and Segmentation}{86}{subsection.4.4.3}% 
-\contentsline {subsection}{\numberline {4.4.4}The LSTM Network}{87}{subsection.4.4.4}% 
-\contentsline {section}{\numberline {4.5}Majority Voting}{88}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Implementation and Evaluation}{89}{section.4.6}% 
-\contentsline {section}{\numberline {4.7}conclusion}{91}{section.4.7}% 
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusion}}{101}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Key Contribution}{101}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Future Work}{101}{section.5.2}% 
-\contentsline {chapter}{REFERENCES}{102}{chapter*.64}% 
+\contentsline {subsection}{\numberline {2.5.1}Speech Content Learning (Digits)}{30}{subsection.2.5.1}% 
+\contentsline {subsection}{\numberline {2.5.2}Speech Content Learning (Commands)}{33}{subsection.2.5.2}% 
+\contentsline {subsection}{\numberline {2.5.3}Speaker Gender Classification and Speaker Identification}{33}{subsection.2.5.3}% 
+\contentsline {subsection}{\numberline {2.5.4}User Activity Classification (Sound Type)}{34}{subsection.2.5.4}% 
+\contentsline {section}{\numberline {2.6}Impact Evaluation}{35}{section.2.6}% 
+\contentsline {subsection}{\numberline {2.6.1}Impact of Training Data Size}{36}{subsection.2.6.1}% 
+\contentsline {subsection}{\numberline {2.6.2}Impact of Downsample Rate}{36}{subsection.2.6.2}% 
+\contentsline {subsection}{\numberline {2.6.3}Impact of Training Device}{37}{subsection.2.6.3}% 
+\contentsline {subsection}{\numberline {2.6.4}Impact of Sound Volume}{37}{subsection.2.6.4}% 
+\contentsline {subsection}{\numberline {2.6.5}Impact of Surrounding Environment}{38}{subsection.2.6.5}% 
+\contentsline {subsection}{\numberline {2.6.6}Impact of User Mobility}{41}{subsection.2.6.6}% 
+\contentsline {section}{\numberline {2.7}Defenses}{43}{section.2.7}% 
+\contentsline {subsection}{\numberline {2.7.1}Hardware-based Defenses}{43}{subsection.2.7.1}% 
+\contentsline {subsection}{\numberline {2.7.2}Software-based Defenses}{43}{subsection.2.7.2}% 
+\contentsline {section}{\numberline {2.8}Related Work}{44}{section.2.8}% 
+\contentsline {subsection}{\numberline {2.8.1}Inferring Information From Smartphone Motion Sensors}{44}{subsection.2.8.1}% 
+\contentsline {subsection}{\numberline {2.8.2}Eavesdropping Sound Signals By Non-Acoustic Sensors}{45}{subsection.2.8.2}% 
+\contentsline {section}{\numberline {2.9}Conclusion}{45}{section.2.9}% 
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {{Ultra-Unlock}: Smartphone Authentication \\ Using Gestures in the Air}}{47}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Introduction}{47}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Related Works}{48}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Background}{50}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}I/Q components and I/Q modulation}{50}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Hand Movements and I/Q Data}{52}{subsection.3.3.2}% 
+\contentsline {section}{\numberline {3.4}System Design}{54}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Experiment Results}{57}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Conclusion}{63}{section.3.6}% 
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {{MoVo}: A Spoof-proof Voice Authentication System for Smartphones}}{64}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Introduction}{64}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}The Popularity of Voice Authentication on Smartphones}{64}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Voice Spoofing Attacks}{65}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Liveness Detection}{68}{subsection.4.1.3}% 
+\contentsline {subsection}{\numberline {4.1.4}Overview of {MoVo}}{73}{subsection.4.1.4}% 
+\contentsline {section}{\numberline {4.2}Background}{75}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Voice Acoustics}{75}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Self Demodulation}{76}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Acoustic Attenuation}{77}{subsection.4.2.3}% 
+\contentsline {section}{\numberline {4.3}Attack Model}{85}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}System Design}{86}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}System Overview}{86}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}Syllable Separation}{88}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.3}Preprocessing and Segmentation}{90}{subsection.4.4.3}% 
+\contentsline {subsection}{\numberline {4.4.4}The LSTM Network}{91}{subsection.4.4.4}% 
+\contentsline {section}{\numberline {4.5}Majority Voting}{92}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Implementation and Evaluation}{93}{section.4.6}% 
+\contentsline {section}{\numberline {4.7}conclusion}{97}{section.4.7}% 
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusion}}{100}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Key Contribution}{100}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Future Work}{100}{section.5.2}% 
+\contentsline {chapter}{REFERENCES}{101}{chapter*.65}% 

@@ -35,17 +35,24 @@
 
 
 \begin{figure}[h]
-	\centering
-	\includegraphics[width=.5\linewidth]{movohuman}
-	\includegraphics[width=.5\linewidth]{movodevice}
-	\includegraphics[width=.5\linewidth]{movodevice}
-	\caption{MoVoApp}
+		\centering
+	\begin{minipage}{.6\linewidth}
+		\includegraphics[width=\linewidth]{movohuman}
+		\subcaption{Real Person Speaking}
+		\vspace{.1in}
+		\includegraphics[width=\linewidth]{movodevice}
+		\subcaption{Electronic Device Replaying Human Sounds}
+		\vspace{.1in}
+		\includegraphics[width=\linewidth]{notapplicable}
+		\subcaption{No Human Sounds}
+	\end{minipage}
+	\caption{Screenshots of the MoVoApp}	
 	\label{fig:defendapp}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\linewidth]{defend}
+%	\includegraphics[width=\linewidth]{defend}
 	\caption{Success rate of \shortname~on defending against various attacks. }
 	\label{fig:defend}
 \end{figure}
@@ -70,7 +77,7 @@ As shown in Fig.~\ref{fig:defend}, \shortname~can defend replay attack with at l
 \textbf{Results}.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=.4\linewidth]{commandmat}
+%	\includegraphics[width=.4\linewidth]{commandmat}
 	\caption[Confusion Matrix of Matching Motion Data to Different Hot-Words. ]{Confusion matrix of matching motion data to different hot-words. Each row of the matrix represents the instances in a predicted class while each column represents the instances in an actual class.}
 	\label{fig:commadmat}
 \end{figure}
@@ -114,7 +121,7 @@ The results for user authentication are shown in Fig.~\ref{fig:usermat} and Tabl
 \end{table}
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\linewidth]{time}
+%	\includegraphics[width=\linewidth]{time}
 	\caption{Robustness of {\shortname} over time.}
 	\label{fig:time}
 \end{figure}
@@ -125,7 +132,7 @@ We also evaluate the impact of feature dimensions on the classification accuracy
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=.6\linewidth]{axis}
+%	\includegraphics[width=.6\linewidth]{axis}
 	\caption{Classification accuracy using different feature dimensions in the sequence input layer of our LSTM network.}
 	\label{fig:axis}
 \end{figure}

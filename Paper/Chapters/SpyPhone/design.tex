@@ -72,6 +72,14 @@ TIDIGITS~\cite{leonard1993tidigits} are professional recordings of isolated digi
 
 From now on, we focus on TIDIGITS.
 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=.4\textheight]{SpyPhoneData}
+	\caption{{\spp} Data Collection Application}
+	\label{fig:spyphoneapp}
+\end{figure}
+
 At the begining, TIDIGITS dataset is used to build both the sound data and the motion data for the training dataset.
 %
 This corpus contains speech of 11 isolated digits: ``one'', ``two'', \ldots, ``nine'', ``zero'' and ``oh'', which are collected using an Electro-Voice RE-16 Dynamic Cardiod microphone, digitized at 20,000 Hz.
@@ -86,7 +94,7 @@ Note that when the {\attackName} attack is conducted in practice, the input moti
 %
 %%TODO section label
 For the training dataset, only part of the sound and motion data are used. The impact of the training data size on the prediction accuracy is elaborated in Section~\ref{sec:impact:trainsize}.
-
+All data are collected by the SpyPhoneApp as shown in Figure~\ref{fig:spyphoneapp}.
 
 
 
@@ -161,6 +169,13 @@ For the training dataset, only part of the sound and motion data are used. The i
 \end{algorithm}
 
 \subsection{Dictionary Learning}\label{sec:design:dict}
+
+\begin{figure*}[ht]
+	\centering
+	\includegraphics[width=.55\linewidth]{dict}
+	\caption{Example of Learned Dictionary Atoms. For each digit class, two different atoms are shown.}\label{fig:atoms}
+\end{figure*}
+
 We now demonstrate how to construct efficient representations of audio files by building a dictionary learned from the data itself. 
 Recall Section~\ref{sec:compressed}, a learned dictionary is used to reconstruct a signal when it is undersampled. 
 %
@@ -230,28 +245,17 @@ By concatenating every $D_i$ together, the overall dictionary is
 which will be used for signal reconstruction in later steps.
 
 
-\begin{figure*}[!h]
-	\centering
-	\includegraphics[width=.55\linewidth]{dict}
-	\caption{Example of Learned Dictionary Atoms. For each digit class, two different atoms are shown.}\label{fig:atoms}
-\end{figure*}
 
 
 
 \subsection{Motion Data Preprocessing}
 The input motion data are collected similarly to how motion data are collected for the training dataset, i.e., playing TIDIGITS audio files by the smartphone's built-in speakers. However, since these data are to simulate the attacking scenarios in reality, the data are collected multiple times using 15 different volume settings (Section~\ref{sec:impact:volume}). Moreover, we collected the motion data in both quiet and noisy environment (Section~\ref{sec:impact:noise}), and in both stable and moving states (Section~\ref{sec:impact:move}).
-
 \begin{figure*}[!h]
 	\centering
 	\includegraphics[width=.8\linewidth]{preprocess0}
 	\caption{The Magnitude and Phase Response of the FIR Highpass filter.}\label{fig:spyphoneresponse}
 \end{figure*}
 
-
-As mentioned in Section~\ref{sec:intro}, the motion data is impeded by low sampling rates, weak target signals, and large interfere noises. To overcome such problems, we must preprocess the motion data. We apply a high pass filter to mitigate the noise and increase the signal-to-noise ratio. The cutoff frequency is set to be 50 Hz, since noises such as walking or other human body movements are unlikely to generate signals as high as 50 Hz.
-We also use the speech-background separation algorithms from \cite{rabiner2011theory} to differentiate the data affected by sound signals from those do not. The red vertical lines in Figure~\ref{fig:rawmotion} are the border lines between the speech part and the background part. 
-Figure~\ref{fig:rawspec} and Figure~\ref{fig:newspec} show that various noises can be removed by applying a high pass filter.
-The result after the preprocessing stage is shown in Figure~\ref{fig:newmotion}. These datawill be used in the next signal reconstruction stage.
 
 \begin{figure}[H]
 	\begin{minipage}[t]{.45\linewidth}
@@ -288,6 +292,12 @@ The result after the preprocessing stage is shown in Figure~\ref{fig:newmotion}.
 	\label{fig:spyphonepreprocess}
 \end{figure}
 
+As mentioned in Section~\ref{sec:intro}, the motion data is impeded by low sampling rates, weak target signals, and large interfere noises. To overcome such problems, we must preprocess the motion data. We apply a high pass filter to mitigate the noise and increase the signal-to-noise ratio. The cutoff frequency is set to be 50 Hz, since noises such as walking or other human body movements are unlikely to generate signals as high as 50 Hz.
+We also use the speech-background separation algorithms from \cite{rabiner2011theory} to differentiate the data affected by sound signals from those do not. The red vertical lines in Figure~\ref{fig:rawmotion} are the border lines between the speech part and the background part. 
+Figure~\ref{fig:rawspec} and Figure~\ref{fig:newspec} show that various noises can be removed by applying a high pass filter.
+The result after the preprocessing stage is shown in Figure~\ref{fig:newmotion}. These data will be used in the next signal reconstruction stage.
+
+
 
 \subsection{Signal Reconstruction}
 In this stage, the preprocessed motion data will be used to reconstruct the original audio data.
@@ -304,7 +314,7 @@ R = S \times D, \label{eq:reconstruct2}
 \end{equation}
 where $S$ is the sensing matrix and $D$ is the dictionary obtained in Section~\ref{sec:design:dict}.
 
-In the {\systemName} system, the sensing matrix describes the sensing procedure from audio data to motion data, which can be regarded as a downsampling operation. The downsample rate ($r$) is determined by the sampling frequencies of smartphone speakers ($f_1$) and motion sensors ($f_2$): $r = f_1/f_2$. For example, a sensing matrix with downsample rate $r=3$ is as follows:
+In the {\systemName} system, the sensing matrix describes the sensing procedure from audio data to motion data, which can be regarded as a downsampling operation. The downsampling rate ($r$) is determined by the sampling frequencies of smartphone speakers ($f_1$) and motion sensors ($f_2$): $r = f_1/f_2$. For example, a sensing matrix with downsample rate $r=3$ is as follows:
 \begin{displaymath}
 \small
 S = 

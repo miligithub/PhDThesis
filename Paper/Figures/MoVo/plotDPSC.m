@@ -5,7 +5,7 @@ startup;
 
 folder ='DPSC';
 
-plotsize=[0 0 0.6 0.2 ];
+plotsize=[0 0 0.6 0.25 ];
 plotsizeFreq=[0 0 0.5 0.55 ];
 
 % set(0, 'DefaultFigureColormap', cmocean('balance'));
@@ -127,7 +127,8 @@ for k = 1 : length(files)
     [s, f, t] = spectrogram(l2, 100, 80, 200, motionFs, 'yaxis');
     surf(t, f, 20*log10(abs(s)), 'EdgeColor', 'none');
     view([0 90]);
-    pause(1)
+    xlim([0 6]);
+    ylim([0 200]);    
     colormap(cmocean('balance'));
     colorbar;
     pause(1)
@@ -137,6 +138,9 @@ for k = 1 : length(files)
     %         'FontWeight','normal');
     
     set(gcf,'Unit', 'normalized','position',plotsizeFreq);
+    vline(soundingStart);
+    vline(soundingEnd);
+    
     pause(1);
     
     figfilename=[folder num2str(4)];
@@ -157,10 +161,15 @@ for k = 1 : length(files)
     xlabel("Sample Index");
     ylabel({'Sensor';'Reading'});
     set(gcf,'Unit', 'normalized','position',plotsize);
+    annotation('textbox',[.25 .7 .1 .2],'String','O-K-Goo-Gle','EdgeColor','none')
+    annotation('textbox',[.625 .7 .1 .2],'String','O-K-Goo-Gle','EdgeColor','none')
     pause(1);
+    
     
     figfilename=[folder num2str(0)];
     export_fig(figfilename,'-pdf');
+    
+    
     
     figure;
     hold on;

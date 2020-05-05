@@ -5,7 +5,7 @@ startup;
 
 folder ='Device';
 
-plotsize=[0 0 0.6 0.2 ];
+plotsize=[0 0 0.6 0.25 ];
 plotsizeFreq=[0 0 0.5 0.55 ];
 
 filePattern = fullfile(folder, '*.TextGrid');
@@ -36,6 +36,8 @@ for k = 1 : length(files)
     numSounding = length(sounding)
     soundingStart = tg.tier{2}.T1(cell2mat(sounding));
     soundingEnd = tg.tier{2}.T2(cell2mat(sounding));
+    soundingStart = soundingStart([1 3]);
+    soundingEnd = soundingEnd([1 3]);
     soundingDuration = soundingEnd - soundingStart;
     % Test the 1st sounding interval
     assert(soundingStart(1) == tg.tier{2}.T1(sounding{1}));
@@ -46,7 +48,7 @@ for k = 1 : length(files)
     % Audio File
     audioFileName = fullfile(folder, [slimFileName 'audio.wav']);
     %   audioInfo = audioinfo(audioFileName)
-    audio = miraudio(audioFileName)
+    audio = miraudio(audioFileName);
     pause(.5);
     findall(gcf);
     audioLine = findobj(gcf,'Type', 'Line')
@@ -64,9 +66,9 @@ for k = 1 : length(files)
     surf(t, f, 20*log10(abs(s)), 'EdgeColor', 'none');
     view([0 90]);
     colormap(cmocean('balance'));
-    pause(1)
     xlabel('Time (s)');
     ylabel('Frequency (Hz)');
+    xlim([0 10]);
     set(gcf,'Unit', 'normalized','position',plotsizeFreq);
     colorbar;
     pause(1);
@@ -100,14 +102,16 @@ for k = 1 : length(files)
     rawData = [l1 l2 l3 l4 l5 l6];
     
     figure;
-    [p,f,t] = pspectrum(l2,motionFs,'spectrogram', ...
-        'FrequencyLimits',[0 200],'TimeResolution',0.1);
+    %     pspectrum(l2,motionFs,'spectrogram', ...
+    %         'FrequencyLimits',[0 200],'TimeResolution',0.1);
     %     pause(.5);
     %     findall(gcf);
     %     motionSpec = findobj(gcf,'Type', 'Image');
-    surf(t, f, 20*log10(abs(p)), 'EdgeColor', 'none');
+    [s, f, t] = spectrogram(l2, 100, 80, 200, motionFs, 'yaxis');
+    surf(t, f, 20*log10(abs(s)), 'EdgeColor', 'none');
     view([0 90]);
-    pause(1)
+    xlim([0 10]);
+    ylim([0 200]);
     colormap(cmocean('balance'));
     colorbar;
     pause(1)
@@ -117,6 +121,8 @@ for k = 1 : length(files)
     %         'FontWeight','normal');
     
     set(gcf,'Unit', 'normalized','position',plotsizeFreq);
+    vline(soundingStart);
+    vline(soundingEnd);
     pause(1);
     
     figfilename=[folder num2str(4)];
@@ -137,6 +143,11 @@ for k = 1 : length(files)
     xlabel("Sample Index");
     ylabel({'Sensor';'Reading'});
     set(gcf,'Unit', 'normalized','position',plotsize);
+    annotation('textbox',[.2 .7 .1 .2],'String','O-K-Goo-Gle','EdgeColor','none')
+    annotation('textbox',[.625 .7 .1 .2],'String','O-K-Goo-Gle','EdgeColor','none')
+    annotation('textbox',[.52 .65 .1 .2],'String',{'Clicking','Noise'},'EdgeColor','none')
+    
+    set(gca,'Xtick',0:8000:10*audioFs);
     pause(1);
     
     figfilename=[folder num2str(0)];

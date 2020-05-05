@@ -1,5 +1,11 @@
 %TODO proof-of-concept
+\textbf{Proof-of-Concept}.
+We test the feasibility of {\shortname} and the results are shown from Fig.~\ref{fig:SPSC} to Fig.~\ref{fig:device}. In each figure, we show both the raw signal and the spectrogram for the microphone data and the motion sensor data. All data are collected by Google Nexus 6P. The audio data is sampled at  8,000 Hz (telephone quality) while the motion data is sampled at 400 Hz as it is the highest sampling rate on Nexus 6P.
 
+
+Fig.~\ref{fig:SPSC}, Fig.~\ref{fig:DPSC}  and  Fig.~\ref{fig:SPDC},show the example data when the same user speaks the same command ``Ok google'', different users speak the same command ``Ok Google'', and the same user speaks different commands ``Ok google'' and ``Hi Siri''. The data are collected as in Fig~\ref{fig:use}c.  In each figure, the left two subfigures, a) and c), are plotted based on microphone data, and the right two subfigures , b) and d),  are based on motion data; the top two subfigures, a) and b), plot time-domain data, while the bottom  two subfigures, c) and d), plot frequency-domain data. Note that the raw motion data have three dimensions, as shown in b) subfigures, but the spectrogram in d) subfigures only choose acc-z data to draw since it is the most representative one. The vertical red lines demonstrate the start and end points of the sounding period.
+
+\newpage
 %TODO figures about challenges
 \begin{figure}[H]
 	\centering
@@ -30,8 +36,9 @@
 	\caption{One user speaks ``Ok Google'' twice.}
 	\label{fig:SPSC}
 \end{figure}
-
-\begin{figure}[h]
+%
+\newpage
+\begin{figure}[H]
 	\centering
 	\begin{minipage}[t]{.8\linewidth}
 		\centering
@@ -49,19 +56,20 @@
 		\centering
 		\includegraphics[width=\linewidth]{DPSC3}
 		\vspace{-.2in}
-		\subcaption{Spectrogram of Raw Audio Signals.}
+		\subcaption{Spectrogram of Raw Audio Signals.}\label{fig:DPSCc}
 	\end{minipage}
 	\begin{minipage}[t]{.45\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{DPSC4}
 		\vspace{-.2in}
-		\subcaption{Spectrogram of Raw Motion Signals.}
+		\subcaption{Spectrogram of Raw Motion Signals.}\label{fig:DPSCd}
 	\end{minipage}
 	\caption{Different users both speak ``Ok Google''.}
 	\label{fig:DPSC}
 \end{figure}
 %TODO more descriptions about the figure.
-\begin{figure}[h]
+\newpage
+\begin{figure}[H]
 	\centering
 	\begin{minipage}[t]{.8\linewidth}
 		\centering
@@ -90,8 +98,8 @@
 	\caption{One user speaks ``Ok Google'' and ``Hi Siri''.}
 	\label{fig:SPDC}
 \end{figure}
-
-\begin{figure}[h]
+\newpage
+\begin{figure}[H]
 	\centering
 	\begin{minipage}[t]{.8\linewidth}
 		\centering
@@ -115,12 +123,12 @@
 		\centering
 		\includegraphics[width=\linewidth]{Device4}
 		\vspace{-.2in}
-		\subcaption{Spectrogram of Raw Motion Signals.}
+		\subcaption{Spectrogram of Raw Motion Signals.}\label{fig:deviced}
 	\end{minipage}
 	\caption{Live user speaks ``Ok Google'' once, then replay the recording by electronic device.}
 	\label{fig:device}
 \end{figure}
-
+\newpage
 
 
 %TODO change same commands, do not fear DUPLICATION, ADDING HOW THE DATA IS COLLECTED
@@ -128,18 +136,14 @@
 
 %TODO change plotted, are plotted, plot
 %WHY CHOOSE AXIS-Z
-\textbf{Proof-of-Concept}.
-We test the feasibility of {\shortname} and the results are shown from Fig.~\ref{fig:SPSC} to Fig.~\ref{fig:device}. In each figure, we show both the raw signal and the spectrogram for the microphone data and the motion sensor data. All data are collected by Google Nexus 6P. The audio data is sampled at  8,000 Hz (telephone quality) while the motion data is sampled at 400 Hz as it is the highest sampling rate on Nexus 6P.
 
-
-Fig.~\ref{fig:SPSC}, Fig.~\ref{fig:DPSC}  and  Fig.~\ref{fig:SPDC},show the example data when the same user speaks the same command ``Ok google'', different users speak the same command ``Ok Google'', and the same user speaks different commands ``Ok google'' and ``Hi Siri''. The data are collected as in Fig~\ref{fig:use}c.  In each figure, the left two subfigures, a) and c), are plotted based on microphone data, and the right two subfigures , b) and d),  are based on motion data; the top two subfigures, a) and b), plot time-domain data, while the bottom  two subfigures, c) and d), plot frequency-domain data. Note that the raw motion data have three dimensions, as shown in b) subfigures, but the spectrogram in d) subfigures only choose acc-z data to draw since it is the most representative one. The vertical red lines demonstrate the start and end points of the sounding period.
 %TODO
 
 %
-From these three figures, we can observe that the motion data are nosier and contain much fewer data and less representative than audio data, which indicates the challenge of designing {\shortname}. Fortunately, the results meet our expectation. Fig.~\ref{fig:SPSC} shows the consistence when the same user speaks the same command and Fig.~\ref{fig:DPSC} shows the difference when different users speak the same command. Such intra-class similarity and inter-class difference indicate the feasibility of using motion data for user authentication. Moreover, different users have similar raw audio spectrogram (Fig.~\ref{fig:DPSC}c) but different raw motion spectrogram (Fig.~\ref{fig:DPSC}d), which is an evidence of different acoustic attenuation effect of different people. Note that Fig.~\ref{fig:DPSC}d shows the spectrograms are similar when one user speaks different commands.  Such observations indicate that frequency-domain data are not of much use to match between motion data and the same commands. Therefore, we adopt long short-term memory (LSTM) network, a variant of recurrent neural network (RNN), to learn the patterns of motion data in time-domain. 
+From these three figures, we can observe that the motion data are nosier and contain much fewer data and less representative than audio data, which indicates the challenge of designing {\shortname}. Fortunately, the results meet our expectation. Fig.~\ref{fig:SPSC} shows the consistence when the same user speaks the same command and Fig.~\ref{fig:DPSC} shows the difference when different users speak the same command. Such intra-class similarity and inter-class difference indicate the feasibility of using motion data for user authentication. Moreover, different users have similar raw audio spectrogram (Fig.~\ref{fig:DPSCc}) but different raw motion spectrogram (Fig.~\ref{fig:DPSCd}), which is an evidence of different acoustic attenuation effect of different people. Note that Fig.~\ref{fig:DPSCd} shows the spectrograms are similar when one user speaks different commands.  Such observations indicate that frequency-domain data are not of much use to match between motion data and the same commands. Therefore, we adopt long short-term memory (LSTM) network, a variant of recurrent neural network (RNN), to learn the patterns of motion data in time-domain. 
 
 
-Fig.~\ref{fig:device} shows how {\shortname} can be spoof-proof. During the test, the user speaks ``Ok Google'' once, and two smartphones (one is Google Nexus 6P and the other is iPhone XS Max) record his voice. After the user finishes speaking, the iPhone XS Max replays the recordings to Nexus 6P. The replay volume is set to be the maximum possible and the two smartphones are physically contacted. The data in Fig.~\ref{fig:device} are the readings from Nexus 6P, which contains the live user's voice followed by the iPhone replayed voice. We observe that motion data for live person shows noticeable signals from 50 Hz to 200 Hz while motion data for electronic device shows only noises as in Fig.~\ref{fig:device}d, which is an evidence of that the self demodulation effect of human body generates more low frequency signals (compared to original sound signals, the frequency of 50-200 Hz signals are low). 
+Fig.~\ref{fig:device} shows how {\shortname} can be spoof-proof. During the test, the user speaks ``Ok Google'' once, and two smartphones (one is Google Nexus 6P and the other is iPhone XS Max) record his voice. After the user finishes speaking, the iPhone XS Max replays the recordings to Nexus 6P. The replay volume is set to be the maximum possible and the two smartphones are physically contacted. The data in Fig.~\ref{fig:device} are the readings from Nexus 6P, which contains the live user's voice followed by the iPhone replayed voice. We observe that motion data for live person shows noticeable signals from 50 Hz to 200 Hz while motion data for electronic device shows only noises as in Fig.~\ref{fig:deviced}, which is an evidence of that the self demodulation effect of human body generates more low frequency signals (compared to original sound signals, the frequency of 50-200 Hz signals are low). Note that there exists a clicking noise at the time around 6.8 s, which is the time of clicking the button on iPhone to replay the voice. The iPhone is in close contact with the Nexus 6P, therefore the power of this clicking noise is very high.
 %Note that in the ideal case, we expect when users speak the same command, no matter the same user or different users, the motion data should be similar. However, based on real data, as shown in Fig.~\ref{fig:DPSC} d), the raw spectrogram of different users are quite different. This is because different users have the different dominant speaking frequencies. What's worse, Fig.~\ref{fig:DPSC} d) shows the spectrograms are similar when one user speaks different commands.  Such observations indicate that frequency-domain data are not of much use to match between motion data and the same commands. Therefore, we adopt long short-term memory (LSTM) network, a variant of recurrent neural network (RNN), to learn the patterns of motion data in time-domain. 
 
 
