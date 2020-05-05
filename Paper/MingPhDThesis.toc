@@ -55,16 +55,16 @@
 \contentsline {subsection}{\numberline {4.2.1}Voice Acoustics}{74}{subsection.4.2.1}% 
 \contentsline {subsection}{\numberline {4.2.2}Self Demodulation}{75}{subsection.4.2.2}% 
 \contentsline {subsection}{\numberline {4.2.3}Acoustic Attenuation}{76}{subsection.4.2.3}% 
-\contentsline {section}{\numberline {4.3}Attack Model}{81}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}System Design}{83}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}System Overview}{83}{subsection.4.4.1}% 
-\contentsline {subsection}{\numberline {4.4.2}Syllable Separation}{84}{subsection.4.4.2}% 
+\contentsline {section}{\numberline {4.3}Attack Model}{83}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}System Design}{84}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}System Overview}{84}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}Syllable Separation}{85}{subsection.4.4.2}% 
 \contentsline {subsection}{\numberline {4.4.3}Preprocessing and Segmentation}{86}{subsection.4.4.3}% 
-\contentsline {subsection}{\numberline {4.4.4}The LSTM Network}{88}{subsection.4.4.4}% 
+\contentsline {subsection}{\numberline {4.4.4}The LSTM Network}{87}{subsection.4.4.4}% 
 \contentsline {section}{\numberline {4.5}Majority Voting}{88}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Implementation and Evaluation}{90}{section.4.6}% 
-\contentsline {section}{\numberline {4.7}conclusion}{94}{section.4.7}% 
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusion}}{97}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Key Contribution}{97}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Future Work}{97}{section.5.2}% 
-\contentsline {chapter}{REFERENCES}{98}{chapter*.64}% 
+\contentsline {section}{\numberline {4.6}Implementation and Evaluation}{89}{section.4.6}% 
+\contentsline {section}{\numberline {4.7}conclusion}{91}{section.4.7}% 
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusion}}{101}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Key Contribution}{101}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Future Work}{101}{section.5.2}% 
+\contentsline {chapter}{REFERENCES}{102}{chapter*.64}% 

@@ -31,20 +31,20 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Screenshots about Voice Match on Google Nexus 6P.\relax }}{66}{figure.caption.41}% 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Authentication Scenario of {MoVo}}}{72}{figure.caption.42}% 
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Self Demodulation of Sound Signals When Transmitting Through the Human Body.\relax }}{75}{figure.caption.44}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces One user speaks ``Ok Google'' twice.\relax }}{78}{figure.caption.45}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Different users both speak ``Ok Google''.\relax }}{79}{figure.caption.46}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces One user speaks ``Ok Google'' and ``Hi Siri''.\relax }}{80}{figure.caption.47}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Live user speaks ``Ok Google'' once, then replay the recording by electronic device.\relax }}{81}{figure.caption.48}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces MoVo Attack Model}}{82}{figure.caption.49}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces The flow of {MoVo}.\relax }}{83}{figure.caption.50}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Syllable Separation}}{85}{figure.caption.51}% 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Preprocessing and Segmentation. \relax }}{87}{figure.caption.52}% 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Classification result without syllable separation and majority voting: Falsely classifying an `Ok Google' sample to `Hi Siri'.\relax }}{89}{figure.caption.53}% 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Classification Result}}{89}{figure.caption.54}% 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Attacker Settings\relax }}{91}{figure.caption.55}% 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces MoVoApp\relax }}{92}{figure.caption.56}% 
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Success rate of MoVo\nobreakspace {}on defending against various attacks. \relax }}{93}{figure.caption.57}% 
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Confusion Matrix of Matching Motion Data to Different Hot-Words. }}{93}{figure.caption.58}% 
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Confusion matrix of matching motion data to different users.\relax }}{95}{figure.caption.60}% 
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Robustness of {MoVo} over time.\relax }}{96}{figure.caption.62}% 
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Classification accuracy using different feature dimensions in the sequence input layer of our LSTM network.\relax }}{96}{figure.caption.63}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces One user speaks ``Ok Google'' twice.\relax }}{79}{figure.caption.45}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Different users both speak ``Ok Google''.\relax }}{80}{figure.caption.46}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces One user speaks ``Ok Google'' and ``Hi Siri''.\relax }}{81}{figure.caption.47}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Live user speaks ``Ok Google'' once, then replay the recording by electronic device.\relax }}{92}{figure.caption.48}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces MoVo Attack Model}}{93}{figure.caption.49}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The flow of {MoVo}.\relax }}{93}{figure.caption.50}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Syllable Separation}}{94}{figure.caption.51}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Preprocessing and Segmentation. \relax }}{95}{figure.caption.52}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Classification result without syllable separation and majority voting: Falsely classifying an `Ok Google' sample to `Hi Siri'.\relax }}{95}{figure.caption.53}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Classification Result}}{96}{figure.caption.54}% 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Attacker Settings\relax }}{97}{figure.caption.55}% 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces MoVoApp\relax }}{98}{figure.caption.56}% 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Success rate of MoVo\nobreakspace {}on defending against various attacks. \relax }}{99}{figure.caption.57}% 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Confusion Matrix of Matching Motion Data to Different Hot-Words. }}{99}{figure.caption.58}% 
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Confusion matrix of matching motion data to different users.\relax }}{99}{figure.caption.60}% 
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Robustness of {MoVo} over time.\relax }}{99}{figure.caption.62}% 
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Classification accuracy using different feature dimensions in the sequence input layer of our LSTM network.\relax }}{100}{figure.caption.63}% 
