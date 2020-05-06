@@ -55,7 +55,7 @@ and concluded that smartphone motion sensors only pose a limited threat to speec
 % since conductive vibrations are ``possibly less common''.
 %the impact of speech signals is very limited on motion sensors. 
 %
-However, they missed one important scenario,  the \textit{intra-device} scenario, where the speakers and motion sensors are inside the same smartphone. In 2019, they investigated this remaining scenario in an arXiv paper~\cite{anand2019spearphone} and their SpearPhone system recognize 11 digits with an accuracy of 71\%.  However, their technique is still speaker-dependent, which means the original speech data of the target speaker must be collected ahead of time. Such requirement is very hard to be fulfilled in practical.
+However, they missed one important scenario,  the \textit{intra-device} scenario, where the speakers and motion sensors are inside the same smartphone. In 2019, they investigated this remaining scenario in an arXiv paper~\cite{anand2019spearphone} and their SpearPhone system recognize 11 digits with an accuracy of 71\%.  However, their technique is still speaker-dependent, which means the original speech data of the target speaker must be collected ahead of time. Such requirement is very hard to be fulfilled in practice.
 
 In this thesis, we studied the side-channel attack in the intra-device scenario. This \textit{{\attackName}} attack, as we refer to it, is speaker-independent.
 
@@ -200,7 +200,7 @@ These achievements are largely credited to the compressed sensing theories which
 In summary, our main contributions are as follows:
 \begin{itemize}
 	\item 
-	We uncover a new stealth attack named the {\attackName} attack that eavesdrops on smartphones' built-in speakers by the intra-device motion sensors. Existing techniques in Gyrophone~\cite{michalevsky2014gyrophone} and AccelWord~\cite{zhang2015accelword} cannot be used for the {\attackName}  attack because their system are speaker-dependent, which require the training speech data from the victim. The {\attackName}  attack, however, removes this requirement and thus more dangerous and harmful.
+	We uncover a new stealth attack named the {\attackName} attack that eavesdrops on smartphones' built-in speakers by the intra-device motion sensors. Existing techniques in Gyrophone~\cite{michalevsky2014gyrophone} and AccelWord~\cite{zhang2015accelword} cannot be used for the {\attackName}  attack because their system are speaker-dependent, which require the training speech data from the victim. The {\attackName}  attack, however, removes this requirement and thus is more dangerous and harmful.
 	
 	\item 
 	To the best of our knowledge, we are the first to apply compressed sensing theories in the audio-to-motion side-channel data so as to bridge the gap between sampling rates. This is the core technique we used to achieve speaker-independent of the attacking system.
