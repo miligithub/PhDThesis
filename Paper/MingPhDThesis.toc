@@ -63,8 +63,6 @@
 \contentsline {subsection}{\numberline {4.4.4}The LSTM Network}{91}{subsection.4.4.4}% 
 \contentsline {section}{\numberline {4.5}Majority Voting}{92}{section.4.5}% 
 \contentsline {section}{\numberline {4.6}Implementation and Evaluation}{93}{section.4.6}% 
-\contentsline {section}{\numberline {4.7}conclusion}{97}{section.4.7}% 
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusion}}{102}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Key Contribution}{102}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Future Work}{102}{section.5.2}% 
-\contentsline {chapter}{REFERENCES}{103}{chapter*.66}% 
+\contentsline {section}{\numberline {4.7}conclusion}{99}{section.4.7}% 
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusion}}{101}{chapter.5}% 
+\contentsline {chapter}{REFERENCES}{102}{chapter*.63}% 
