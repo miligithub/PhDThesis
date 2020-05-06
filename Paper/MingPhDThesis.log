@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  5 MAY 2020 23:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  5 MAY 2020 23:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1060,40 +1060,40 @@ Overfull \hbox (17.3719pt too wide) in paragraph at lines 59--68
 <Figures/sensors1.png, id=609, 1576.89125pt x 3213.00375pt>
 File: Figures/sensors1.png Graphic file (type png)
 <use Figures/sensors1.png>
-Package pdftex.def Info: Figures/sensors1.png  used on input line 105.
+Package pdftex.def Info: Figures/sensors1.png  used on input line 104.
 (pdftex.def)             Requested size: 164.14928pt x 334.45828pt.
 
-Overfull \hbox (46.89928pt too wide) in paragraph at lines 105--106
+Overfull \hbox (46.89928pt too wide) in paragraph at lines 104--105
 [][] 
  []
 
 <Figures/sensors2.png, id=611, 1576.89125pt x 3213.00375pt>
 File: Figures/sensors2.png Graphic file (type png)
 <use Figures/sensors2.png>
-Package pdftex.def Info: Figures/sensors2.png  used on input line 109.
+Package pdftex.def Info: Figures/sensors2.png  used on input line 108.
 (pdftex.def)             Requested size: 164.14928pt x 334.45828pt.
 
-Overfull \hbox (46.89928pt too wide) in paragraph at lines 109--110
+Overfull \hbox (46.89928pt too wide) in paragraph at lines 108--109
 [][] 
  []
 
 <Figures/sensors3.png, id=612, 1576.89125pt x 3213.00375pt>
 File: Figures/sensors3.png Graphic file (type png)
 <use Figures/sensors3.png>
-Package pdftex.def Info: Figures/sensors3.png  used on input line 113.
+Package pdftex.def Info: Figures/sensors3.png  used on input line 112.
 (pdftex.def)             Requested size: 164.14928pt x 334.45828pt.
 
-Overfull \hbox (46.89928pt too wide) in paragraph at lines 113--114
+Overfull \hbox (46.89928pt too wide) in paragraph at lines 112--113
 [][] 
  []
 
 <Figures/sensors4.png, id=613, 1576.89125pt x 3213.00375pt>
 File: Figures/sensors4.png Graphic file (type png)
 <use Figures/sensors4.png>
-Package pdftex.def Info: Figures/sensors4.png  used on input line 117.
+Package pdftex.def Info: Figures/sensors4.png  used on input line 116.
 (pdftex.def)             Requested size: 164.14928pt x 334.45828pt.
 
-Overfull \hbox (46.89928pt too wide) in paragraph at lines 117--118
+Overfull \hbox (46.89928pt too wide) in paragraph at lines 116--117
 [][] 
  []
 
@@ -2380,7 +2380,7 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2019/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2019/texmf-dist/fonts/
 type1/urw/zapfding/uzdr.pfb>
-Output written on MingPhDThesis.pdf (123 pages, 19079512 bytes).
+Output written on MingPhDThesis.pdf (123 pages, 19079493 bytes).
 PDF statistics:
  3037 PDF objects out of 3580 (max. 8388607)
  2299 compressed objects within 23 object streams
