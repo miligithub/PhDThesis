@@ -48,8 +48,8 @@ Researches have done extensive study on the security and privacy problems about 
 
 
 
-\section{Protecting Smartphones by Sensors}
-There are no universally applicable solutions to solve the aforementioned security and privacy issues, so we conduct our research in a case study manner. We propose {\spp} to show how smartphones get eavesdropped  by motion sensors, {\uu} to authenticate users with gestures in the air, and {\mv} to protect voice authentication system against spoofing attacks. They have one thing in common, utilizing the smartphone sensors to achieve the goal. The categories of and sensors used in the three proposed systems are shown in Table~\ref{tab:general}.
+\section{Smartphone Sensors: Causes  or Solutions}
+There are no universally applicable solutions to solve the aforementioned security and privacy issues, so we conduct our research in a case study manner. We propose {\spp} to show how smartphones get eavesdropped  by motion sensors, {\uu} to authenticate users with gestures in the air, and {\mv} to protect voice authentication system against spoofing attacks. They have one thing in common, utilizing the smartphone sensors to achieve the goal. The categories of the three proposed systems and sensors used in each system are shown in Table~\ref{tab:general}. Our main focuses are attacks and authentication methods on smartphones, using motion sensors and/or microphones.
 
 \begin{table}
 	\caption{General Information}
@@ -68,14 +68,36 @@ There are no universally applicable solutions to solve the aforementioned securi
 \end{table}
 
 Commercial off-the-shelf (COTS) smartphones nowadays have built-in sensors that measure motions, orientations, and various environmental conditions. Figure~\ref{fig:sensors} shows the real sensor readings on a Google Nexus 6P smartphone when running the Sensors Toolbox by ExaMobile. This smartphone has motion sensors (accelerometers, gravity sensors, gyroscopes, and rotational vector sensors), environmental sensors (barometers, photometers, and thermometers), position sensors (orientation sensors and magnetometers), microphones and cameras. Note that the motion sensors are designed to monitor the motion of a device, but in {\spp} and {\mv} we use them to measure acoustic signals. Microphones are designed to record audible sounds, but we use them in {\uu} to measure ultrasound signals.
-This `misuse' increases the difficulty of acquiring targeted signals, but it is necessary for security/privacy reasons, which will be elaborated in later chapters.
+%This `misuse' increases the difficulty of acquiring targeted signals, but it is necessary for S\&P reasons, which will be elaborated in later chapters.
 
-
+In fact, there have been many researches based on`misusing' smartphone sensors. On the one hand, `misusing' sensors introduces S\&P problems. For example, Zhou et al~\cite{zhou2018patternlistener} designed PatternListener, which cracks Android pattern lock using acoustic signals. It leverages speakers and microphones of the victim's device to play and record imperceptible audio in order to achieve motion data.
+Zhang et al.~\cite{zhang2017dolphinattack} proposed DolphinAttack, which uses normal speakers to send inaudible voice commands. Since they modulated voice commands on ultrasonic carriers, popular speech recognition systems, including Siri, Google Now, and Alexa, will listen to the commands but human ears cannot detect them. Tripple et al.~\cite{trippel2017walnut} studied how to use audio signals to control motion sensors and proposed WALNUT. They also demonstrated how to inject fake steps into a Fitbit with a \$5 speaker and how to use a malicious music file from a smartphone's speaker to control the on-board MEMS accelerometer trusted by a local app to pilot a toy RC car. 
 %TODO related works using sensors as way to protection
 
-%TODO our approach
+On the other hand, `misusing' sensors solves S\&P problems. 
+For example, Lee et al.~\cite{lee2015multi} proposed a multi-sensor authentication system to improve smartphone security. They chose accelerometers, orientation sensors and magnetometers to continuously learn the owner's behavior patterns and environment characteristics so as to a better authenticate mechanism. 
+Roy et al.~\cite{roy2016ripple} developed Ripple II system, which uses microphones as a receiver of vibrations to achieve secure short-range communication. Compared to the `normal' case where accelerometers are used as the receiver, `misusing' microphone increases the data rate from  200 bits/s to 30,000 bits/s .  
+Chen et al.~\cite{chen2017you} utilized magnetometers to differ a electronic speaker from a real person. Their work will detect magnetic field emitted from loudspeakers as the essential characteristic to defend the smartphone against machine-based voice impersonation attacks.
 
-In detail, {\systemName} system turns smartphones into spy bugs by performing {\attackName} attack. Such attack is  based on the fact that motion sensors (accelerometers and gyroscopes) can measure audio signals, though at a much lower sampling rate. It is a big threat to smartphone users since the phone's operating system grants applications permissions to motion sensors automatically. 
+In this thesis, {\spp} is an instance where `misusing' motion sensors causes information leakage on smartphones, while {\uu} and {\mv} use sensors to solve security problems. In the remaining of this thesis, we will discuss each system in each chapter, and conclude the thesis in Chapter~\ref{chap:concl}. 
+%========================================
+%                            Section                             
+%======================================== 	 
+%\section{Thesis Organization}
+%
+%In detail, {\systemName} system turns smartphones into spy bugs by performing {\attackName} attack. Such attack is  based on the fact that motion sensors (accelerometers and gyroscopes) can measure audio signals, though at a much lower sampling rate. It is a big threat to smartphone users since the phone's operating system grants applications permissions to motion sensors automatically. 
+%
+%
+%{\uu} uses the microphones and speakers in smartphones to send ultrasound signals and catch user’s finger movements, then utilizes these user-specific movements to unlock the phone. It is a great alternative to password/fingerprint authentication when users' fingers are dirty or wet and to face authentication when users wear masks or goggles.
+%%
+%
+%
+%{\shortname} is a spoof-proof voice authentication system which not only authenticates users by their voices but also differentiates live people and electronic devices. In other words, attackers are unable to unlock the phone by replay attack (attackers record the victim's voice in person or online, then replay the recording and access the victim's devices illegally). The idea is to utilize the self demodulation effect and acoustic attenuation effect when sound signals transmit through human body. Motion sensors are used to catch such signals.
+
+
+
+
+%TODO contribution
 
 \begin{landscape}
 	\begin{figure*}[h]
@@ -94,19 +116,9 @@ In detail, {\systemName} system turns smartphones into spy bugs by performing {\
 		\begin{minipage}[t]{0.25\textwidth}
 			\includegraphics[width=1.4\textwidth]{sensors4}
 		\end{minipage}  
-		\caption{Real Sensors Readings on a Google Nexus 6P Device.}
+		\caption{Real Readings of 18 Sensors on a Google Nexus 6P Device.}
 		\label{fig:sensors}
 	\end{figure*}
 \end{landscape}
 
-{\uu} uses the microphones and speakers in smartphones to send ultrasound signals and catch user’s finger movements, then utilizes these user-specific movements to unlock the phone. It is a great alternative to password/fingerprint authentication when users' fingers are dirty or wet and to face authentication when users wear masks or goggles.
-%
-
-
-{\shortname} is a spoof-proof voice authentication system which not only authenticates users by their voices but also differentiates live people and electronic devices. In other words, attackers are unable to unlock the phone by replay attack (attackers record the victim's voice in person or online, then replay the recording and access the victim's devices illegally). The idea is to utilize the self demodulation effect and acoustic attenuation effect when sound signals transmit through human body. Motion sensors are used to catch such signals.
-
-
-In the remaining of this thesis, we will discuss each system in each chapter, and conclude the thesis in Chapter~\ref{chap:concl}.
-
-
-%TODO contribution
+%TODO our approach

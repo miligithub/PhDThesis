@@ -40,7 +40,7 @@
 			\includegraphics[height=.4\textheight]{MoVoData}
 			\subcaption{{\mv} Data Collection}
 		\end{minipage}
-	\hfill
+ \qquad 
 	\begin{minipage}{.6\linewidth}
 		\includegraphics[width=\linewidth]{movohuman}
 		\subcaption{Real Person Speaking}
@@ -57,7 +57,11 @@
 
 \begin{figure}[h]
 	\centering
-%	\includegraphics[width=\linewidth]{defend}
+	\includegraphics[width=.4\linewidth]{movoAttack}
+%	Accuracy: 90.43\% & \hspace{-.55in} Error Rate: 9.57\% \\
+%	Precision: 90.72\% & \hspace{-.55in} True Positive Rate (Sensitivity/Recall): 90.52\% \\
+%	$F_1$ Score: 0.904 & \hspace{-.55in} True Negative Rate (Specificity): 95.19\% \\
+%	False Negative Rate: 9.48\%  & \hspace{-.55in} False Positive Rate: 4.81\% \\
 	\caption{Success rate of \shortname~on defending against various attacks. }
 	\label{fig:defend}
 \end{figure}
@@ -82,7 +86,7 @@ As shown in Fig.~\ref{fig:defend}, \shortname~can defend replay attack with at l
 \textbf{Results}.
 \begin{figure}[h]
 	\centering
-%	\includegraphics[width=.4\linewidth]{commandmat}
+	\includegraphics[width=.4\linewidth]{movoCommandafter}
 	\caption[Confusion Matrix of Matching Motion Data to Different Hot-Words. ]{Confusion matrix of matching motion data to different hot-words. Each row of the matrix represents the instances in a predicted class while each column represents the instances in an actual class.}
 	\label{fig:commadmat}
 \end{figure}
@@ -107,26 +111,45 @@ Besides defending against various attacks, \shortname~should accept legitimate u
 The results for user authentication are shown in Fig.~\ref{fig:usermat} and Table.~\ref{tab:userTable}. We also test the robustness of {\shortname} in Fig.~\ref{fig:time}. We test both the one-time trained model and the learning model which will use the accepted data as trained data for future authentication. Over 8 weeks, the learning model has more stable performance.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\linewidth]{usermat}
+	\includegraphics[width=\linewidth]{movoUserBefore}
+	\includegraphics[width=\linewidth]{movoUserAfter}
 	\caption{Confusion matrix of matching motion data to different users.}
 	\label{fig:usermat}
 \end{figure}
+\begin{table}[t]
+	\caption{Statistical Analysis of the User Classification Result}
+	\label{tab:userTableBefore}
+	\centering
+	\begin{tabular}{lr}
+		\toprule
+		Accuracy: 54.48\% & \hspace{-.55in} Error Rate: 45.52\% \\
+		Precision: 52.78\% & \hspace{-.55in} True Positive Rate (Sensitivity/Recall): 53.80\% \\
+		$F_1$ Score: 0.522 & \hspace{-.55in} True Negative Rate (Specificity): 97.60\% \\
+		False Negative Rate: 46.20\%  & \hspace{-.55in} False Positive Rate: 2.40\% \\
+	
+		Accuracy: 92.98\% & \hspace{-.55in} Error Rate: 7.02\% \\
+		Precision: 93.33\% & \hspace{-.55in} True Positive Rate (Sensitivity/Recall): 94.58\% \\
+		$F_1$ Score: 0.924 & \hspace{-.55in} True Negative Rate (Specificity): 99.64\% \\
+		False Negative Rate: 5.42\%  & \hspace{-.55in} False Positive Rate: 0.36\% \\
+		\bottomrule
+	\end{tabular}
+\end{table}
 \begin{table}[t]
 	\caption{Statistical Analysis of the User Classification Result}
 	\label{tab:userTable}
 	\centering
 	\begin{tabular}{lr}
 		\toprule
-		Accuracy: 94.33\% & \hspace{-.55in} Error Rate: 5.67\% \\
-		Precision: 94.33\% & \hspace{-.55in} True Positive Rate (Sensitivity/Recall): 94.78\% \\
-		$F_1$ Score: 0.943 & \hspace{-.55in} True Negative Rate (Specificity): 99.70\% \\
-		False Negative Rate: 5.22\%  & \hspace{-.55in} False Positive Rate: 0.30\% \\
+		Accuracy: 92.98\% & \hspace{-.55in} Error Rate: 7.02\% \\
+		Precision: 93.33\% & \hspace{-.55in} True Positive Rate (Sensitivity/Recall): 94.58\% \\
+		$F_1$ Score: 0.924 & \hspace{-.55in} True Negative Rate (Specificity): 99.64\% \\
+		False Negative Rate: 5.42\%  & \hspace{-.55in} False Positive Rate: 0.36\% \\
 		\bottomrule
 	\end{tabular}
 \end{table}
 \begin{figure}[h]
 	\centering
-%	\includegraphics[width=\linewidth]{time}
+	\includegraphics[width=.5\linewidth]{movoTime}
 	\caption{Robustness of {\shortname} over time.}
 	\label{fig:time}
 \end{figure}

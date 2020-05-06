@@ -3,7 +3,7 @@
 \contentsline {chapter}{LIST OF TABLES}{x}{section*.3}% 
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introduction}}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Security and Privacy on Smartphones}{1}{section.1.1}% 
-\contentsline {section}{\numberline {1.2}Protecting Smartphones by Sensors}{2}{section.1.2}% 
+\contentsline {section}{\numberline {1.2}Smartphone Sensors: Causes or Solutions}{2}{section.1.2}% 
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {{Spy-Phone}: Eavesdropping on Smartphone Speakers\\ with Motion Sensors}}{6}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Background}{11}{section.2.2}% 
@@ -63,8 +63,8 @@
 \contentsline {subsection}{\numberline {4.4.4}The LSTM Network}{91}{subsection.4.4.4}% 
 \contentsline {section}{\numberline {4.5}Majority Voting}{92}{section.4.5}% 
 \contentsline {section}{\numberline {4.6}Implementation and Evaluation}{93}{section.4.6}% 
-\contentsline {section}{\numberline {4.7}conclusion}{96}{section.4.7}% 
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusion}}{100}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Key Contribution}{100}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Future Work}{100}{section.5.2}% 
-\contentsline {chapter}{REFERENCES}{101}{chapter*.65}% 
+\contentsline {section}{\numberline {4.7}conclusion}{97}{section.4.7}% 
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusion}}{102}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Key Contribution}{102}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Future Work}{102}{section.5.2}% 
+\contentsline {chapter}{REFERENCES}{103}{chapter*.66}% 

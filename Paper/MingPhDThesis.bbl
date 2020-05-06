@@ -359,6 +359,12 @@ Yee~W Lau, Dat Tran, and Michael Wagner.
 \newblock In {\em International Conference on Knowledge-Based and Intelligent
   Information and Engineering Systems}, pages 15--21. Springer, 2005.
 
+\bibitem{lee2015multi}
+Wei-Han Lee and Ruby~B Lee.
+\newblock Multi-sensor authentication to improve smartphone security.
+\newblock In {\em 2015 International Conference on Information Systems Security
+  and Privacy (ICISSP)}, pages 1--11. IEEE, 2015.
+
 \bibitem{lee2018inferring}
 Wei-Han Lee, Jorge Ortiz, Bongjun Ko, and Ruby~B Lee.
 \newblock Inferring smartphone users' handwritten patterns by using motion
@@ -545,6 +551,12 @@ R{\'e}mi Remi and Karin Schnass.
 \newblock {\em IEEE Transactions on Information Theory}, 56(7):3523--3539,
   2010.
 
+\bibitem{roy2016ripple}
+Nirupam Roy and Romit~Roy Choudhury.
+\newblock Ripple $\{$II$\}$: Faster communication through physical vibration.
+\newblock In {\em 13th $\{$USENIX$\}$ Symposium on Networked Systems Design and
+  Implementation ($\{$NSDI$\}$ 16)}, pages 671--684, 2016.
+
 \bibitem{roy2015ripple}
 Nirupam Roy, Mahanth Gowda, and Romit~Roy Choudhury.
 \newblock Ripple: Communicating through physical vibration.
@@ -654,6 +666,13 @@ Ingo~R Titze, Ronald~J Baken, Kenneth~W Bozeman, Svante Granqvist, Nathalie
   formants in vocalization.
 \newblock {\em The Journal of the Acoustical Society of America},
   137(5):3005--3007, 2015.
+
+\bibitem{trippel2017walnut}
+Timothy Trippel, Ofir Weisse, Wenyuan Xu, Peter Honeyman, and Kevin Fu.
+\newblock Walnut: Waging doubt on the integrity of mems accelerometers with
+  acoustic injection attacks.
+\newblock In {\em 2017 IEEE European Symposium on Security and Privacy
+  (EuroS\&P)}, pages 3--18. IEEE, 2017.
 
 \bibitem{tropp2007signal}
 Joel~A Tropp and Anna~C Gilbert.
@@ -789,6 +808,13 @@ William Zegers, Sang-Yoon Chang, Younghee Park, and Jerry Gao.
 \newblock In {\em 2015 IEEE Symposium on Service-Oriented System Engineering},
   pages 259--266. IEEE, 2015.
 
+\bibitem{zhang2017dolphinattack}
+Guoming Zhang, Chen Yan, Xiaoyu Ji, Tianchen Zhang, Taimin Zhang, and Wenyuan
+  Xu.
+\newblock Dolphinattack: Inaudible voice commands.
+\newblock In {\em Proceedings of the 2017 ACM SIGSAC Conference on Computer and
+  Communications Security}, pages 103--117, 2017.
+
 \bibitem{zhang2015accelword}
 Li~Zhang, Parth~H Pathak, Muchen Wu, Yixin Zhao, and Prasant Mohapatra.
 \newblock Accelword: Energy efficient hotword detection through accelerometer.
@@ -813,5 +839,13 @@ Linghan Zhang, Sheng Tan, Jie Yang, and Yingying Chen.
 Zheng Zhang, Yong Xu, Jian Yang, Xuelong Li, and David Zhang.
 \newblock A survey of sparse representation: algorithms and applications.
 \newblock {\em IEEE access}, 3:490--530, 2015.
+
+\bibitem{zhou2018patternlistener}
+Man Zhou, Qian Wang, Jingxiao Yang, Qi~Li, Feng Xiao, Zhibo Wang, and Xiaofeng
+  Chen.
+\newblock Patternlistener: Cracking android pattern lock using acoustic
+  signals.
+\newblock In {\em Proceedings of the 2018 ACM SIGSAC Conference on Computer and
+  Communications Security}, pages 1775--1787, 2018.
 
 \end{thebibliography}
