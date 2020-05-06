@@ -6,8 +6,8 @@ Deliverables for PhD thesis defense.
 - MoVo: A Spoof-proof Voice Authentication System for Smartphones
 
 
-Time: May 11, 2020 12:00 PM Mountain Time (US and Canada) 
+### Time: May 11, 2020 12:00 PM Mountain Time (US and Canada) 
 
-Join from PC, Mac, Linux, iOS or Android: https://mines.zoom.us/j/94703532568
+### Join from PC, Mac, Linux, iOS or Android: https://mines.zoom.us/j/94703532568
 
 
