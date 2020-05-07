@@ -1,5 +1,3 @@
-
-
 \section{Attack Design}\label{sec:design}
 
 
@@ -7,7 +5,7 @@ The workflow of the {\attackName} attack in {\systemName} is shown in Figure~\re
 %
 On the user side, a smartphone user downloads a seemingly harmless application and installs it on her device. Then the disguised app runs in the background and keeps monitoring the motion sensors. The sensor readings are then uploaded and sent to the attacker. 
 %
-On the attacker side, there are training steps and prediction steps. The training steps start from a training dataset which contains both sound data and motion data, while the input for prediction steps only contains motion data. 
+On the attacker side, there are training steps and prediction steps. The training steps start from a training dataset that contains both sound data and motion data, while the input for prediction steps only contains motion data. 
 
 The training steps first apply compressed sensing techniques on the sound data and build a learned dictionary from audio files, then process the corresponding motion data to remove unwanted signal components. With the preprocessed motion data and a learned dictionary,  the signal is reconstructed to a signal with more samples. Afterward, the reconstructed signal is fed to a Bidirectional Long Short-Term Memory (Bi-LSTM) network to train a classification model. 
 The classification labels/classes (e.g. digits, genders, activity types, and so on) is determined by the sound data only.
@@ -23,17 +21,13 @@ The classification labels/classes (e.g. digits, genders, activity types, and so 
 \end{figure*}
 \end{landscape}
 
-%are regard as critical information and the source determining the labels is the sound data only.
-%%TODO
+
 
 The prediction steps start with motion data, go by preprocessing, adopt the learned dictionary to reconstruct signals, and finally use the trained Bi-LSTM model to output critical information, without the presence of sound data.
-%train and use
-%During the training step, you use past or known data to train a model.
-%During the prediction step, you use the trained model to make predictions from new data.
 
 
 
-In this section, we explain in details how the {\systemName} system implements the {\attackName} attack to eavesdrop on digits played by smartphone speakers. A similar approach can be applied to obtain user activity type or speaker gender/identity as evaluated in Section~\ref{sec:experiment}.
+In this section, we explain in detail how the {\systemName} system implements the {\attackName} attack to eavesdrop on digits played by smartphone speakers. A similar approach can be applied to obtain user activity type or speaker gender/identity as evaluated in Section~\ref{sec:experiment}.
 
 
 \subsection{Training Dataset}
@@ -66,7 +60,7 @@ In this section, we explain in details how the {\systemName} system implements t
 
 As shown in Table~\ref{tab:dataset}, we use two datasets, TIDIGITS and Speech Commands. 
 
-TIDIGITS~\cite{leonard1993tidigits} are professional recordings of isolated digits, which has been used in~\cite{michalevsky2014gyrophone} and \cite{anand2019spearphone}. Therefore, in the main sessions of this chapter, we illustrated our system using this dataset for the comparison's purpose. However, TIDIGITS only contains digits, and the utterances are all recorded in laboratory conditions. It is natural that the accuracy would be higher on such dataset. Therefore, we consider another dataset Speech Commands~\cite{warden2018speech}, which  is the TensorFlow Speech Commands Dataset(Version 2). This dataset can be used for limited-vocabulary speech recognition. It is consisted of 105,829 utterances of 35 command words such as up, down, forward, stop, house, happy, etc. This dataset is recorded by a web-based application in a crowd-sourcing manner. Speakers are from all over the word and they speaks the command in uncontrolled environment. Basically, if a model trained on Speech Commands works well, it indicates that any piece of speech recordings online can be used as the training data for the {\systemName} system. The result using this dataset is shown in Section~\ref{sec:word}, the correct rate is 83.2\%.
+TIDIGITS~\cite{leonard1993tidigits} are professional recordings of isolated digits, which has been used in~\cite{michalevsky2014gyrophone} and \cite{anand2019spearphone}. Therefore, in the main sessions of this chapter, we illustrated our system using this dataset for the comparison's purpose. However, TIDIGITS only contains digits, and the utterances are all recorded in laboratory conditions. It is natural that the accuracy would be higher on such a dataset. Therefore, we consider another dataset Speech Commands~\cite{warden2018speech}, which is the TensorFlow Speech Commands Dataset(Version 2). This dataset can be used for limited-vocabulary speech recognition. It consists of 105,829 utterances of 35 command words such as up, down, forward, stop, house, happy, etc. This dataset is recorded by a web-based application in a crowd-sourcing manner. Speakers are from all over the world and they speak the commands in uncontrolled environments. Basically, if a model trained on Speech Commands works well, it indicates that any piece of speech recordings online can be used as the training data for the {\systemName} system. The result using this dataset is shown in Section~\ref{sec:word}, the correct rate is 83.2\%.
 
 
 
@@ -80,51 +74,18 @@ From now on, we focus on TIDIGITS.
 	\label{fig:spyphoneapp}
 \end{figure}
 
-At the begining, TIDIGITS dataset is used to build both the sound data and the motion data for the training dataset.
+In the beginning, the TIDIGITS dataset is used to build both the sound data and the motion data for the training dataset.
 %
 This corpus contains speech of 11 isolated digits: ``one'', ``two'', \ldots, ``nine'', ``zero'' and ``oh'', which are collected using an Electro-Voice RE-16 Dynamic Cardiod microphone, digitized at 20,000 Hz.
-% In total, there are $207 \times 11 \times 2 = 4554$ audio files. All files are normalized with the same maximum amplitude.
-%
-%This corpus contains speech of isolated digits. There are 11 utterances of digits: ``one'', ``two'', \ldots, ``nine'', ``zero'' and ``oh''. Each speaker pronounces each digit twice. There are 207 speakers (93 men and 114 women) and their speech is collected using an Electro-Voice RE-16 Dynamic Cardiod microphone, digitized at 20,000 Hz. In total, there are $207 \times 11 \times 2 = 4554$ audio files. All files are normalized with the same maximum amplitude.
 %
 These audio files are directly used as training sound data. 
 The motion data, however, are collected by playing these audio files using the built-in speakers of a Google Nexus 6P device. They are the simultaneous recordings from the same phone's  accelerometers and gyroscopes with a sampling rate of 400 Hz.
 When playing the sound, the volume is set to be the highest level since these data will be used for training and the higher volume, the higher accuracy (according to experiments in Section~\ref{sec:impact:volume}).
 Note that when the {\attackName} attack is conducted in practice, the input motion data may come from a lower volume setting defined by the user. The attacker cannot control the volume setting of the target smartphone, but she can control the volume when building the training dataset. 
 %
-%%TODO section label
 For the training dataset, only part of the sound and motion data are used. The impact of the training data size on the prediction accuracy is elaborated in Section~\ref{sec:impact:trainsize}.
 All data are collected by the SpyPhoneApp as shown in Figure~\ref{fig:spyphoneapp}.
 
-
-
-
-
-
-
-%Each digit 
-%The utterances collected from the speakers are digit sequences. Eleven digits were used: "zero", "one", "two", ... , "nine", and "oh".
-%
-%
-%We use digitized at 20kHz
-
-%This corpus contains speech which was originally designed and collected at Texas Instruments, Inc. (TI) for the purpose of designing and evaluating algorithms for speaker-independent recognition of connected digit sequences. There are 326 speakers (111 men, 114 women, 50 boys and 51 girls) each pronouncing 77 digit sequences. Each speaker group is partitioned into test and training subsets.
-%
-%The corpus was collected at TI in 1982 in a quiet acoustic enclosure using an Electro-Voice RE-16 Dynamic Cardiod microphone, digitized at 20kHz. The waveform files are in the NIST SPHERE format.
-%The critical information of sound data played by the smartphone's loudspeaker could be the type of the sound (an alarm, some music, )
-
-%To elaborate how {\attackName} attack works, we  
-%
-%
-%Due to the low sampling frequency of the gyro, a recog- nition of speaker-independent general speech would be an ambitious long-term task. Therefore, in this work we set out to recognize speech of a limited dictionary, the recognition of which would still leak substantial private information. For this work we chose to focus on the digits dictionary, which includes the words: zero, one, two..., nine, and ”oh”. Recognition of such words would enable an attacker to eavesdrop on private information, such as credit card numbers, telephone numbers, social security numbers and the like. This information may be eavesdropped when the victim speaks over or next to the phone.
-%In our experiments, we use the following corpus of audio signals on which we tested our recognition algo- rithms.
-%
-%TIDIGITS This is a subset of a corpus published in [33]. It includes speech of isolated digits, i.e., 11 words per speaker where each speaker recorded each word twice. There are 10 speakers (5 female and 5 male). In total, there are 10 × 11 × 2 = 220 recordings. The cor- pus is digitized at 20 kHz.
-
-
-
-
-%%TODO
 
 
  \begin{algorithm}[!t]
@@ -140,11 +101,6 @@ All data are collected by the SpyPhoneApp as shown in Figure~\ref{fig:spyphoneap
 	\SetKw{KwConca}{concatenate}
 	\KwIn{Training Sound Dataset $\mathcal{T}_i$ for class $i$, Downsample Rate $r$, Dictionary Size $(N, K)$ }
 	\KwOut{Dictionary $D_i$ for class $i$}
-	%	$k \leftarrow 0$  \tcp*{Initialize k}   % removing the * makes the comment left-align instead
-	%	\While{$k \le |A|$}{
-	%	$k \leftarrow k + 1$\;
-	%	}
-	%	\tcp{prepare training data}
 	$ S_i \leftarrow []$ \tcp*{Initialize training vectors} 
 	\ForEach{audio file $\tau$ in $\mathcal{T}_i$}{
 		\tcp{get signal $s$ and sampling frequency $fs$}
@@ -154,8 +110,6 @@ All data are collected by the SpyPhoneApp as shown in Figure~\ref{fig:spyphoneap
 		\tcp{downsample signal to $r$ subsignals and buffer each subsignal of length $N$}
 		\ForEach{$j$ from 1 to $r$}{
 			$s \leftarrow \KwShift(s, 1)$  \tcp*{shift left by 1 sample}  \label{line:shift}
-			%				shift $s$ left by 1 sample\;
-			%				\tcp{downsample $s$ by keeping the first sample and then every $r$-th sample after the first}
 			$ss \leftarrow \KwDown(s, r)$\; \label{line:down}
 			$bs \leftarrow \KwBuffer(ss, N)$  \;
 			$S_i \leftarrow \KwConca(S_i, bs)$
@@ -179,29 +133,24 @@ All data are collected by the SpyPhoneApp as shown in Figure~\ref{fig:spyphoneap
 We now demonstrate how to construct efficient representations of audio files by building a dictionary learned from the data itself. 
 Recall Section~\ref{sec:compressed}, a learned dictionary is used to reconstruct a signal when it is undersampled. 
 %
-In the {\systemName} system, the sound data are the signals of interest while the motion data are the measurements. The training sound data are grouped into 11 classes, (one to nine, zero and oh). For each class $i$, the dataset is denoted by $\mathcal{T}_i$ and the representation dictionary $D_i$ is computed by Algorithm~\ref{algo:builddic}.
+In the {\systemName} system, the sound data are the signals of interest while the motion data are the measurements. The training sound data are grouped into 11 classes, (one to nine, zero, and oh). For each class $i$, the dataset is denoted by $\mathcal{T}_i$ and the representation dictionary $D_i$ is computed by Algorithm~\ref{algo:builddic}.
 
 As shown in Figure~\ref{fig:compressed}, each representation dictionary $D_i$ is a collection of $K$ atoms, where each atom is a column vector of length $N$. An atom is basically some typical patterns of the signal of interest. For sound signal $s_i$ of class $i$,
-%\footnote{To be more precise, the notation should be $s_i$. Here we use $s$ for simplicity and it is also consistent with the notation in Figure~\ref{fig:compressed}.} 
 it should be represented or approximated as a linear combination of some few of the dictionary atoms. Mathematically,
 %\begin{displaymath}
 	$s_i = D_i * w_i,$
 %\end{displaymath} 
- for each column $s_i$ in $S_i$. Here $S_i$ is the training vectors calculated in Algorithm~\ref{algo:builddic}. Compared to the original sound signal from an audio file, $S_i$ is the result from many functions including \verb|removeSilence()|, \verb|downSample()|, and \verb|buffer()|. 
- 
- %
-
-
- %
+for each column $s_i$ in $S_i$. Here $S_i$ is the training vectors calculated in Algorithm~\ref{algo:builddic}. Compared to the original sound signal from an audio file, $S_i$ is the result from many functions including \verb|removeSilence()|, \verb|downSample()|, and \verb|buffer()|. 
  
  
- Note that the length of a dictionary atom must be the same as the length of training vector $s_i$. Since the original sound signal can have at most 2 s $\times$ 20,000 Hz = 40,000 samples (The duration of audio files in the dataset is at most 2 seconds.). If directly using original sound to train the dictionary, the atom size must be 40,000 as well. However, not all signals in an audio file are informative. By applying \verb|removeSilence()|, the unvoiced part of the audio signals are removed, which significantly improves the space and time efficiency of the algorithm. The \verb|removeSilence()| is  based on \cite{rabiner2011theory}, which calculates the short-time energy of signals and conducts zero-crossing analysis to differentiate  sounding and unvoiced parts.
+ 
+Note that the length of a dictionary atom must be the same as the length of the training vector $s_i$. Since the original sound signal can have at most 2 s $\times$ 20,000 Hz = 40,000 samples (The duration of audio files in the dataset is at most 2 seconds.). If directly using original sound to train the dictionary, the atom size must be 40,000 as well. However, not all signals in an audio file are informative. By applying \verb|removeSilence()|, the unvoiced part of the audio signals is removed, which significantly improves the space and time efficiency of the algorithm. The \verb|removeSilence()| is based on \cite{rabiner2011theory}, which calculates the short-time energy of signals and conducts zero-crossing analysis to differentiate sounding and unvoiced parts.
  
  
 
- Moreover, from voice acoustics elaborated in Section~\ref{sec:voice}, the most informative frequency range is roughly 100-4000~Hz, the 20,000~Hz sampling rate oversamples human speech. Therefore, to build a better representation dictionary, we shift the signals (Line~\ref{line:shift} in Algorithm~\ref{algo:builddic}) and downsample it (Line~\ref{line:down} in Algorithm~\ref{algo:builddic}) by keeping the first sample and then every $r$-th sample after the first. The impact of the downsample rate $r$ is evaluated in Section~\ref{sec:impact:downrate}.
+Moreover, from voice acoustics elaborated in Section~\ref{sec:voice}, the most informative frequency range is roughly 100-4000~Hz, the 20,000~Hz sampling rate oversamples human speech. Therefore, to build a better representation dictionary, we shift the signals (Line~\ref{line:shift} in Algorithm~\ref{algo:builddic}) and downsample it (Line~\ref{line:down} in Algorithm~\ref{algo:builddic}) by keeping the first sample and then every $r$-th sample after the first. The impact of the downsample rate $r$ is evaluated in Section~\ref{sec:impact:downrate}.
 
-Last but not least, different people say different digits with intrinsically different time duration, which results in different signal lengths. To build a general representation dictionary, we buffer every signal with the fixed buffer size as $N$ using \verb|buffer()|. In other words, no matter how long is the original sound signal, by Algorithm~\ref{algo:builddic}, it is transformed to a matrix $S_i$ with $N$ rows. The number of columns, however, is not fixed. For convenience sake, we denote this number as $L_i$.
+Last but not least, different people say different digits with intrinsically different time duration, which results in different signal lengths. To build a general representation dictionary, we buffer every signal with the fixed buffer size as $N$ using \verb|buffer()|. In other words, no matter how long is the original sound signal, by Algorithm~\ref{algo:builddic}, it is transformed into a matrix $S_i$ with $N$ rows. The number of columns, however, is not fixed. For convenience's sake, we denote this number as $L_i$.
 
 
 
@@ -231,12 +180,12 @@ where $\gamma$ and $p$ are as in Eq.~(\ref{eq:reconstruction}), $s_{i, l}$ is th
 
 
 
-The solver we use for this optimization problem is K-SVD~\cite{aharon2006k}, as it is one of the most well-known shared dictionary learning algorithms~\cite{xu2017survey}. We did not test all existing dictionary learning algorithms, but among those we tested, PCA~\cite{haykin2007neural}, K-SVD  and GAD~\cite{jafari2011fast}, K-SVD provides the best results. 
+The solver we use for this optimization problem is K-SVD~\cite{aharon2006k}, as it is one of the most well-known shared dictionary learning algorithms~\cite{xu2017survey}. We did not test all existing dictionary learning algorithms, but among those we tested, PCA~\cite{haykin2007neural}, K-SVD,  and GAD~\cite{jafari2011fast}, K-SVD provides the best results. 
 
 
 
 
-K-SVD is an iterative method with two main steps: First, keep $D_i$ fixed then solve $W_i$, which is essentially $L_i$ separate problems as in Eq.~(\ref{eq:reconstruction}); Second, keep only non-zero positions in $W_i$ fixed and find $D_i$ and $W$ using singular-value decompositions (SVD). Figure~\ref{fig:atoms} shows the first two atoms in the learned dictionary of each digit class using K-SVD. Generally, the atoms are different inter class and similar intra class.
+K-SVD is an iterative method with two main steps: First, keep $D_i$ fixed then solve $W_i$, which is essentially $L_i$ separate problems as in Eq.~(\ref{eq:reconstruction}); Second, keep only non-zero positions in $W_i$ fixed and find $D_i$ and $W$ using singular-value decompositions (SVD). Figure~\ref{fig:atoms} shows the first two atoms in the learned dictionary of each digit class using K-SVD. Generally, the atoms are different inter-class and similar intra-class.
 
 By concatenating every $D_i$ together, the overall dictionary is 
 \begin{equation}
@@ -287,13 +236,13 @@ The input motion data are collected similarly to how motion data are collected f
 		\subcaption{Preprocessed Motion Data}\label{fig:newmotion}
 	\end{minipage}
 	
-	\caption[Preprocessing of Motion Data. ]{Preprocessing of Motion Data. The top two figures show the raw data from 3-axis accelerometers and 3-axis gyroscopes. There are 450 samples shown in the figure. These samples span about one seconds (450 / 400Hz = 1.125s) and are collected when the user is  dropping the head of the phone while playing a ``Zero'' utterance from a male speaker. The frequency of such movement is far less than the frequency of human voices. Therefore, by applying high pass filter, the noise caused by hand movements will be removed. }
+	\caption[Preprocessing of Motion Data. ]{Preprocessing of Motion Data. The top two figures show the raw data from 3-axis accelerometers and 3-axis gyroscopes. There are 450 samples shown in the figure. These samples span about one second (450 / 400Hz = 1.125s) and are collected when the user is dropping the head of the phone while playing a ``Zero'' utterance from a male speaker. The frequency of such movement is far less than the frequency of human voices. Therefore, by applying the high pass filter, the noise caused by hand movements will be removed. }
 	
 	\label{fig:spyphonepreprocess}
 \end{figure}
 
-As mentioned in Section~\ref{sec:intro}, the motion data is impeded by low sampling rates, weak target signals, and large interfere noises. To overcome such problems, we must preprocess the motion data. We apply a high pass filter to mitigate the noise and increase the signal-to-noise ratio. The cutoff frequency is set to be 50 Hz, since noises such as walking or other human body movements are unlikely to generate signals as high as 50 Hz.
-We also use the speech-background separation algorithms from \cite{rabiner2011theory} to differentiate the data affected by sound signals from those do not. The red vertical lines in Figure~\ref{fig:rawmotion} are the border lines between the speech part and the background part. 
+As mentioned in Section~\ref{sec:intro}, the motion data is impeded by low sampling rates, weak target signals, and large  interference  noises. To overcome such problems, we must preprocess the motion data. We apply a high pass filter to mitigate the noise and increase the signal-to-noise ratio. The cutoff frequency is set to be 50 Hz, since noises such as walking or other human body movements are unlikely to generate signals as high as 50 Hz.
+We also use the speech-background separation algorithms from \cite{rabiner2011theory} to differentiate the data affected by sound signals from those do not. The red vertical lines in Figure~\ref{fig:rawmotion} are the borderlines between the speech part and the background part. 
 Figure~\ref{fig:rawspec} and Figure~\ref{fig:newspec} show that various noises can be removed by applying a high pass filter.
 The result after the preprocessing stage is shown in Figure~\ref{fig:newmotion}. These data will be used in the next signal reconstruction stage.
 
@@ -354,45 +303,6 @@ s^\prime = D \times w^\prime_{opt}.
 $
 These signals will be used as training data for the Bi-LSTM network discussed in the next section.
 
-%
-%The sensing signal is 
-%\begin{displaymath}
-%S = 
-%\begin{bmatrix} 
-%1 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots & 0  & 0& 0\\
-%0 & 0 & 0 & 1 & 0 & 0 & 0 & \cdots & 0 & 0& 0\\
-%0 & 0 & 0 & 0 & 0 & 0 & 1 & \cdots & 0 & 0& 0\\
-%\vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots &  & \vdots & \vdots & \vdots\\
-%0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots & 1 & 0& 0\\       
-%\end{bmatrix}
-%\end{displaymath}
-%
-%\begin{displaymath}
-%w^\prime_{opt}
-%=
-%\argmin_{w^\prime}
-%\left( 
-%\gamma
-%\Vert w^\prime \Vert_p
-%+
-%\Vert x - R w^\prime \Vert_2
-%\right) 
-%,
-%\end{displaymath}
-
-
-%$$
-%S = 
-%\begin{bmatrix*}[r]
-%1 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots & 0  & 0\\
-%0 & 0 & 0 & 1 & 0 & 0 & 0 & \cdots & 0 & 0\\
-%0 & 0 & 0 & 0 & 0 & 0 & 1 & \cdots & 0 & 0\\
-%\vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots &  & \vdots & \vdots\\
-%0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots & 1 & 0\\       
-%\end{bmatrix*} 
-%$$
-
-%\subsection{MFCC Feature Extraction}
 
 
 
@@ -411,70 +321,9 @@ The last stage is to use the reconstructed data to establish a Bi-directional Lo
  LSTM was first proposed by Sepp Hochreiter and J{\"u}rgen Schmidhuber in 1997 ~\cite{hochreiter1997long}. It is a special variant of  Recurrent Neural Networks (RNN), and is widely used in learning, processing, and classifying \textit{sequential } data because of 
 its great property of selectively remembering patterns for long durations of time. 
 %
-Over the years, there have also been many variants of LSTM networks. However, based on a study in 2017, none of the variants can improve upon the standard LSTM architecture significantly~\cite{greff2017lstm}. Therefore, we still choose to implement the standard LSTM network in this work except for the bi-directional calculation. The original unidirectional LSTM network only preserves information from the inputs seen at the past. Bi-LSTM network, on the contrary, preserves information both from the past and the future. 
+Over the years, there have also been many variants of LSTM networks. However, based on a study in 2017, none of the variants can improve upon the standard LSTM architecture significantly~\cite{greff2017lstm}. Therefore, we still choose to implement the standard LSTM network in this work except for the bi-directional calculation. The original unidirectional LSTM network only preserves information from the inputs seen in the past. Bi-LSTM network, on the contrary, preserves information both from the past and the future. 
 %
-%Short-Term duplicate 
-%change figure font display
-%
-%
-As shown in Figure~\ref{fig:rnn}, our Bi-LSTM  network has five layers in total. In the sequence input layer, the input data have 6 feature dimensions, which consists of 3 accelerometer dimensions and 3 gyroscope dimensions. Then we establish an LSTM layer formed by LSTM blocks, where each block publishes its cell state to the next LSTM block. The output of the LSTM layer is sent to the fully connected hidden status layer. We set the total number of hidden units to be 100, and each hidden unit has two hidden states, one from the past and the other from the future. Then we feed the combined hidden status to a softmax function and output the classification results.
-
-
-%A bidirectional LSTM (BiLSTM) layer learns bidirectional long-term dependencies between time steps of time series or sequence data. These dependencies can be useful when you want the network to learn from the complete time series at each time step.
-%
-%LSTM in its core, preserves information from inputs that has already passed through it using the hidden state.
-%
-%Unidirectional LSTM only preserves information of the past because the only inputs it has seen are from the past.
-%
-%Using bidirectional will run your inputs in two ways, one from past to future and one from future to past and what differs this approach from unidirectional is that in the LSTM that runs backwards you preserve information from the future and using the two hidden states combined you are able in any point in time to preserve information from both past and future.
-
-
-
-
-
-
-
-%Dictionary normalization is not needed as the SVD make sure that the dictionary atoms are unit norm. We should note that using K-SVD with the l1-norm in sparse approximation, i.e. LARS, makes no sense since the K-SVD dictionary update step conserves the l0-norm but modifies the l1-norm of the coefficients, and thus the actual coefficients will be neither l0 nor l1 sparse.
-
-
-
-
-
-% given a sparseness criterion on the coefficients
-
-%As shown in Figure~\ref{fig:compressed}, a dictionary is a collection of atoms, where each atom is a real column vector of length $N$. A finite dictionary of K atoms can be represented as a matrix D of size NxK. In a Sparse Representation a vector x is represented or approximated as a linear combination of some few of the dictionary atoms. The approximation xa can be written as
-%
-%xa = D w
-%where w is a vector containing the coefficients and most of the entries in w are zero. Dictionary Learning is the problem of finding a dictionary such that the approximations of many vectors, the training set, are as good as possible given a sparseness criterion on the coefficients, i.e. allowing only a small number of non-zero coefficients for each approximation.
-
-
-%Sparse modeling calls for constructing efficient representations of data as a (often linear) combination of a few typical patterns (atoms) learned from the data itself. 
-
-
-%Dictionary Learning is a topic in the Signal Processing area, the dictionary is usually used for Sparse Representation or Approximation of signals. A dictionary is a collection of atoms, here the atoms are real column vectors of length N. A finite dictionary of K atoms can be represented as a matrix D of size NxK. In a Sparse Representation a vector x is represented or approximated as a linear combination of some few of the dictionary atoms. The approximation xa can be written as
-%
-%xa = D w
-%where w is a vector containing the coefficients and most of the entries in w are zero. Dictionary Learning is the problem of finding a dictionary such that the approximations of many vectors, the training set, are as good as possible given a sparseness criterion on the coefficients, i.e. allowing only a small number of non-zero coefficients for each approximation.
-%
-%This page describes some experiments done on Dictionary Learning. The complete theory of dictionary learning is not told here, only a brief overview (of some parts) is given in section 3. and some links to relevant papers are included on the upper right part of this page. Section 4 presents the results of the experiments used in the RLS-DLA paper, and section 6 also includes the files needed to redo the experiments.
-%
-%A common setup for the dictionary learning problem starts with access to a training set, a collection of training vectors, each of lenght N. This training set may be finite, then the training vectors are usually collected as columns in a matrix X of size $NxL$, or it may be infinite. For the finite case the aim of dictionary learning is to find both a dictionary, D of size $NxK$, and a corresponding coefficient matrix W of size $KxL$ such that the representation error, $R=X-DW$, is minimized and W fulfill some sparseness criterion. The dictionary learning problem can be formulated as an optimization problem with respect to W and D, with $\gamma$ and p are as in Eq. 2.2 we may put it as
-%
-%wopt = 	(3.1)
-%The Matlab function dlfun.m, attached in the end of this page, can be used for MOD, K-SVD, ODL or RLS-DLA. It is entirely coded in Matlab, except that the sparse approximation, done by sparseapprox.m, may call java or mex functions if this is specified. The help text of dlfun.m gives some examples for how to use it. Note that this function is slow as sparse approximation is done for only one vector each time, an improvement (in speed) would be to do all the sparse approximations in one function call for MOD and K-SVD, or to use a mini-batch approach like LS-DLA for ODL and RLS-DLA. However, processing one training vector at a time may give better control of the algorithm and gives more precise information in error messages and exception handling.
-%
-%K-SVD, for details see the K-SVD paper by Aharon et al., is also an iterative method like MOD. The two steps in each main iteration are:
-%
-%Keeping D fixed find W, this gives L independent problems as in Eq. 2.2, and
-%Keeping only non-zero positions in W fixed and find D and W using SVD decompositions.
-%Dictionary normalization is not needed as the SVD make sure that the dictionary atoms are unit norm. We should note that using K-SVD with the l1-norm in sparse approximation, i.e. LARS, makes no sense since the K-SVD dictionary update step conserves the l0-norm but modifies the l1-norm of the coefficients, and thus the actual coefficients will be neither l0 nor l1 sparse.
-%
-%
-%Sparse modeling calls for constructing efficient representations of data as a (often linear) combination of a few typical patterns (atoms) learned from the data itself. Significant contributions to the theory and practice of learning such collections of atoms (usually called dictionaries or codebooks), and of representing the actual data in terms of them, leading to state-of-the-art results in many signal and image processing and analysis tasks. The first critical component of this topic is how to sparsely encode a signal given the dictionary. After introducing the topic, the tutorial will describe the state-of-the-art approaches in this area, ranging from greedy algorithms to l1-optimization all the way to simultaneous sparse coding of collections of signals.
-%
-%The actual dictionary plays a critical role, and it has been shown once and again that learned dictionaries significantly outperforms off-the-shelf ones such as wavelets. The second part of this tutorial will present efficient optimization methods for learning dictionaries adapted for a reconstruction task, and image processing applications where it leads to state-of-the-art results such as image denoising, inpainting or demosaicking.
-%
-%The third part of the tutorial will discuss numerous applications where the dictionary is not only adapted to reconstruct the data, but also learned for a specific task, such as classification, edge detection and compressed sensing. The last part presents recent new sparse models that go beyond classical sparse regularization. The tutorial concludes with the discussion of other frameworks closely related to sparse signal modeling and dictionary learning, as well as with a description of important open problems.
+As shown in Figure~\ref{fig:rnn}, our Bi-LSTM network has five layers in total. In the sequence input layer, the input data have 6 feature dimensions, which consists of 3 accelerometer dimensions and 3 gyroscope dimensions. Then we establish an LSTM layer formed by LSTM blocks, where each block publishes its cell state to the next LSTM block. The output of the LSTM layer is sent to the fully connected hidden status layer. We set the total number of hidden units to be 100, and each hidden unit has two hidden states, one from the past and the other from the future. Then we feed the combined hidden status to a softmax function and output the classification results.
 
 
 
