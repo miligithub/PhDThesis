@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  7 MAY 2020 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  7 MAY 2020 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1117,7 +1117,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 <Figures/SpyPhone/teaserpic.pdf, id=633, 1156.32pt x 289.08pt>
 File: Figures/SpyPhone/teaserpic.pdf Graphic file (type pdf)
 <use Figures/SpyPhone/teaserpic.pdf>
-Package pdftex.def Info: Figures/SpyPhone/teaserpic.pdf  used on input line 36.
+Package pdftex.def Info: Figures/SpyPhone/teaserpic.pdf  used on input line 33.
 
 (pdftex.def)             Requested size: 469.0pt x 117.24878pt.
  [7 <./Figures/SpyPhone/teaserpic.pdf>]
@@ -1129,13 +1129,13 @@ Overfull \vbox (2.96819pt too high) has occurred while \output is active []
 File: Figures/SpyPhone/speakerDependent.pdf Graphic file (type pdf)
 <use Figures/SpyPhone/speakerDependent.pdf>
 Package pdftex.def Info: Figures/SpyPhone/speakerDependent.pdf  used on input l
-ine 177.
+ine 103.
 (pdftex.def)             Requested size: 296.96739pt x 318.18748pt.
 <Figures/SpyPhone/speakerIndependent.pdf, id=700, 1011.78pt x 542.025pt>
 File: Figures/SpyPhone/speakerIndependent.pdf Graphic file (type pdf)
 <use Figures/SpyPhone/speakerIndependent.pdf>
 Package pdftex.def Info: Figures/SpyPhone/speakerIndependent.pdf  used on input
- line 186.
+ line 110.
 (pdftex.def)             Requested size: 296.96739pt x 159.09373pt.
  [10
 
@@ -2380,7 +2380,7 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2019/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2019/texmf-dist/fonts/
 type1/urw/zapfding/uzdr.pfb>
-Output written on MingPhDThesis.pdf (123 pages, 19079508 bytes).
+Output written on MingPhDThesis.pdf (123 pages, 19079565 bytes).
 PDF statistics:
  3037 PDF objects out of 3580 (max. 8388607)
  2299 compressed objects within 23 object streams
