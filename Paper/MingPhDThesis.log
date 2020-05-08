@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 MAY 2020 12:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 MAY 2020 13:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1683,7 +1683,7 @@ on <1.5> allowed
 File: /Users/mili/Documents/UltraUnlock/CICFilter.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/CICFilter.pdf>
 Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/CICFilter.pdf  used 
-on input line 162.
+on input line 161.
 (pdftex.def)             Requested size: 422.09714pt x 250.67682pt.
 [56
 
@@ -1692,19 +1692,19 @@ on input line 162.
 File: Figures/UltraUnlock/realiqdata0.png Graphic file (type png)
 <use Figures/UltraUnlock/realiqdata0.png>
 Package pdftex.def Info: Figures/UltraUnlock/realiqdata0.png  used on input lin
-e 181.
+e 180.
 (pdftex.def)             Requested size: 281.40286pt x 138.26411pt.
 <Figures/UltraUnlock/realiqdata1.png, id=1860, 3213.00375pt x 1578.89874pt>
 File: Figures/UltraUnlock/realiqdata1.png Graphic file (type png)
 <use Figures/UltraUnlock/realiqdata1.png>
 Package pdftex.def Info: Figures/UltraUnlock/realiqdata1.png  used on input lin
-e 184.
+e 183.
 (pdftex.def)             Requested size: 281.40286pt x 138.26411pt.
 <Figures/UltraUnlock/realiqdata2.png, id=1861, 3213.00375pt x 1578.89874pt>
 File: Figures/UltraUnlock/realiqdata2.png Graphic file (type png)
 <use Figures/UltraUnlock/realiqdata2.png>
 Package pdftex.def Info: Figures/UltraUnlock/realiqdata2.png  used on input lin
-e 187.
+e 186.
 (pdftex.def)             Requested size: 281.40286pt x 138.26411pt.
 
 
@@ -1721,7 +1721,7 @@ File: /Users/mili/Documents/UltraUnlock/androidiqdata1.pdf Graphic file (type p
 df)
 <use /Users/mili/Documents/UltraUnlock/androidiqdata1.pdf>
 Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/androidiqdata1.pdf  
-used on input line 196.
+used on input line 195.
 (pdftex.def)             Requested size: 375.20143pt x 213.01453pt.
 
 
@@ -1734,7 +1734,7 @@ File: /Users/mili/Documents/UltraUnlock/androidiqdata2.pdf Graphic file (type p
 df)
 <use /Users/mili/Documents/UltraUnlock/androidiqdata2.pdf>
 Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/androidiqdata2.pdf  
-used on input line 198.
+used on input line 197.
 (pdftex.def)             Requested size: 187.59714pt x 184.98079pt.
 
 
@@ -1747,7 +1747,7 @@ File: /Users/mili/Documents/UltraUnlock/androidiqdata3.pdf Graphic file (type p
 df)
 <use /Users/mili/Documents/UltraUnlock/androidiqdata3.pdf>
 Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/androidiqdata3.pdf  
-used on input line 202.
+used on input line 201.
 (pdftex.def)             Requested size: 234.5pt x 135.40314pt.
 
 
@@ -1760,7 +1760,7 @@ File: /Users/mili/Documents/UltraUnlock/androidiqdata4.pdf Graphic file (type p
 df)
 <use /Users/mili/Documents/UltraUnlock/androidiqdata4.pdf>
 Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/androidiqdata4.pdf  
-used on input line 203.
+used on input line 202.
 (pdftex.def)             Requested size: 234.5pt x 137.67496pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1769,7 +1769,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Figures/UltraUnlock/gestures.pdf Graphic file (type pdf)
 <use Figures/UltraUnlock/gestures.pdf>
 Package pdftex.def Info: Figures/UltraUnlock/gestures.pdf  used on input line 2
-14.
+13.
 (pdftex.def)             Requested size: 281.40286pt x 127.90796pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1784,7 +1784,7 @@ ion <1.5> allowed
 File: /Users/mili/Documents/UltraUnlock/gestureCFM.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/gestureCFM.pdf>
 Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/gestureCFM.pdf  used
- on input line 227.
+ on input line 226.
 (pdftex.def)             Requested size: 164.15286pt x 167.41904pt.
 [58 <./Figures/UltraUnlock/realiqdata0.png> <./Figures/UltraUnlock/realiqdata1.
 png> <./Figures/UltraUnlock/realiqdata2.png>]
@@ -1801,7 +1801,7 @@ nlock/userCFM.pdf): PDF inclusion: found PDF version <1.7>, but at most version
 File: /Users/mili/Documents/UltraUnlock/userCFM.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/userCFM.pdf>
 Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/userCFM.pdf  used on
- input line 249.
+ input line 248.
 (pdftex.def)             Requested size: 211.04857pt x 222.42024pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2362,7 +2362,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
 Here is how much of TeX's memory you used:
  23501 strings out of 492616
  413850 string characters out of 6129482
- 601223 words of memory out of 5000000
+ 601225 words of memory out of 5000000
  26611 multiletter control sequences out of 15000+600000
  542106 words of font info for 60 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -2393,7 +2393,7 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2019/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2019/texmf-dist/fonts/
 type1/urw/zapfding/uzdr.pfb>
-Output written on MingPhDThesis.pdf (123 pages, 19080180 bytes).
+Output written on MingPhDThesis.pdf (123 pages, 19109034 bytes).
 PDF statistics:
  3040 PDF objects out of 3580 (max. 8388607)
  2301 compressed objects within 24 object streams
