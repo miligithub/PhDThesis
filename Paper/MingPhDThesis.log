@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 MAY 2020 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 MAY 2020 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1057,7 +1057,7 @@ Overfull \hbox (17.3719pt too wide) in paragraph at lines 59--68
  []
 
 [3] [4]
-<Figures/sensors1.png, id=609, 1576.89125pt x 3213.00375pt>
+<Figures/sensors1.png, id=614, 1576.89125pt x 3213.00375pt>
 File: Figures/sensors1.png Graphic file (type png)
 <use Figures/sensors1.png>
 Package pdftex.def Info: Figures/sensors1.png  used on input line 104.
@@ -1067,7 +1067,7 @@ Overfull \hbox (46.89928pt too wide) in paragraph at lines 104--105
 [][] 
  []
 
-<Figures/sensors2.png, id=611, 1576.89125pt x 3213.00375pt>
+<Figures/sensors2.png, id=616, 1576.89125pt x 3213.00375pt>
 File: Figures/sensors2.png Graphic file (type png)
 <use Figures/sensors2.png>
 Package pdftex.def Info: Figures/sensors2.png  used on input line 108.
@@ -1077,7 +1077,7 @@ Overfull \hbox (46.89928pt too wide) in paragraph at lines 108--109
 [][] 
  []
 
-<Figures/sensors3.png, id=612, 1576.89125pt x 3213.00375pt>
+<Figures/sensors3.png, id=617, 1576.89125pt x 3213.00375pt>
 File: Figures/sensors3.png Graphic file (type png)
 <use Figures/sensors3.png>
 Package pdftex.def Info: Figures/sensors3.png  used on input line 112.
@@ -1087,7 +1087,7 @@ Overfull \hbox (46.89928pt too wide) in paragraph at lines 112--113
 [][] 
  []
 
-<Figures/sensors4.png, id=613, 1576.89125pt x 3213.00375pt>
+<Figures/sensors4.png, id=618, 1576.89125pt x 3213.00375pt>
 File: Figures/sensors4.png Graphic file (type png)
 <use Figures/sensors4.png>
 Package pdftex.def Info: Figures/sensors4.png  used on input line 116.
@@ -1114,7 +1114,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ]
-<Figures/SpyPhone/teaserpic.pdf, id=633, 1156.32pt x 289.08pt>
+<Figures/SpyPhone/teaserpic.pdf, id=638, 1156.32pt x 289.08pt>
 File: Figures/SpyPhone/teaserpic.pdf Graphic file (type pdf)
 <use Figures/SpyPhone/teaserpic.pdf>
 Package pdftex.def Info: Figures/SpyPhone/teaserpic.pdf  used on input line 33.
@@ -1125,13 +1125,13 @@ Overfull \vbox (2.96819pt too high) has occurred while \output is active []
 
 
 [8] [9]
-<Figures/SpyPhone/speakerDependent.pdf, id=699, 1011.78pt x 1084.05pt>
+<Figures/SpyPhone/speakerDependent.pdf, id=704, 1011.78pt x 1084.05pt>
 File: Figures/SpyPhone/speakerDependent.pdf Graphic file (type pdf)
 <use Figures/SpyPhone/speakerDependent.pdf>
 Package pdftex.def Info: Figures/SpyPhone/speakerDependent.pdf  used on input l
 ine 103.
 (pdftex.def)             Requested size: 296.96739pt x 318.18748pt.
-<Figures/SpyPhone/speakerIndependent.pdf, id=700, 1011.78pt x 542.025pt>
+<Figures/SpyPhone/speakerIndependent.pdf, id=705, 1011.78pt x 542.025pt>
 File: Figures/SpyPhone/speakerIndependent.pdf Graphic file (type pdf)
 <use Figures/SpyPhone/speakerIndependent.pdf>
 Package pdftex.def Info: Figures/SpyPhone/speakerIndependent.pdf  used on input
@@ -1143,7 +1143,7 @@ Package pdftex.def Info: Figures/SpyPhone/speakerIndependent.pdf  used on input
 nt.pdf>]) (./Chapters/SpyPhone/background.tex [11
 
 ]
-<Figures/SpyPhone/compressed.pdf, id=888, 722.7pt x 939.51pt>
+<Figures/SpyPhone/compressed.pdf, id=893, 722.7pt x 939.51pt>
 File: Figures/SpyPhone/compressed.pdf Graphic file (type pdf)
 <use Figures/SpyPhone/compressed.pdf>
 Package pdftex.def Info: Figures/SpyPhone/compressed.pdf  used on input line 26
@@ -1154,7 +1154,7 @@ Package pdftex.def Info: Figures/SpyPhone/compressed.pdf  used on input line 26
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12] [13 <./Figures/SpyPhone/compressed.pdf>] [14]
-<Figures/SpyPhone/speaker.pdf, id=997, 1156.32pt x 722.7pt>
+<Figures/SpyPhone/speaker.pdf, id=1002, 1156.32pt x 722.7pt>
 File: Figures/SpyPhone/speaker.pdf Graphic file (type pdf)
 <use Figures/SpyPhone/speaker.pdf>
 Package pdftex.def Info: Figures/SpyPhone/speaker.pdf  used on input line 95.
@@ -1164,7 +1164,7 @@ Overfull \vbox (5.8359pt too high) has occurred while \output is active []
 
 
 [16] [17]) (./Chapters/SpyPhone/design.tex [18]
-<Figures/SpyPhone/attackflow.pdf, id=1051, 2264.46pt x 1084.05pt>
+<Figures/SpyPhone/attackflow.pdf, id=1056, 2264.46pt x 1084.05pt>
 File: Figures/SpyPhone/attackflow.pdf Graphic file (type pdf)
 <use Figures/SpyPhone/attackflow.pdf>
 Package pdftex.def Info: Figures/SpyPhone/attackflow.pdf  used on input line 17
@@ -1175,7 +1175,7 @@ Package pdftex.def Info: Figures/SpyPhone/attackflow.pdf  used on input line 17
  <./Figures/SpyPhone/attackflow.pdf>] [20
 
 ]
-<Figures/SpyPhone/SpyPhoneData.png, id=1168, 1576.89125pt x 3213.00375pt>
+<Figures/SpyPhone/SpyPhoneData.png, id=1174, 1576.89125pt x 3213.00375pt>
 File: Figures/SpyPhone/SpyPhoneData.png Graphic file (type png)
 <use Figures/SpyPhone/SpyPhoneData.png>
 Package pdftex.def Info: Figures/SpyPhone/SpyPhoneData.png  used on input line 
@@ -1227,7 +1227,7 @@ Package relsize Warning: Font size 7.60419pt is too small.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/dict.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/dict.pdf, id=1178, 548.0475pt x 762.85pt
+</Users/mili/Desktop/EavesProcessFinal/dict.pdf, id=1183, 548.0475pt x 762.85pt
 >
 File: /Users/mili/Desktop/EavesProcessFinal/dict.pdf Graphic file (type pdf)
 <use /Users/mili/Desktop/EavesProcessFinal/dict.pdf>
@@ -1239,7 +1239,7 @@ n input line 129.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/preprocess0.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/preprocess0.pdf, id=1241, 1113.15875pt x
+</Users/mili/Desktop/EavesProcessFinal/preprocess0.pdf, id=1246, 1113.15875pt x
  663.47874pt>
 File: /Users/mili/Desktop/EavesProcessFinal/preprocess0.pdf Graphic file (type 
 pdf)
@@ -1252,7 +1252,7 @@ Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess0.pdf
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/preprocess1.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/preprocess1.pdf, id=1242, 644.4075pt x 4
+</Users/mili/Desktop/EavesProcessFinal/preprocess1.pdf, id=1247, 644.4075pt x 4
 50.68375pt>
 File: /Users/mili/Desktop/EavesProcessFinal/preprocess1.pdf Graphic file (type 
 pdf)
@@ -1265,7 +1265,7 @@ Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess1.pdf
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/preprocess2.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/preprocess2.pdf, id=1243, 644.4075pt x 4
+</Users/mili/Desktop/EavesProcessFinal/preprocess2.pdf, id=1248, 644.4075pt x 4
 73.77pt>
 File: /Users/mili/Desktop/EavesProcessFinal/preprocess2.pdf Graphic file (type 
 pdf)
@@ -1278,7 +1278,7 @@ Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess2.pdf
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/preprocess3.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/preprocess3.pdf, id=1244, 649.42625pt x 
+</Users/mili/Desktop/EavesProcessFinal/preprocess3.pdf, id=1249, 649.42625pt x 
 473.77pt>
 File: /Users/mili/Desktop/EavesProcessFinal/preprocess3.pdf Graphic file (type 
 pdf)
@@ -1291,7 +1291,7 @@ Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess3.pdf
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/preprocess4.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/preprocess4.pdf, id=1245, 665.48625pt x 
+</Users/mili/Desktop/EavesProcessFinal/preprocess4.pdf, id=1250, 665.48625pt x 
 473.77pt>
 File: /Users/mili/Desktop/EavesProcessFinal/preprocess4.pdf Graphic file (type 
 pdf)
@@ -1304,7 +1304,7 @@ Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess4.pdf
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/preprocess5.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/preprocess5.pdf, id=1246, 642.4pt x 450.
+</Users/mili/Desktop/EavesProcessFinal/preprocess5.pdf, id=1251, 642.4pt x 450.
 68375pt>
 File: /Users/mili/Desktop/EavesProcessFinal/preprocess5.pdf Graphic file (type 
 pdf)
@@ -1317,7 +1317,7 @@ Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/preprocess5.pdf
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/preprocess6.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/preprocess6.pdf, id=1247, 655.44875pt x 
+</Users/mili/Desktop/EavesProcessFinal/preprocess6.pdf, id=1252, 655.44875pt x 
 473.77pt>
 File: /Users/mili/Desktop/EavesProcessFinal/preprocess6.pdf Graphic file (type 
 pdf)
@@ -1335,7 +1335,7 @@ rocessFinal/preprocess5.pdf> </Users/mili/Desktop/EavesProcessFinal/preprocess6
 LaTeX Font Warning: Command \small invalid in math mode on input line 268.
 
 [27]
-<Figures/SpyPhone/rnn.pdf, id=1320, 975.645pt x 1069.9975pt>
+<Figures/SpyPhone/rnn.pdf, id=1325, 975.645pt x 1069.9975pt>
 File: Figures/SpyPhone/rnn.pdf Graphic file (type pdf)
 <use Figures/SpyPhone/rnn.pdf>
 Package pdftex.def Info: Figures/SpyPhone/rnn.pdf  used on input line 311.
@@ -1357,7 +1357,7 @@ Overfull \hbox (15.78827pt too wide) in paragraph at lines 15--40
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/digitCFM.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/digitCFM.pdf, id=1362, 742.775pt x 764.8
+</Users/mili/Desktop/EavesProcessFinal/digitCFM.pdf, id=1367, 742.775pt x 764.8
 575pt>
 File: /Users/mili/Desktop/EavesProcessFinal/digitCFM.pdf Graphic file (type pdf
 )
@@ -1375,7 +1375,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/digitCFMGender.pdf): PDF inclusion: found PDF version <1.7>, but at m
 ost version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/digitCFMGender.pdf, id=1370, 253.94875pt
+</Users/mili/Desktop/EavesProcessFinal/digitCFMGender.pdf, id=1375, 253.94875pt
  x 265.99374pt>
 File: /Users/mili/Desktop/EavesProcessFinal/digitCFMGender.pdf Graphic file (ty
 pe pdf)
@@ -1395,7 +1395,7 @@ top/EavesProcessFinal/digitCFMGender.pdf>]
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/activityCFM.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/activityCFM.pdf, id=1402, 347.2975pt x 3
+</Users/mili/Desktop/EavesProcessFinal/activityCFM.pdf, id=1407, 347.2975pt x 3
 55.3275pt>
 File: /Users/mili/Desktop/EavesProcessFinal/activityCFM.pdf Graphic file (type 
 pdf)
@@ -1409,7 +1409,7 @@ Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/activityCFM.pdf
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/trainSize.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/trainSize.pdf, id=1417, 647.41875pt x 51
+</Users/mili/Desktop/EavesProcessFinal/trainSize.pdf, id=1422, 647.41875pt x 51
 4.92375pt>
 File: /Users/mili/Desktop/EavesProcessFinal/trainSize.pdf Graphic file (type pd
 f)
@@ -1426,7 +1426,7 @@ Overfull \vbox (0.45123pt too high) has occurred while \output is active []
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/downsample.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/downsample.pdf, id=1432, 772.8875pt x 51
+</Users/mili/Desktop/EavesProcessFinal/downsample.pdf, id=1437, 772.8875pt x 51
 4.92375pt>
 File: /Users/mili/Desktop/EavesProcessFinal/downsample.pdf Graphic file (type p
 df)
@@ -1439,7 +1439,7 @@ used on input line 28.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/volume.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/volume.pdf, id=1445, 995.72pt x 509.905p
+</Users/mili/Desktop/EavesProcessFinal/volume.pdf, id=1450, 995.72pt x 509.905p
 t>
 File: /Users/mili/Desktop/EavesProcessFinal/volume.pdf Graphic file (type pdf)
 <use /Users/mili/Desktop/EavesProcessFinal/volume.pdf>
@@ -1451,14 +1451,14 @@ Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/volume.pdf  used
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/noise.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/noise.pdf, id=1456, 794.97pt x 514.92375
+</Users/mili/Desktop/EavesProcessFinal/noise.pdf, id=1461, 794.97pt x 514.92375
 pt>
 File: /Users/mili/Desktop/EavesProcessFinal/noise.pdf Graphic file (type pdf)
 <use /Users/mili/Desktop/EavesProcessFinal/noise.pdf>
 Package pdftex.def Info: /Users/mili/Desktop/EavesProcessFinal/noise.pdf  used 
 on input line 84.
 (pdftex.def)             Requested size: 281.40286pt x 182.2767pt.
-<Figures/SpyPhone/noisetest.jpg, id=1457, 3015.265pt x 3057.4225pt>
+<Figures/SpyPhone/noisetest.jpg, id=1462, 3015.265pt x 3057.4225pt>
 File: Figures/SpyPhone/noisetest.jpg Graphic file (type jpg)
 <use Figures/SpyPhone/noisetest.jpg>
 Package pdftex.def Info: Figures/SpyPhone/noisetest.jpg  used on input line 91.
@@ -1470,7 +1470,7 @@ test.jpg>] [39]
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/digitDB55CFM.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/digitDB55CFM.pdf, id=1474, 742.775pt x 7
+</Users/mili/Desktop/EavesProcessFinal/digitDB55CFM.pdf, id=1479, 742.775pt x 7
 64.8575pt>
 File: /Users/mili/Desktop/EavesProcessFinal/digitDB55CFM.pdf Graphic file (type
  pdf)
@@ -1488,7 +1488,7 @@ Overfull \hbox (0.80879pt too wide) in paragraph at lines 109--119
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/digitDB60CFM.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/digitDB60CFM.pdf, id=1475, 742.775pt x 7
+</Users/mili/Desktop/EavesProcessFinal/digitDB60CFM.pdf, id=1480, 742.775pt x 7
 64.8575pt>
 File: /Users/mili/Desktop/EavesProcessFinal/digitDB60CFM.pdf Graphic file (type
  pdf)
@@ -1506,7 +1506,7 @@ Overfull \hbox (0.80879pt too wide) in paragraph at lines 123--133
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/digitDB65CFM.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/digitDB65CFM.pdf, id=1476, 742.775pt x 7
+</Users/mili/Desktop/EavesProcessFinal/digitDB65CFM.pdf, id=1481, 742.775pt x 7
 64.8575pt>
 File: /Users/mili/Desktop/EavesProcessFinal/digitDB65CFM.pdf Graphic file (type
  pdf)
@@ -1528,7 +1528,7 @@ tDB65CFM.pdf>]
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/move.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/move.pdf, id=1513, 794.97pt x 514.92375p
+</Users/mili/Desktop/EavesProcessFinal/move.pdf, id=1518, 794.97pt x 514.92375p
 t>
 File: /Users/mili/Desktop/EavesProcessFinal/move.pdf Graphic file (type pdf)
 <use /Users/mili/Desktop/EavesProcessFinal/move.pdf>
@@ -1542,7 +1542,7 @@ n input line 164.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/digitWalkCFM.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/digitWalkCFM.pdf, id=1523, 742.775pt x 7
+</Users/mili/Desktop/EavesProcessFinal/digitWalkCFM.pdf, id=1528, 742.775pt x 7
 64.8575pt>
 File: /Users/mili/Desktop/EavesProcessFinal/digitWalkCFM.pdf Graphic file (type
  pdf)
@@ -1560,7 +1560,7 @@ Overfull \hbox (4.4602pt too wide) in paragraph at lines 175--184
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Desktop/EavesPro
 cessFinal/digitDriveCFM.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
-</Users/mili/Desktop/EavesProcessFinal/digitDriveCFM.pdf, id=1524, 742.775pt x 
+</Users/mili/Desktop/EavesProcessFinal/digitDriveCFM.pdf, id=1529, 742.775pt x 
 764.8575pt>
 File: /Users/mili/Desktop/EavesProcessFinal/digitDriveCFM.pdf Graphic file (typ
 e pdf)
@@ -1605,7 +1605,7 @@ Overfull \vbox (5.83588pt too high) has occurred while \output is active []
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/iqdata1.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
-</Users/mili/Documents/UltraUnlock/iqdata1.pdf, id=1650, 1084.05pt x 562.1pt>
+</Users/mili/Documents/UltraUnlock/iqdata1.pdf, id=1655, 1084.05pt x 562.1pt>
 File: /Users/mili/Documents/UltraUnlock/iqdata1.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/iqdata1.pdf>
 Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/iqdata1.pdf  used on
@@ -1616,7 +1616,7 @@ Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/iqdata1.pdf  used on
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/iqdata2.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
-</Users/mili/Documents/UltraUnlock/iqdata2.pdf, id=1651, 557.08125pt x 438.6387
+</Users/mili/Documents/UltraUnlock/iqdata2.pdf, id=1656, 557.08125pt x 438.6387
 5pt>
 File: /Users/mili/Documents/UltraUnlock/iqdata2.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/iqdata2.pdf>
@@ -1628,7 +1628,7 @@ Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/iqdata2.pdf  used on
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/iqdata3.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
-</Users/mili/Documents/UltraUnlock/iqdata3.pdf, id=1652, 649.42625pt x 306.1437
+</Users/mili/Documents/UltraUnlock/iqdata3.pdf, id=1657, 649.42625pt x 306.1437
 5pt>
 File: /Users/mili/Documents/UltraUnlock/iqdata3.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/iqdata3.pdf>
@@ -1640,7 +1640,7 @@ Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/iqdata3.pdf  used on
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/iqdata4.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
-</Users/mili/Documents/UltraUnlock/iqdata4.pdf, id=1653, 649.42625pt x 315.1775
+</Users/mili/Documents/UltraUnlock/iqdata4.pdf, id=1658, 649.42625pt x 315.1775
 pt>
 File: /Users/mili/Documents/UltraUnlock/iqdata4.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/iqdata4.pdf>
@@ -1653,7 +1653,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [50] [51 </Users/mili/Documents/UltraUnlock/iqdata1.pdf> </Users/mili/Documents
 /UltraUnlock/iqdata2.pdf> </Users/mili/Documents/UltraUnlock/iqdata3.pdf> </Use
 rs/mili/Documents/UltraUnlock/iqdata4.pdf>]
-<Figures/UltraUnlock/path.pdf, id=1687, 1228.59pt x 542.025pt>
+<Figures/UltraUnlock/path.pdf, id=1693, 1228.59pt x 542.025pt>
 File: Figures/UltraUnlock/path.pdf Graphic file (type pdf)
 <use Figures/UltraUnlock/path.pdf>
 Package pdftex.def Info: Figures/UltraUnlock/path.pdf  used on input line 91.
@@ -1663,7 +1663,7 @@ Package pdftex.def Info: Figures/UltraUnlock/path.pdf  used on input line 91.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [52] [53 <./Figures/UltraUnlock/path.pdf>] [54]
-</Users/mili/Documents/UltraUnlock/UltraUnlockApp.pdf, id=1819, 794.97pt x 614.
+</Users/mili/Documents/UltraUnlock/UltraUnlockApp.pdf, id=1824, 794.97pt x 614.
 295pt>
 File: /Users/mili/Documents/UltraUnlock/UltraUnlockApp.pdf Graphic file (type p
 df)
@@ -1678,7 +1678,7 @@ used on input line 146.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/CICFilter.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-</Users/mili/Documents/UltraUnlock/CICFilter.pdf, id=1841, 1117.17375pt x 663.4
+</Users/mili/Documents/UltraUnlock/CICFilter.pdf, id=1846, 1117.17375pt x 663.4
 7874pt>
 File: /Users/mili/Documents/UltraUnlock/CICFilter.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/CICFilter.pdf>
@@ -1688,19 +1688,19 @@ on input line 161.
 [56
 
  </Users/mili/Documents/UltraUnlock/CICFilter.pdf>]
-<Figures/UltraUnlock/realiqdata0.png, id=1859, 3213.00375pt x 1578.89874pt>
+<Figures/UltraUnlock/realiqdata0.png, id=1864, 3213.00375pt x 1578.89874pt>
 File: Figures/UltraUnlock/realiqdata0.png Graphic file (type png)
 <use Figures/UltraUnlock/realiqdata0.png>
 Package pdftex.def Info: Figures/UltraUnlock/realiqdata0.png  used on input lin
 e 180.
 (pdftex.def)             Requested size: 281.40286pt x 138.26411pt.
-<Figures/UltraUnlock/realiqdata1.png, id=1860, 3213.00375pt x 1578.89874pt>
+<Figures/UltraUnlock/realiqdata1.png, id=1865, 3213.00375pt x 1578.89874pt>
 File: Figures/UltraUnlock/realiqdata1.png Graphic file (type png)
 <use Figures/UltraUnlock/realiqdata1.png>
 Package pdftex.def Info: Figures/UltraUnlock/realiqdata1.png  used on input lin
 e 183.
 (pdftex.def)             Requested size: 281.40286pt x 138.26411pt.
-<Figures/UltraUnlock/realiqdata2.png, id=1861, 3213.00375pt x 1578.89874pt>
+<Figures/UltraUnlock/realiqdata2.png, id=1866, 3213.00375pt x 1578.89874pt>
 File: Figures/UltraUnlock/realiqdata2.png Graphic file (type png)
 <use Figures/UltraUnlock/realiqdata2.png>
 Package pdftex.def Info: Figures/UltraUnlock/realiqdata2.png  used on input lin
@@ -1715,7 +1715,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/androidiqdata1.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-</Users/mili/Documents/UltraUnlock/androidiqdata1.pdf, id=1862, 1325.95375pt x 
+</Users/mili/Documents/UltraUnlock/androidiqdata1.pdf, id=1867, 1325.95375pt x 
 752.8125pt>
 File: /Users/mili/Documents/UltraUnlock/androidiqdata1.pdf Graphic file (type p
 df)
@@ -1728,7 +1728,7 @@ used on input line 195.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/androidiqdata2.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-</Users/mili/Documents/UltraUnlock/androidiqdata2.pdf, id=1863, 647.41875pt x 6
+</Users/mili/Documents/UltraUnlock/androidiqdata2.pdf, id=1868, 647.41875pt x 6
 38.385pt>
 File: /Users/mili/Documents/UltraUnlock/androidiqdata2.pdf Graphic file (type p
 df)
@@ -1741,7 +1741,7 @@ used on input line 197.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/androidiqdata3.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-</Users/mili/Documents/UltraUnlock/androidiqdata3.pdf, id=1864, 790.955pt x 456
+</Users/mili/Documents/UltraUnlock/androidiqdata3.pdf, id=1869, 790.955pt x 456
 .70625pt>
 File: /Users/mili/Documents/UltraUnlock/androidiqdata3.pdf Graphic file (type p
 df)
@@ -1754,7 +1754,7 @@ used on input line 201.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/androidiqdata4.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-</Users/mili/Documents/UltraUnlock/androidiqdata4.pdf, id=1865, 777.90625pt x 4
+</Users/mili/Documents/UltraUnlock/androidiqdata4.pdf, id=1870, 777.90625pt x 4
 56.70625pt>
 File: /Users/mili/Documents/UltraUnlock/androidiqdata4.pdf Graphic file (type p
 df)
@@ -1765,7 +1765,7 @@ used on input line 202.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/UltraUnlock/gestures.pdf, id=1867, 1589.94pt x 722.7pt>
+<Figures/UltraUnlock/gestures.pdf, id=1872, 1589.94pt x 722.7pt>
 File: Figures/UltraUnlock/gestures.pdf Graphic file (type pdf)
 <use Figures/UltraUnlock/gestures.pdf>
 Package pdftex.def Info: Figures/UltraUnlock/gestures.pdf  used on input line 2
@@ -1779,7 +1779,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/gestureCFM.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-</Users/mili/Documents/UltraUnlock/gestureCFM.pdf, id=1873, 421.575pt x 411.537
+</Users/mili/Documents/UltraUnlock/gestureCFM.pdf, id=1878, 421.575pt x 411.537
 5pt>
 File: /Users/mili/Documents/UltraUnlock/gestureCFM.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/gestureCFM.pdf>
@@ -1796,7 +1796,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/userCFM.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
-</Users/mili/Documents/UltraUnlock/userCFM.pdf, id=1881, 502.87875pt x 529.98pt
+</Users/mili/Documents/UltraUnlock/userCFM.pdf, id=1886, 502.87875pt x 529.98pt
 >
 File: /Users/mili/Documents/UltraUnlock/userCFM.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/userCFM.pdf>
@@ -1825,7 +1825,7 @@ RT-PHONES
 
 
 ] [65] [66]
-<Figures/MoVo/voicematch.png, id=2043, 1084.05pt x 1927.2pt>
+<Figures/MoVo/voicematch.png, id=2048, 1084.05pt x 1927.2pt>
 File: Figures/MoVo/voicematch.png Graphic file (type png)
 <use Figures/MoVo/voicematch.png>
 Package pdftex.def Info: Figures/MoVo/voicematch.png  used on input line 43.
@@ -1835,7 +1835,7 @@ Overfull \hbox (37.75368pt too wide) in paragraph at lines 43--44
 [][] 
  []
 
-<Figures/MoVo/voicematch2.png, id=2044, 1084.05pt x 1927.2pt>
+<Figures/MoVo/voicematch2.png, id=2049, 1084.05pt x 1927.2pt>
 File: Figures/MoVo/voicematch2.png Graphic file (type png)
 <use Figures/MoVo/voicematch2.png>
 Package pdftex.def Info: Figures/MoVo/voicematch2.png  used on input line 49.
@@ -1845,7 +1845,7 @@ Overfull \hbox (37.75368pt too wide) in paragraph at lines 49--50
 [][] 
  []
 
-<Figures/MoVo/email.png, id=2045, 1084.05pt x 1927.2pt>
+<Figures/MoVo/email.png, id=2050, 1084.05pt x 1927.2pt>
 File: Figures/MoVo/email.png Graphic file (type png)
 <use Figures/MoVo/email.png>
 Package pdftex.def Info: Figures/MoVo/email.png  used on input line 55.
@@ -1899,12 +1899,12 @@ Overfull \vbox (4.80501pt too high) has occurred while \output is active []
 [71
 
 ]
-<Figures/MoVo/standing.png, id=2115, 174.6525pt x 452.69125pt>
+<Figures/MoVo/standing.png, id=2120, 174.6525pt x 452.69125pt>
 File: Figures/MoVo/standing.png Graphic file (type png)
 <use Figures/MoVo/standing.png>
 Package pdftex.def Info: Figures/MoVo/standing.png  used on input line 106.
 (pdftex.def)             Requested size: 50.18687pt x 130.08621pt.
-<Figures/MoVo/walking.png, id=2116, 405.515pt x 733.74126pt>
+<Figures/MoVo/walking.png, id=2121, 405.515pt x 733.74126pt>
 File: Figures/MoVo/walking.png Graphic file (type png)
 <use Figures/MoVo/walking.png>
 Package pdftex.def Info: Figures/MoVo/walking.png  used on input line 112.
@@ -1914,7 +1914,7 @@ Overfull \hbox (1.5472pt too wide) in paragraph at lines 112--113
  [][] 
  []
 
-<Figures/MoVo/sitting.png, id=2117, 312.16624pt x 422.57875pt>
+<Figures/MoVo/sitting.png, id=2122, 312.16624pt x 422.57875pt>
 File: Figures/MoVo/sitting.png Graphic file (type png)
 <use Figures/MoVo/sitting.png>
 Package pdftex.def Info: Figures/MoVo/sitting.png  used on input line 118.
@@ -1933,7 +1933,7 @@ Overfull \vbox (7.79997pt too high) has occurred while \output is active []
 
 
 [74]) (./Chapters/MoVo/background.tex [75]
-<Figures/MoVo/modulation.pdf, id=2172, 469.755pt x 173.64874pt>
+<Figures/MoVo/modulation.pdf, id=2177, 469.755pt x 173.64874pt>
 File: Figures/MoVo/modulation.pdf Graphic file (type pdf)
 <use Figures/MoVo/modulation.pdf>
 Package pdftex.def Info: Figures/MoVo/modulation.pdf  used on input line 43.
@@ -1943,189 +1943,189 @@ Package pdftex.def Info: Figures/MoVo/modulation.pdf  used on input line 43.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/SPSC0.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/SPSC0.pdf, id=2226, 758.835pt x 217.81375pt>
+<Figures/MoVo/SPSC0.pdf, id=2231, 758.835pt x 217.81375pt>
 File: Figures/MoVo/SPSC0.pdf Graphic file (type pdf)
 <use Figures/MoVo/SPSC0.pdf>
-Package pdftex.def Info: Figures/MoVo/SPSC0.pdf  used on input line 14.
+Package pdftex.def Info: Figures/MoVo/SPSC0.pdf  used on input line 13.
 (pdftex.def)             Requested size: 375.20143pt x 107.69681pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/SPSC1.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/SPSC1.pdf, id=2227, 744.7825pt x 217.81375pt>
+<Figures/MoVo/SPSC1.pdf, id=2232, 744.7825pt x 217.81375pt>
 File: Figures/MoVo/SPSC1.pdf Graphic file (type pdf)
 <use Figures/MoVo/SPSC1.pdf>
-Package pdftex.def Info: Figures/MoVo/SPSC1.pdf  used on input line 18.
+Package pdftex.def Info: Figures/MoVo/SPSC1.pdf  used on input line 17.
 (pdftex.def)             Requested size: 375.20143pt x 109.73083pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/SPSC2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/SPSC2.pdf, id=2228, 758.835pt x 220.825pt>
+<Figures/MoVo/SPSC2.pdf, id=2233, 758.835pt x 220.825pt>
 File: Figures/MoVo/SPSC2.pdf Graphic file (type pdf)
 <use Figures/MoVo/SPSC2.pdf>
-Package pdftex.def Info: Figures/MoVo/SPSC2.pdf  used on input line 19.
+Package pdftex.def Info: Figures/MoVo/SPSC2.pdf  used on input line 18.
 (pdftex.def)             Requested size: 375.20143pt x 109.18571pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/SPSC3.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/SPSC3.pdf, id=2229, 685.56125pt x 473.77pt>
+<Figures/MoVo/SPSC3.pdf, id=2234, 685.56125pt x 473.77pt>
 File: Figures/MoVo/SPSC3.pdf Graphic file (type pdf)
 <use Figures/MoVo/SPSC3.pdf>
-Package pdftex.def Info: Figures/MoVo/SPSC3.pdf  used on input line 26.
+Package pdftex.def Info: Figures/MoVo/SPSC3.pdf  used on input line 25.
 (pdftex.def)             Requested size: 211.04857pt x 145.84787pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/SPSC4.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/SPSC4.pdf, id=2230, 666.49pt x 473.77pt>
+<Figures/MoVo/SPSC4.pdf, id=2235, 666.49pt x 473.77pt>
 File: Figures/MoVo/SPSC4.pdf Graphic file (type pdf)
 <use Figures/MoVo/SPSC4.pdf>
-Package pdftex.def Info: Figures/MoVo/SPSC4.pdf  used on input line 32.
+Package pdftex.def Info: Figures/MoVo/SPSC4.pdf  used on input line 31.
 (pdftex.def)             Requested size: 211.04857pt x 150.01909pt.
 [80 <./Figures/MoVo/SPSC0.pdf> <./Figures/MoVo/SPSC1.pdf> <./Figures/MoVo/SPSC2
 .pdf> <./Figures/MoVo/SPSC3.pdf> <./Figures/MoVo/SPSC4.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/DPSC0.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/DPSC0.pdf, id=2272, 758.835pt x 217.81375pt>
+<Figures/MoVo/DPSC0.pdf, id=2277, 758.835pt x 217.81375pt>
 File: Figures/MoVo/DPSC0.pdf Graphic file (type pdf)
 <use Figures/MoVo/DPSC0.pdf>
-Package pdftex.def Info: Figures/MoVo/DPSC0.pdf  used on input line 45.
+Package pdftex.def Info: Figures/MoVo/DPSC0.pdf  used on input line 44.
 (pdftex.def)             Requested size: 375.20143pt x 107.69681pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/DPSC1.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/DPSC1.pdf, id=2273, 744.7825pt x 217.81375pt>
+<Figures/MoVo/DPSC1.pdf, id=2278, 744.7825pt x 217.81375pt>
 File: Figures/MoVo/DPSC1.pdf Graphic file (type pdf)
 <use Figures/MoVo/DPSC1.pdf>
-Package pdftex.def Info: Figures/MoVo/DPSC1.pdf  used on input line 49.
+Package pdftex.def Info: Figures/MoVo/DPSC1.pdf  used on input line 48.
 (pdftex.def)             Requested size: 375.20143pt x 109.73083pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/DPSC2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/DPSC2.pdf, id=2274, 758.835pt x 220.825pt>
+<Figures/MoVo/DPSC2.pdf, id=2279, 758.835pt x 220.825pt>
 File: Figures/MoVo/DPSC2.pdf Graphic file (type pdf)
 <use Figures/MoVo/DPSC2.pdf>
-Package pdftex.def Info: Figures/MoVo/DPSC2.pdf  used on input line 50.
+Package pdftex.def Info: Figures/MoVo/DPSC2.pdf  used on input line 49.
 (pdftex.def)             Requested size: 375.20143pt x 109.18571pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/DPSC3.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/DPSC3.pdf, id=2275, 679.53876pt x 473.77pt>
+<Figures/MoVo/DPSC3.pdf, id=2280, 679.53876pt x 473.77pt>
 File: Figures/MoVo/DPSC3.pdf Graphic file (type pdf)
 <use Figures/MoVo/DPSC3.pdf>
-Package pdftex.def Info: Figures/MoVo/DPSC3.pdf  used on input line 57.
+Package pdftex.def Info: Figures/MoVo/DPSC3.pdf  used on input line 56.
 (pdftex.def)             Requested size: 211.04857pt x 147.14189pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/DPSC4.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/DPSC4.pdf, id=2276, 666.49pt x 473.77pt>
+<Figures/MoVo/DPSC4.pdf, id=2281, 666.49pt x 473.77pt>
 File: Figures/MoVo/DPSC4.pdf Graphic file (type pdf)
 <use Figures/MoVo/DPSC4.pdf>
-Package pdftex.def Info: Figures/MoVo/DPSC4.pdf  used on input line 63.
+Package pdftex.def Info: Figures/MoVo/DPSC4.pdf  used on input line 62.
 (pdftex.def)             Requested size: 211.04857pt x 150.01909pt.
 [81 <./Figures/MoVo/DPSC0.pdf> <./Figures/MoVo/DPSC1.pdf> <./Figures/MoVo/DPSC2
 .pdf> <./Figures/MoVo/DPSC3.pdf> <./Figures/MoVo/DPSC4.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/SPDC0.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/SPDC0.pdf, id=2316, 758.835pt x 217.81375pt>
+<Figures/MoVo/SPDC0.pdf, id=2321, 758.835pt x 217.81375pt>
 File: Figures/MoVo/SPDC0.pdf Graphic file (type pdf)
 <use Figures/MoVo/SPDC0.pdf>
-Package pdftex.def Info: Figures/MoVo/SPDC0.pdf  used on input line 76.
+Package pdftex.def Info: Figures/MoVo/SPDC0.pdf  used on input line 75.
 (pdftex.def)             Requested size: 375.20143pt x 107.69681pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/SPDC1.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/SPDC1.pdf, id=2317, 744.7825pt x 217.81375pt>
+<Figures/MoVo/SPDC1.pdf, id=2322, 744.7825pt x 217.81375pt>
 File: Figures/MoVo/SPDC1.pdf Graphic file (type pdf)
 <use Figures/MoVo/SPDC1.pdf>
-Package pdftex.def Info: Figures/MoVo/SPDC1.pdf  used on input line 80.
+Package pdftex.def Info: Figures/MoVo/SPDC1.pdf  used on input line 79.
 (pdftex.def)             Requested size: 375.20143pt x 109.73083pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/SPDC2.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/SPDC2.pdf, id=2318, 758.835pt x 220.825pt>
+<Figures/MoVo/SPDC2.pdf, id=2323, 758.835pt x 220.825pt>
 File: Figures/MoVo/SPDC2.pdf Graphic file (type pdf)
 <use Figures/MoVo/SPDC2.pdf>
-Package pdftex.def Info: Figures/MoVo/SPDC2.pdf  used on input line 81.
+Package pdftex.def Info: Figures/MoVo/SPDC2.pdf  used on input line 80.
 (pdftex.def)             Requested size: 375.20143pt x 109.18571pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/SPDC3.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/SPDC3.pdf, id=2319, 686.565pt x 473.77pt>
+<Figures/MoVo/SPDC3.pdf, id=2324, 686.565pt x 473.77pt>
 File: Figures/MoVo/SPDC3.pdf Graphic file (type pdf)
 <use Figures/MoVo/SPDC3.pdf>
-Package pdftex.def Info: Figures/MoVo/SPDC3.pdf  used on input line 88.
+Package pdftex.def Info: Figures/MoVo/SPDC3.pdf  used on input line 87.
 (pdftex.def)             Requested size: 211.04857pt x 145.631pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/SPDC4.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/SPDC4.pdf, id=2320, 666.49pt x 473.77pt>
+<Figures/MoVo/SPDC4.pdf, id=2325, 666.49pt x 473.77pt>
 File: Figures/MoVo/SPDC4.pdf Graphic file (type pdf)
 <use Figures/MoVo/SPDC4.pdf>
-Package pdftex.def Info: Figures/MoVo/SPDC4.pdf  used on input line 94.
+Package pdftex.def Info: Figures/MoVo/SPDC4.pdf  used on input line 93.
 (pdftex.def)             Requested size: 211.04857pt x 150.01909pt.
 [82 <./Figures/MoVo/SPDC0.pdf> <./Figures/MoVo/SPDC1.pdf> <./Figures/MoVo/SPDC2
 .pdf> <./Figures/MoVo/SPDC3.pdf> <./Figures/MoVo/SPDC4.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/Device0.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/Device0.pdf, id=2360, 758.835pt x 217.81375pt>
+<Figures/MoVo/Device0.pdf, id=2365, 758.835pt x 217.81375pt>
 File: Figures/MoVo/Device0.pdf Graphic file (type pdf)
 <use Figures/MoVo/Device0.pdf>
-Package pdftex.def Info: Figures/MoVo/Device0.pdf  used on input line 106.
+Package pdftex.def Info: Figures/MoVo/Device0.pdf  used on input line 105.
 (pdftex.def)             Requested size: 375.20143pt x 107.69681pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/Device1.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/Device1.pdf, id=2361, 754.82pt x 217.81375pt>
+<Figures/MoVo/Device1.pdf, id=2366, 754.82pt x 217.81375pt>
 File: Figures/MoVo/Device1.pdf Graphic file (type pdf)
 <use Figures/MoVo/Device1.pdf>
-Package pdftex.def Info: Figures/MoVo/Device1.pdf  used on input line 110.
+Package pdftex.def Info: Figures/MoVo/Device1.pdf  used on input line 109.
 (pdftex.def)             Requested size: 375.20143pt x 108.26846pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/Device2.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/Device2.pdf, id=2362, 744.7825pt x 220.825pt>
+<Figures/MoVo/Device2.pdf, id=2367, 744.7825pt x 220.825pt>
 File: Figures/MoVo/Device2.pdf Graphic file (type pdf)
 <use Figures/MoVo/Device2.pdf>
-Package pdftex.def Info: Figures/MoVo/Device2.pdf  used on input line 111.
+Package pdftex.def Info: Figures/MoVo/Device2.pdf  used on input line 110.
 (pdftex.def)             Requested size: 375.20143pt x 111.24785pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/Device3.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/Device3.pdf, id=2363, 687.56876pt x 473.77pt>
+<Figures/MoVo/Device3.pdf, id=2368, 687.56876pt x 473.77pt>
 File: Figures/MoVo/Device3.pdf Graphic file (type pdf)
 <use Figures/MoVo/Device3.pdf>
-Package pdftex.def Info: Figures/MoVo/Device3.pdf  used on input line 118.
+Package pdftex.def Info: Figures/MoVo/Device3.pdf  used on input line 117.
 (pdftex.def)             Requested size: 211.04857pt x 145.42136pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/Device4.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/Device4.pdf, id=2364, 668.4975pt x 473.77pt>
+<Figures/MoVo/Device4.pdf, id=2369, 668.4975pt x 473.77pt>
 File: Figures/MoVo/Device4.pdf Graphic file (type pdf)
 <use Figures/MoVo/Device4.pdf>
-Package pdftex.def Info: Figures/MoVo/Device4.pdf  used on input line 124.
+Package pdftex.def Info: Figures/MoVo/Device4.pdf  used on input line 123.
 (pdftex.def)             Requested size: 211.04857pt x 149.57088pt.
 [83 <./Figures/MoVo/Device0.pdf> <./Figures/MoVo/Device1.pdf> <./Figures/MoVo/D
 evice2.pdf> <./Figures/MoVo/Device3.pdf> <./Figures/MoVo/Device4.pdf>])
 (./Chapters/MoVo/attack.tex
-<Figures/MoVo/attack.pdf, id=2412, 1589.94pt x 469.755pt>
+<Figures/MoVo/attack.pdf, id=2417, 1589.94pt x 469.755pt>
 File: Figures/MoVo/attack.pdf Graphic file (type pdf)
 <use Figures/MoVo/attack.pdf>
 Package pdftex.def Info: Figures/MoVo/attack.pdf  used on input line 5.
@@ -2135,7 +2135,7 @@ Package pdftex.def Info: Figures/MoVo/attack.pdf  used on input line 5.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [84] [85 <./Figures/MoVo/attack.pdf>]) (./Chapters/MoVo/system.tex
-<Figures/MoVo/workflow.pdf, id=2575, 1300.86pt x 339.2675pt>
+<Figures/MoVo/workflow.pdf, id=2580, 1300.86pt x 339.2675pt>
 File: Figures/MoVo/workflow.pdf Graphic file (type pdf)
 <use Figures/MoVo/workflow.pdf>
 Package pdftex.def Info: Figures/MoVo/workflow.pdf  used on input line 6.
@@ -2152,7 +2152,7 @@ Overfull \vbox (6.35509pt too high) has occurred while \output is active []
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/syllable.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/syllable.pdf, id=2635, 1155.31625pt x 758.835pt>
+<Figures/MoVo/syllable.pdf, id=2640, 1155.31625pt x 758.835pt>
 File: Figures/MoVo/syllable.pdf Graphic file (type pdf)
 <use Figures/MoVo/syllable.pdf>
 Package pdftex.def Info: Figures/MoVo/syllable.pdf  used on input line 47.
@@ -2162,7 +2162,7 @@ Package pdftex.def Info: Figures/MoVo/syllable.pdf  used on input line 47.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/movopreproces
 s.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<Figures/MoVo/movopreprocess.pdf, id=2654, 1166.3575pt x 721.69624pt>
+<Figures/MoVo/movopreprocess.pdf, id=2659, 1166.3575pt x 721.69624pt>
 File: Figures/MoVo/movopreprocess.pdf Graphic file (type pdf)
 <use Figures/MoVo/movopreprocess.pdf>
 Package pdftex.def Info: Figures/MoVo/movopreprocess.pdf  used on input line 11
@@ -2175,7 +2175,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/nonmajority.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/nonmajority.pdf, id=2686, 672.5125pt x 507.8975pt>
+<Figures/MoVo/nonmajority.pdf, id=2691, 672.5125pt x 507.8975pt>
 File: Figures/MoVo/nonmajority.pdf Graphic file (type pdf)
 <use Figures/MoVo/nonmajority.pdf>
 Package pdftex.def Info: Figures/MoVo/nonmajority.pdf  used on input line 160.
@@ -2184,29 +2184,29 @@ Package pdftex.def Info: Figures/MoVo/nonmajority.pdf  used on input line 160.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/MoVo/majority.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/MoVo/majority.pdf, id=2687, 663.47874pt x 507.8975pt>
+<Figures/MoVo/majority.pdf, id=2692, 663.47874pt x 507.8975pt>
 File: Figures/MoVo/majority.pdf Graphic file (type pdf)
 <use Figures/MoVo/majority.pdf>
 Package pdftex.def Info: Figures/MoVo/majority.pdf  used on input line 166.
 (pdftex.def)             Requested size: 234.5pt x 179.51051pt.
 [92 <./Figures/MoVo/nonmajority.pdf> <./Figures/MoVo/majority.pdf>])
 (./Chapters/MoVo/evaluation.tex
-<Figures/MoVo/MoVoData.png, id=2707, 1576.89125pt x 3213.00375pt>
+<Figures/MoVo/MoVoData.png, id=2712, 1576.89125pt x 3213.00375pt>
 File: Figures/MoVo/MoVoData.png Graphic file (type png)
 <use Figures/MoVo/MoVoData.png>
 Package pdftex.def Info: Figures/MoVo/MoVoData.png  used on input line 9.
 (pdftex.def)             Requested size: 129.54652pt x 263.96878pt.
-<Figures/MoVo/movohuman.png, id=2708, 3213.00375pt x 1578.89874pt>
+<Figures/MoVo/movohuman.png, id=2713, 3213.00375pt x 1578.89874pt>
 File: Figures/MoVo/movohuman.png Graphic file (type png)
 <use Figures/MoVo/movohuman.png>
 Package pdftex.def Info: Figures/MoVo/movohuman.png  used on input line 14.
 (pdftex.def)             Requested size: 281.40286pt x 138.26411pt.
-<Figures/MoVo/movodevice.png, id=2709, 3213.00375pt x 1578.89874pt>
+<Figures/MoVo/movodevice.png, id=2714, 3213.00375pt x 1578.89874pt>
 File: Figures/MoVo/movodevice.png Graphic file (type png)
 <use Figures/MoVo/movodevice.png>
 Package pdftex.def Info: Figures/MoVo/movodevice.png  used on input line 17.
 (pdftex.def)             Requested size: 281.40286pt x 138.26411pt.
-<Figures/MoVo/notapplicable.png, id=2710, 3213.00375pt x 1578.89874pt>
+<Figures/MoVo/notapplicable.png, id=2715, 3213.00375pt x 1578.89874pt>
 File: Figures/MoVo/notapplicable.png Graphic file (type png)
 <use Figures/MoVo/notapplicable.png>
 Package pdftex.def Info: Figures/MoVo/notapplicable.png  used on input line 20.
@@ -2214,22 +2214,22 @@ Package pdftex.def Info: Figures/MoVo/notapplicable.png  used on input line 20.
 (pdftex.def)             Requested size: 281.40286pt x 138.26411pt.
  [93] [94 <./Figures/MoVo/MoVoData.png> <./Figures/MoVo/movohuman.png> <./Figur
 es/MoVo/movodevice.png> <./Figures/MoVo/notapplicable.png>]
-<Figures/MoVo/phone.jpeg, id=2724, 1284.8pt x 1284.8pt>
+<Figures/MoVo/phone.jpeg, id=2729, 1284.8pt x 1284.8pt>
 File: Figures/MoVo/phone.jpeg Graphic file (type jpg)
 <use Figures/MoVo/phone.jpeg>
 Package pdftex.def Info: Figures/MoVo/phone.jpeg  used on input line 34.
 (pdftex.def)             Requested size: 211.04184pt x 211.04857pt.
-<Figures/MoVo/laptop.jpg, id=2725, 1284.8pt x 1284.8pt>
+<Figures/MoVo/laptop.jpg, id=2730, 1284.8pt x 1284.8pt>
 File: Figures/MoVo/laptop.jpg Graphic file (type jpg)
 <use Figures/MoVo/laptop.jpg>
 Package pdftex.def Info: Figures/MoVo/laptop.jpg  used on input line 40.
 (pdftex.def)             Requested size: 211.04184pt x 211.04857pt.
-<Figures/MoVo/desktop.jpg, id=2726, 1284.8pt x 1284.8pt>
+<Figures/MoVo/desktop.jpg, id=2731, 1284.8pt x 1284.8pt>
 File: Figures/MoVo/desktop.jpg Graphic file (type jpg)
 <use Figures/MoVo/desktop.jpg>
 Package pdftex.def Info: Figures/MoVo/desktop.jpg  used on input line 46.
 (pdftex.def)             Requested size: 211.04184pt x 211.04857pt.
-<Figures/MoVo/mimic.png, id=2727, 548.0475pt x 425.59pt>
+<Figures/MoVo/mimic.png, id=2732, 548.0475pt x 425.59pt>
 File: Figures/MoVo/mimic.png Graphic file (type png)
 <use Figures/MoVo/mimic.png>
 Package pdftex.def Info: Figures/MoVo/mimic.png  used on input line 52.
@@ -2245,7 +2245,7 @@ ktop.jpg> <./Figures/MoVo/mimic.png>]
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/movoAttack.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-</Users/mili/Documents/UltraUnlock/movoAttack.pdf, id=2734, 168.63pt x 179.6712
+</Users/mili/Documents/UltraUnlock/movoAttack.pdf, id=2739, 168.63pt x 179.6712
 5pt>
 File: /Users/mili/Documents/UltraUnlock/movoAttack.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/movoAttack.pdf>
@@ -2257,7 +2257,7 @@ Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/movoAttack.pdf  used
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/movoCommandbefore.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
-</Users/mili/Documents/UltraUnlock/movoCommandbefore.pdf, id=2751, 173.64874pt 
+</Users/mili/Documents/UltraUnlock/movoCommandbefore.pdf, id=2756, 173.64874pt 
 x 179.67125pt>
 File: /Users/mili/Documents/UltraUnlock/movoCommandbefore.pdf Graphic file (typ
 e pdf)
@@ -2270,7 +2270,7 @@ f  used on input line 94.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/movoCommandafter.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
-</Users/mili/Documents/UltraUnlock/movoCommandafter.pdf, id=2752, 173.64874pt x
+</Users/mili/Documents/UltraUnlock/movoCommandafter.pdf, id=2757, 173.64874pt x
  179.67125pt>
 File: /Users/mili/Documents/UltraUnlock/movoCommandafter.pdf Graphic file (type
  pdf)
@@ -2284,7 +2284,7 @@ ments/UltraUnlock/movoCommandafter.pdf>]
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/movoTime.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
-</Users/mili/Documents/UltraUnlock/movoTime.pdf, id=2779, 614.295pt x 466.74374
+</Users/mili/Documents/UltraUnlock/movoTime.pdf, id=2784, 614.295pt x 466.74374
 pt>
 File: /Users/mili/Documents/UltraUnlock/movoTime.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/movoTime.pdf>
@@ -2297,7 +2297,7 @@ me.pdf>] [99]
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/movoUserBefore.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-</Users/mili/Documents/UltraUnlock/movoUserBefore.pdf, id=2797, 727.71875pt x 7
+</Users/mili/Documents/UltraUnlock/movoUserBefore.pdf, id=2802, 727.71875pt x 7
 39.76375pt>
 File: /Users/mili/Documents/UltraUnlock/movoUserBefore.pdf Graphic file (type p
 df)
@@ -2310,7 +2310,7 @@ used on input line 12.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/movoUserAfter.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-</Users/mili/Documents/UltraUnlock/movoUserAfter.pdf, id=2798, 727.71875pt x 73
+</Users/mili/Documents/UltraUnlock/movoUserAfter.pdf, id=2803, 727.71875pt x 73
 9.76375pt>
 File: /Users/mili/Documents/UltraUnlock/movoUserAfter.pdf Graphic file (type pd
 f)
@@ -2352,14 +2352,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `MingPhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: CD2BABF0C5507691DC2DB7B98618F675;4924.
+(rerunfilecheck)             Checksum: 0859600A0FF80FFC2D089456286A77C8;4987.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
  ) 
 Here is how much of TeX's memory you used:
- 23501 strings out of 492616
- 413850 string characters out of 6129482
- 601225 words of memory out of 5000000
- 26611 multiletter control sequences out of 15000+600000
+ 23503 strings out of 492616
+ 413874 string characters out of 6129482
+ 601231 words of memory out of 5000000
+ 26612 multiletter control sequences out of 15000+600000
  542106 words of font info for 60 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  48i,19n,65p,1643b,1039s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2389,10 +2389,10 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2019/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2019/texmf-dist/fonts/
 type1/urw/zapfding/uzdr.pfb>
-Output written on MingPhDThesis.pdf (123 pages, 19108535 bytes).
+Output written on MingPhDThesis.pdf (123 pages, 19108588 bytes).
 PDF statistics:
- 3040 PDF objects out of 3580 (max. 8388607)
- 2301 compressed objects within 24 object streams
- 424 named destinations out of 1000 (max. 500000)
- 1035 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3045 PDF objects out of 3580 (max. 8388607)
+ 2306 compressed objects within 24 object streams
+ 425 named destinations out of 1000 (max. 500000)
+ 1043 words of extra memory for PDF output out of 10000 (max. 10000000)
 

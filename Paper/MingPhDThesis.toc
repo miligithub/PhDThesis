@@ -55,14 +55,15 @@
 \contentsline {subsection}{\numberline {4.2.1}Voice Acoustics}{75}{subsection.4.2.1}% 
 \contentsline {subsection}{\numberline {4.2.2}Self Demodulation}{76}{subsection.4.2.2}% 
 \contentsline {subsection}{\numberline {4.2.3}Acoustic Attenuation}{77}{subsection.4.2.3}% 
-\contentsline {section}{\numberline {4.3}Attack Model}{85}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}System Design}{86}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}System Overview}{86}{subsection.4.4.1}% 
-\contentsline {subsection}{\numberline {4.4.2}Syllable Separation}{88}{subsection.4.4.2}% 
-\contentsline {subsection}{\numberline {4.4.3}Preprocessing and Segmentation}{89}{subsection.4.4.3}% 
-\contentsline {subsection}{\numberline {4.4.4}The LSTM Network}{91}{subsection.4.4.4}% 
-\contentsline {section}{\numberline {4.5}Majority Voting}{92}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Implementation and Evaluation}{93}{section.4.6}% 
-\contentsline {section}{\numberline {4.7}conclusion}{99}{section.4.7}% 
+\contentsline {section}{\numberline {4.3}Proof-of-Concept}{79}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Attack Model}{85}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}System Design}{86}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}System Overview}{86}{subsection.4.5.1}% 
+\contentsline {subsection}{\numberline {4.5.2}Syllable Separation}{88}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.3}Preprocessing and Segmentation}{89}{subsection.4.5.3}% 
+\contentsline {subsection}{\numberline {4.5.4}The LSTM Network}{91}{subsection.4.5.4}% 
+\contentsline {section}{\numberline {4.6}Majority Voting}{92}{section.4.6}% 
+\contentsline {section}{\numberline {4.7}Implementation and Evaluation}{93}{section.4.7}% 
+\contentsline {section}{\numberline {4.8}conclusion}{99}{section.4.8}% 
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusion}}{101}{chapter.5}% 
 \contentsline {chapter}{REFERENCES}{102}{chapter*.63}% 
