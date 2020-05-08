@@ -13,14 +13,14 @@ In fact, voice authentication has been adopted in a wide variety of smartphone a
 For example, Android users can say ``Ok Google'' to access Google assistant directly~\cite{onlinegoogle}; the Tencent company adopts Voiceprint to provide securely, faster and easier log-ins to WeChat accounts, available on both Android and iOS platforms~\cite{onlinewechat}; the BioTrust uses voice biometrics to allow elderly and sick people to order prescription medication without the need to leave the house~\cite{onlinebio}; the Citi bank uses voice biometrics authentication system for phone banking, which reduces the number of tedious security questions~\cite{onlineciti}; the LMH Blockchain adopts Say-Tec~\cite{onlinesaytec} to authenticate, validate, process, and protect users' blockchain assets and cryptocurrency by voice~\cite{onlineblockchain}.
 %
 Based on a market research report published in 2019~\cite{onlinemarket}, the speech and voice recognition market is expected to grow from 
- \$7.5 billion as in 2018 to  \$21.5 billion by 2024. 
+ \$7.5 billion as in 2018 to \$21.5 billion by 2024. 
  
  
 
 \subsection{Voice Spoofing Attacks}\label{sec:spoof}
 In spite of the increasing trend for the adoption of voice authentication, this method is not unassailable, just like other methods. Researchers have found that voice authentication systems are vulnerable to the following four attacks~\cite{wu2015spoofing}: impersonation attack, replay attack, speech synthesis, and voice conversion.
 \begin{itemize}
-	\item  Impersonation attack refers to the scenario where an attacker tries to mimic the legitimate user’s voice without any computer-aided technology.
+	\item Impersonation attack refers to the scenario where an attacker tries to mimic the legitimate user’s voice without any computer-aided technology.
 	\item Replay attack refers to the scenario where an attacker replays a pre-recorded speech sample collected from the legitimate user. 
 	\item Speech synthesis refers to the scenario where an attacker generates intelligible, natural-sounding artificial speech from text.
 	\item Voice conversion refers to the scenario where an attacker converts his speech signals to an artificial speech signal which has similar timbre and prosody to that of the legitimate user.
@@ -55,7 +55,7 @@ Some may argue that large training data is required to build the victim's speech
 			\fbox{\includegraphics[width=1.2\textwidth]{email}}
 			\subcaption{Information leakage when the phone is locked. }
 			\label{fig:email}
-		\end{minipage}  
+		\end{minipage} 
 	\vspace{-.05in}
 		\caption{Screenshots about Voice Match on Google Nexus 6P.}\label{fig:example}
 	\end{figure*}
@@ -81,16 +81,16 @@ As mentioned in Section~\ref{sec:spoof}, the threat of impersonation attack is m
 
 Existing liveness detection methods can be classified into two groups: detecting human-related characteristics, or detecting device-related characteristics. 
 
-As listed in Table~\ref{tab:liveness}, there have been many research works on detecting human-related characteristics.  
+As listed in Table~\ref{tab:liveness}, there have been many research works on detecting human-related characteristics. 
 Girija Chetty and Michael Wagner~\cite{chetty2004automated} use cameras to detect lip movements to detect liveness. However, their work requires camera access and inherits the shortcomings of face authentication systems. Similarly, Meng et al.~\cite{meng2018wivo} tries to detect mouth movement, but from channel state information from WiFi signals. Their approach requires antenna pairs and the antennas are placed very close to humans (20cm), which is not practical in reality.
 Poss et al.~\cite{poss2008biometric} use neural tree networks to determine unique aspects of utterances and hidden Markov models to classify those features. However, their work requires high computing power and long processing time. 
 Wei Shang and Maryhelen Stevenson~\cite{shang2010score} detect liveness by testing whether an incoming recording shares the same originating utterance as any of previously-stored recordings. However, the performance of their work is largely based on the previously-stored recordings. 
 Aley-Raz et al.~\cite{aley2013device} integrate intra-session voice variation to Nuance VocalPassword~\cite{onlinenuance} for liveness detection, but they require the user to cumbersomely repeat prompted sentences.
 Zhang et al.~\cite{zhang2016voicelive} detect liveness by measuring the time-difference-of-arrival changes of a sequence of phoneme sounds using the two microphones of the phone, which requires at least two high-quality microphones in one smartphone. They also propose another work~\cite{zhang2017hearing} to detect users' articulatory gestures when speaking. However, their work requires high-quality microphones again and needs a longer computation time.
-Last but not least, Feng et al.~\cite{feng2017continuous}  utilizes the instantaneous consistency of the entire signal from the accelerometer and the microphone for liveness detection. Their work is the most closely related work to ours. However,  their work requires the user to wear extra accelerometers on the facial, throat, or sternum areas. Moreover, the accelerometer used in their work requires a very high sampling rate (11,000 Hz), which cannot be supported by current smartphones. In this work, we are only using a 400 Hz sampling rate for the accelerometer and the gyroscope.
+Last but not least, Feng et al.~\cite{feng2017continuous} utilizes the instantaneous consistency of the entire signal from the accelerometer and the microphone for liveness detection. Their work is the most closely related work to ours. However, their work requires the user to wear extra accelerometers on the facial, throat, or sternum areas. Moreover, the accelerometer used in their work requires a very high sampling rate (11,000 Hz), which cannot be supported by current smartphones. In this work, we are only using a 400 Hz sampling rate for the accelerometer and the gyroscope.
 
 The aforementioned researchers detect the liveness of a user directly, but we can also detect the liveness from the reverse side: detecting the presence of electronic devices. 
-For example, Jes{\'u}s Villalba and Eduardo Lleida~\cite{villalba2011detecting}  detect noises and spectrum changes caused by far-field microphones and loudspeakers. 
+For example, Jes{\'u}s Villalba and Eduardo Lleida~\cite{villalba2011detecting} detect noises and spectrum changes caused by far-field microphones and loudspeakers. 
 Wang et al.~\cite{wang2011channel} detect channel pattern noise caused by microphone and loudspeakers to identify replay attackers. However, they can only deal with attackers who use low-quality microphones to record the legitimate user's voices or record the voice at a long distance. 
 More recently, Chen et al.~\cite{chen2017you} detects the magnetic field emitted from loudspeakers to identify attacks, but their work requires the user to move the smartphone with the predefined trajectory around the sound source.
 
@@ -131,29 +131,29 @@ In this thesis, we propose {\shortname}, a spoof-proof voice authentication syst
 As shown in Fig.~\ref{fig:use}, the user places the smartphone horizontally and makes sure the phone is in close contact with his throat. Then the embedded motion sensors inside the phone capture the conductive vibrations from vocal organs to the throat, and to the smartphone. Afterward, the collected motion sensor data will be used for user authentication.
 
 
-The intuition behind {\shortname} is the fact that human voice is essentially vibrations, so it can be recorded by motion sensors ~\cite{hopkin2003getting,o2009sonic,michalevsky2014gyrophone}.  Such motion-sensor data can be regarded as downsampled microphone data, so it has the potentials to be used for voice authentication too. 
+The intuition behind {\shortname} is the fact that human voice is essentially vibrations, so it can be recorded by motion sensors ~\cite{hopkin2003getting,o2009sonic,michalevsky2014gyrophone}. Such motion-sensor data can be regarded as downsampled microphone data, so it has the potentials to be used for voice authentication too. 
 %
-Moreover, since human body is a nonlinear medium similar to water~\cite{kim2014sound}, sounds go through the body will be affected by acoustic attenuation~\cite{szabo1994time} and self demodulation~\cite{berktay1965possible}. Such effects are human-only effects in that electronic devices are not water-like medium and have totally different acoustic properties. Therefore, using motion data for authentication can effectively differentiate live people from electronic devices, so that the system is protected against various voice spoofing attacks.
+Moreover, since the human body is a nonlinear medium similar to water~\cite{kim2014sound}, sounds go through the body will be affected by acoustic attenuation~\cite{szabo1994time} and self demodulation~\cite{berktay1965possible}. Such effects are human-only effects in that electronic devices are not water-like medium and have totally different acoustic properties. Therefore, using motion data for authentication can effectively differentiate live people from electronic devices, so that the system is protected against various voice spoofing attacks.
 
-In fact,  there have been some recent studies that show the possibility of acquiring acoustic signals by smartphones' motion sensors. Michalevsky et al.~\cite{michalevsky2014gyrophone} proposed \textit{Gyrophone} in 2014. To the best of our knowledge, they are the first to use smartphone gyroscopes as low-frequency microphones to listen to loudspeakers. Gyrophone can differentiate 11 digits\footnote{One, two, \ldots, nine and zero.} with 65\% accuracy based on a 10 people dataset.
+In fact, there have been some recent studies that show the possibility of acquiring acoustic signals by smartphones' motion sensors. Michalevsky et al.~\cite{michalevsky2014gyrophone} proposed \textit{Gyrophone} in 2014. To the best of our knowledge, they are the first to use smartphone gyroscopes as low-frequency microphones to listen to loudspeakers. Gyrophone can differentiate 11 digits\footnote{One, two, \ldots, nine and zero.} with 65\% accuracy based on a 10 people dataset.
 %
 One year later, Zhang et al.~\cite{zhang2015accelword} proposed \textit{AccelWord}, which utilizes accelerometers to classify hot-words such as ``Okay Google'' or ``Hi Galaxy'' over other short phrases with 85\% accuracy. AccelWord is also tested over 10 people.
 %
-In 2018, however, Anald and Saxena~\cite{anand2018speechless} reproduced the aforementioned works and overturned their conclusions. They argued that smartphone motion sensors can not be affected by the speech signals transmitted through the air, no matter the sound source is a loudspeaker or a live person. They reported that only when the speakers and the motion sensors sharing a surface,  the  conductive vibrations will affect motion sensors' readings. Consisting with this newest research, {\shortname} asks the user to press the phone on his throat so that the body-borne vibrations are recorded, not the air-borne sounds.
+In 2018, however, Anald and Saxena~\cite{anand2018speechless} reproduced the aforementioned works and overturned their conclusions. They argued that smartphone motion sensors can not be affected by the speech signals transmitted through the air, no matter the sound source is a loudspeaker or a live person. They reported that only when the speakers and the motion sensors sharing a surface, the conductive vibrations will affect motion sensors' readings. Consistent with this newest research, {\shortname} asks the user to press the phone on his throat so that the body-borne vibrations are recorded, not the air-borne sounds.
 
 
 
 
 In summary, compared to previous works, the {\shortname} system have the following features:
 \begin{itemize}
-	\item  \textbf{All-in-One}: {\shortname} is an integral method which handles user authentication and liveness detection at the same time.
+	\item \textbf{All-in-One}: {\shortname} is an integral method which handles user authentication and liveness detection at the same time.
 	
-	\item  \textbf{Applicable}: {\shortname} works with current-off-the-shelf commercial smartphones. It does not require any extra electronic device nor any special phone model, since the sensors being used (motion sensors) are embedded on almost every smartphones.
+	\item \textbf{Applicable}: {\shortname} works with current-off-the-shelf commercial smartphones. It does not require any extra electronic device nor any special phone model, since the sensors being used (motion sensors) are embedded on almost every smartphone.
 	
-	\item \textbf{Easy}: Except for pressing the smartphone on the user’s throat, {\shortname} does not ask users to do extra movements other than an ordinary speaking behavior.  
+	\item \textbf{Easy}: Except for pressing the smartphone on the user’s throat, {\shortname} does not ask users to do extra movements other than an ordinary speaking behavior. 
 	
-	\item \textbf{Improved Robust}: General voice authentication systems are sensitive to the surrounding noises and their performance will degrade a lot in noisy environments. {\shortname}, however, will not be affected. This is because smartphone's motion sensors measure the conductive vibrations and the  affection from air-borne sounds is very limited~\cite{anand2018speechless}.
+	\item \textbf{Improved Robust}: General voice authentication systems are sensitive to the surrounding noises and their performance will degrade a lot in noisy environments. {\shortname}, however, will not be affected. This is because smartphone's motion sensors measure the conductive vibrations and the affection from air-borne sounds is very limited~\cite{anand2018speechless}.
 
-	\item \textbf{Expandable}: MoVo currently is a  text-dependent voice authentication systems that detects certain hot-words. However, it can be expanded to a text-independent system since it is syllable-based (will be elaborated in Section~\ref{sec:system}).
+	\item \textbf{Expandable}: MoVo currently is a text-dependent voice authentication system that detects certain hot-words. However, it can be expanded to a text-independent system since it is syllable-based (will be elaborated in Section~\ref{sec:system}).
 	
 \end{itemize}
