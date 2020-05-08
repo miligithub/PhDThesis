@@ -3,16 +3,16 @@
 %======================================== 
 \chapter{{\uu}: Smartphone Authentication \protect \\ Using Gestures in the Air}
 
-In this chapter, we propose a new authentication method for smartphones. During the authentication period, the smartphone's built-in speaker transmits ultrasound signals continuously and the user draws a user-defined gesture in the air. Then the signals reflected from the user's hand are fed into a pre-trained machine learning model to get the authentication results. The key idea is to use in-phase (I) and quadrature(Q) components to represent hand movements, which not only provides high accuracy but also decrease the data size. Moreover, to calculate I/Q components, we choose to use cascaded integrator–comb (CIC) filters, which utilizes only delay and addition and subtraction. Since CIC filters require no multiplication operations, it does not introduce high computational overhead and therefore can be implemented on most smartphones. Experiments of the proposed {\uu} system on Google Nexus 6P devices show that the system can identify 3 different gestures with an average accuracy of 90.89\% and identify 6 people with and average accuracy of 78.47\%. We also propose six directions to further increase the accuracy, as a guide for future work.
+In this chapter, we propose a new authentication method for smartphones. During the authentication period, the smartphone's built-in speaker transmits ultrasound signals continuously and the user draws a user-defined gesture in the air. Then the signals reflected from the user's hand are fed into a pre-trained machine learning model to get the authentication results. The key idea is to use in-phase (I) and quadrature(Q) components to represent hand movements, which not only provides high accuracy but also decrease the data size. Moreover, to calculate I/Q components, we choose to use cascaded integrator–comb (CIC) filters, which utilizes only delay and addition and subtraction. Since CIC filters require no multiplication operations, it does not introduce high computational overhead and therefore can be implemented on most smartphones. Experiments of the proposed {\uu} system on Google Nexus 6P devices show that the system can identify 3 different gestures with an average accuracy of 90.89\% and identify 6 people with an average accuracy of 78.47\%. We also propose six directions to further increase the accuracy, as a guide for future work.
 
 
 %========================================
 %                            Section                             
 %======================================== 	 
 \section{Introduction}
-Smartphones have been an indispensable parts of our daily lives, and most of them still require password or pin code if you want to unlock them. However, in today’s busy world, typing those passwords is what a waste of time. As a result, biometric security systems have been on the rise and many smartphones adopts the fingerprints to do authentication. The problem is, if your hands are dirty or wet, the smartphone just won’t let you in! Researchers have developed a lot more other authentication methods, such as the face ID or smart card, but these methods all require special hardwares. Moreover, if the user wear face masks, air-purifying respirators, goggles, or face shields, as during the COVID-19 pandemic, authentication methods such as face ID do not work any more. Some may argue that users can use voice authentication system instead. However, the security of voice authentication system are relatively low due to the replay attack and many users don't use the method in public because it’s uncomfortable talking to their phones with others around.
+Smartphones have been an indispensable part of our daily lives, and most of them still require a password or pin code if you want to unlock them. However, in today’s busy world, typing those passwords is a waste of time. As a result, biometric security systems have been on the rise and many smartphones adopt the fingerprints to do authentication. The problem is, if your hands are dirty or wet, the smartphone just won’t let you in! Researchers have developed a lot more other authentication methods, such as the face ID or smart card, but these methods all require special hardware. Moreover, if users wear face masks, air-purifying respirators, goggles, or face shields, as during the COVID-19 pandemic, authentication methods such as face ID do not work anymore. Some may argue that users can use voice authentication systems instead. However, the security of voice authentication systems is relatively low due to the replay attack and many users don't use the method in public because it’s uncomfortable talking to their phones with others around.
 
-Therefore, we propose a new authentication method called {\uu}, which provides silent, quick, and smooth user experience for unlocking without your hands touch the phone. It utilizes the speakers and microphones and conducts the authentication through processing ultrasound signals. The smartphone has the ability to reconstruct the user’s hand movement and determine whether it belongs to a legitimate user or not. Following the classification method proposed in~\cite{vongsingthong2015survey}, our method is a combination of knowledge-based method and identity-based method, since the user must have the knowledge of what the shape he should draw and meet the biometric features of how to draw the shape.
+Therefore, we propose a new authentication method called {\uu}, which provides a silent, quick, and smooth user experience for unlocking without your hands touch the phone. It utilizes the speakers and microphones and conducts the authentication through processing ultrasound signals. The smartphone has the ability to reconstruct the user’s hand movement and determine whether it belongs to a legitimate user or not. Following the classification method proposed in~\cite{vongsingthong2015survey}, our method is a combination of knowledge-based method and identity-based method, since the user must have the knowledge of what the shape he should draw and meet the biometric features of how to draw the shape.
 
 %========================================
 %                            Section                             
@@ -62,12 +62,7 @@ Mathematically, for a complex signal $Ae^{i \varphi }$ where $i$ is the imaginar
 \begin{displaymath}
  A = \sqrt{I^2 + Q^2}  \quad \text{and} \quad \varphi = \tan^{-1}\frac{Q}{I}
 \end{displaymath}
-%\begin{displaymath}
-%\sin(x + \varphi) = \cos(\varphi)\sin(x) + \sin(\varphi)\sin(x+\pi/2)
-%\end{displaymath}
-%\begin{displaymath}
-%\cos(x + \varphi) = \cos(\varphi) \cos(x) + \sin(\varphi)\cos(x+\pi/2)
-%\end{displaymath}
+
 
 In electrical engineering, there are three basic ways to modulate a waveform: Amplitude Modulation (AM), Frequency Modulation (FM) and Phase Modulation (PM). All of them can be achieved by I/Q modulation. Suppose the carrier's frequency is $f$, I/Q modulation is to solve the following equation:
 \begin{displaymath}
@@ -78,12 +73,6 @@ To decode the baseband signal, signal multiplication and low pass filters are ne
 I =~&\texttt{lowpass} (\texttt{ModulatedSignal}  \cdot  \cos(2 \pi f t) ) ;\\        
 Q=~&\texttt{lowpass} (\texttt{ModulatedSignal}  \cdot \sin(2 \pi f t) ) .
 \end{align*}
-%\begin{displaymath}
-%I = \texttt{lowpass} (\texttt{ModulatedSignal}  \cdot  \cos(2 \pi f t) )
-%\end{displaymath}
-%\begin{displaymath}
-%Q= \texttt{lowpass} (\texttt{ModulatedSignal}  \cdot \sin(2 \pi f t) )
-%\end{displaymath}
 
 \subsection{Hand Movements and I/Q Data}
 Now we show how hand movements can be regarded as I/Q modulation. As shown in Figure~\ref{fig:soundpath}, the smartphone speaker plays an ultrasound signal $A\cos \left (2\pi f \frac{n}{f_s}\right)$ with the peak amplitude of $A=1$, the frequency $f = 20,000 $~Hz, and the sampling frequency of $f_s = 44,100 $~Hz. At the time $t_p = \frac{n}{f_s}$, the sound propagation path $p$ decreases by $\Delta p$ due to the hand movement. The received signal therefore becomes $2A^\prime_p \cos \left (2\pi f \frac{n}{f_s}  - 2 \pi \frac{\Delta p}{\lambda} - \theta p\right)$, where $2A^\prime_p$ is the new amplitude, the term $2 \pi \frac{\Delta p}{\lambda}$ comes from the phase lag caused by the propagation delay of $\frac{\Delta p}{\lambda}$ and $\lambda$ is the wavelength of the ultrasound. In our system, $\lambda = c/f = \frac{343 \text{~m/s}}{20,000 \text{~Hz}} = 1.72 \text{~cm}$, where $c$ is the speed of sound. The last term $ \theta p$ is the  initial phase, which is caused by the hardware delay and phase inversion due to reflection~\cite{wang2016device}.  
@@ -129,11 +118,7 @@ Note that the phase for path $p$ is $\varphi_p = \left(2 \pi \frac{\Delta p}{\la
 movement of a few millimeters will significantly change the phase of the received sound wave. 
 
 In conclusion, if there is no hand movement at the time $t_p$, i.e., $\Delta p = 0$,  then $I_p$ and $Q_p$ will be stable. Otherwise, the I/Q components vary like sinusoids.
-%:
-%\begin{align*}
-%I_p = ~&A^\prime_p \cos \left( - \theta p \right) ; \\
-%Q_p = ~&A^\prime_p \sin \left( - \theta p \right) .
-%\end{align*}
+
 
 %========================================
 %                            Section                             
