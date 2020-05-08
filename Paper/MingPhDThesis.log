@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 MAY 2020 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 MAY 2020 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1779,13 +1779,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/mili/Documents/UltraU
 nlock/gestureCFM.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-</Users/mili/Documents/UltraUnlock/gestureCFM.pdf, id=1873, 403.5075pt x 411.53
-75pt>
+</Users/mili/Documents/UltraUnlock/gestureCFM.pdf, id=1873, 421.575pt x 411.537
+5pt>
 File: /Users/mili/Documents/UltraUnlock/gestureCFM.pdf Graphic file (type pdf)
 <use /Users/mili/Documents/UltraUnlock/gestureCFM.pdf>
 Package pdftex.def Info: /Users/mili/Documents/UltraUnlock/gestureCFM.pdf  used
  on input line 226.
-(pdftex.def)             Requested size: 164.15286pt x 167.41904pt.
+(pdftex.def)             Requested size: 178.22229pt x 173.98117pt.
 [58 <./Figures/UltraUnlock/realiqdata0.png> <./Figures/UltraUnlock/realiqdata1.
 png> <./Figures/UltraUnlock/realiqdata2.png>]
 
@@ -2393,7 +2393,7 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2019/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2019/texmf-dist/fonts/
 type1/urw/zapfding/uzdr.pfb>
-Output written on MingPhDThesis.pdf (123 pages, 19109034 bytes).
+Output written on MingPhDThesis.pdf (123 pages, 19108516 bytes).
 PDF statistics:
  3040 PDF objects out of 3580 (max. 8388607)
  2301 compressed objects within 24 object streams
