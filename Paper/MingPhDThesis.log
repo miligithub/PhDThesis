@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 MAY 2020 13:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 MAY 2020 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1828,30 +1828,30 @@ RT-PHONES
 <Figures/MoVo/voicematch.png, id=2043, 1084.05pt x 1927.2pt>
 File: Figures/MoVo/voicematch.png Graphic file (type png)
 <use Figures/MoVo/voicematch.png>
-Package pdftex.def Info: Figures/MoVo/voicematch.png  used on input line 186.
+Package pdftex.def Info: Figures/MoVo/voicematch.png  used on input line 43.
 (pdftex.def)             Requested size: 185.72455pt x 330.14864pt.
 
-Overfull \hbox (37.75368pt too wide) in paragraph at lines 186--187
+Overfull \hbox (37.75368pt too wide) in paragraph at lines 43--44
 [][] 
  []
 
 <Figures/MoVo/voicematch2.png, id=2044, 1084.05pt x 1927.2pt>
 File: Figures/MoVo/voicematch2.png Graphic file (type png)
 <use Figures/MoVo/voicematch2.png>
-Package pdftex.def Info: Figures/MoVo/voicematch2.png  used on input line 192.
+Package pdftex.def Info: Figures/MoVo/voicematch2.png  used on input line 49.
 (pdftex.def)             Requested size: 185.72455pt x 330.14864pt.
 
-Overfull \hbox (37.75368pt too wide) in paragraph at lines 192--193
+Overfull \hbox (37.75368pt too wide) in paragraph at lines 49--50
 [][] 
  []
 
 <Figures/MoVo/email.png, id=2045, 1084.05pt x 1927.2pt>
 File: Figures/MoVo/email.png Graphic file (type png)
 <use Figures/MoVo/email.png>
-Package pdftex.def Info: Figures/MoVo/email.png  used on input line 198.
+Package pdftex.def Info: Figures/MoVo/email.png  used on input line 55.
 (pdftex.def)             Requested size: 185.72455pt x 330.14864pt.
 
-Overfull \hbox (37.75368pt too wide) in paragraph at lines 198--199
+Overfull \hbox (37.75368pt too wide) in paragraph at lines 55--56
 [][] 
  []
 
@@ -1902,25 +1902,25 @@ Overfull \vbox (4.80501pt too high) has occurred while \output is active []
 <Figures/MoVo/standing.png, id=2115, 174.6525pt x 452.69125pt>
 File: Figures/MoVo/standing.png Graphic file (type png)
 <use Figures/MoVo/standing.png>
-Package pdftex.def Info: Figures/MoVo/standing.png  used on input line 252.
+Package pdftex.def Info: Figures/MoVo/standing.png  used on input line 103.
 (pdftex.def)             Requested size: 50.18687pt x 130.08621pt.
 <Figures/MoVo/walking.png, id=2116, 405.515pt x 733.74126pt>
 File: Figures/MoVo/walking.png Graphic file (type png)
 <use Figures/MoVo/walking.png>
-Package pdftex.def Info: Figures/MoVo/walking.png  used on input line 258.
+Package pdftex.def Info: Figures/MoVo/walking.png  used on input line 109.
 (pdftex.def)             Requested size: 71.89433pt x 130.08621pt.
 
-Overfull \hbox (1.5472pt too wide) in paragraph at lines 258--259
+Overfull \hbox (1.5472pt too wide) in paragraph at lines 109--110
  [][] 
  []
 
 <Figures/MoVo/sitting.png, id=2117, 312.16624pt x 422.57875pt>
 File: Figures/MoVo/sitting.png Graphic file (type png)
 <use Figures/MoVo/sitting.png>
-Package pdftex.def Info: Figures/MoVo/sitting.png  used on input line 264.
+Package pdftex.def Info: Figures/MoVo/sitting.png  used on input line 115.
 (pdftex.def)             Requested size: 80.08005pt x 108.405pt.
 
-Overfull \hbox (9.73291pt too wide) in paragraph at lines 264--265
+Overfull \hbox (9.73291pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
@@ -2393,7 +2393,7 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2019/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2019/texmf-dist/fonts/
 type1/urw/zapfding/uzdr.pfb>
-Output written on MingPhDThesis.pdf (123 pages, 19108516 bytes).
+Output written on MingPhDThesis.pdf (123 pages, 19108487 bytes).
 PDF statistics:
  3040 PDF objects out of 3580 (max. 8388607)
  2301 compressed objects within 24 object streams
