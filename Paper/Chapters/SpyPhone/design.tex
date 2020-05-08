@@ -241,7 +241,7 @@ The input motion data are collected similarly to how motion data are collected f
 	\label{fig:spyphonepreprocess}
 \end{figure}
 
-As mentioned in Section~\ref{sec:intro}, the motion data is impeded by low sampling rates, weak target signals, and large  interference  noises. To overcome such problems, we must preprocess the motion data. We apply a high pass filter to mitigate the noise and increase the signal-to-noise ratio. The cutoff frequency is set to be 50 Hz, since noises such as walking or other human body movements are unlikely to generate signals as high as 50 Hz.
+As mentioned in Section~\ref{sec:intro}, the motion data is impeded by low sampling rates, weak target signals, and large interference noises. To overcome such problems, we must preprocess the motion data. We apply a high pass filter to mitigate the noise and increase the signal-to-noise ratio. The cutoff frequency is set to be 50 Hz, since noises such as walking or other human body movements are unlikely to generate signals as high as 50 Hz.
 We also use the speech-background separation algorithms from \cite{rabiner2011theory} to differentiate the data affected by sound signals from those do not. The red vertical lines in Figure~\ref{fig:rawmotion} are the borderlines between the speech part and the background part. 
 Figure~\ref{fig:rawspec} and Figure~\ref{fig:newspec} show that various noises can be removed by applying a high pass filter.
 The result after the preprocessing stage is shown in Figure~\ref{fig:newmotion}. These data will be used in the next signal reconstruction stage.
@@ -306,7 +306,7 @@ These signals will be used as training data for the Bi-LSTM network discussed in
 
 
 
-\begin{figure}[!b]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width=.65\linewidth]{rnn}
 	\caption{The Bidirectional Long Short-Term Memory Network (Bi-LSTM Network).}

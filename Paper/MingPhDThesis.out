@@ -24,7 +24,7 @@
 \BOOKMARK [2][-]{subsection.2.5.4}{User Activity Classification \(Sound Type\)}{section.2.5}% 24
 \BOOKMARK [1][-]{section.2.6}{Impact Evaluation}{chapter.2}% 25
 \BOOKMARK [2][-]{subsection.2.6.1}{Impact of Training Data Size}{section.2.6}% 26
-\BOOKMARK [2][-]{subsection.2.6.2}{Impact of Downsample Rate}{section.2.6}% 27
+\BOOKMARK [2][-]{subsection.2.6.2}{Impact of Downsampling Rate}{section.2.6}% 27
 \BOOKMARK [2][-]{subsection.2.6.3}{Impact of Training Device}{section.2.6}% 28
 \BOOKMARK [2][-]{subsection.2.6.4}{Impact of Sound Volume}{section.2.6}% 29
 \BOOKMARK [2][-]{subsection.2.6.5}{Impact of Surrounding Environment}{section.2.6}% 30

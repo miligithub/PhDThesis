@@ -1,19 +1,8 @@
 
-%\parbox{3cm}{\centering {\attackName} \\or {\systemName}}
 \section{Feasibility Experiments }\label{sec:experiment}
 
-%validate the attack
+In this section, we validate the {\systemName} system and show it can eavesdrop on smartphone's built-in speakers and obtain critical information discussed in Section~\ref{sec:threat}. 
 
-In this section, we validate the {\systemName} system and show it can eavesdrop on smartphone's built-in speakers and obtain critical information discussed in Section~\ref{sec:threat}. The main result and the  comparison  to prior works are summarized in  Table~\ref{tab:comparison}. 
-%Our work has larger test dataset and achieves better accuracies.
-
-
-
-\subsection{Speech Content Learning   (Digits)}
-
-The TIDIGITS dataset~\cite{leonard1993tidigits} has 7172 audio files of isolated digits.  We use 3586 of them (3586~/~7172 =50\%) to train the dictionary. With the downsample rate $r$ set to 40, dictionary size set to ($N$=400, $K$=10), and the $p$-norm set to be the $\ell_1$-norm (absolute value), we learn an overall  dictionary of size 400~$\times$~110 by concatenating each dictionary of each individual digit class. 
-%
-For each audio file, we play it by smartphones' built-in speakers for 30 times. Therefore, the size of motion data is actually 30 times of the size of the sound data in the training dataset.  The Bi-LSTM network is actually trained with 3586~$\times$~30=107,580 data, which are the resulted signals after preprocessing and signal reconstruction. Note that although this number seems big, each data is just 1-second data at a sampling rate of 400 Hz,  and each sample is 16 bits. So the total size is 107,580~$\times$~400~$\times$~16 = 688,512,000 bits = 86.1 MB, which is indeed not big at all.
 
 \begin{landscape}
 	\centering
@@ -25,23 +14,23 @@ For each audio file, we play it by smartphones' built-in speakers for 30 times. 
 		%		\resizebox{\textwidth}{!}{
 		\begin{tabular}{cccccc}
 			\toprule[1pt]\midrule[0.3pt]
-			Work & Sensors & Setting & Main Techniques & Classification Classes &  Accuracy\\
+			Work & Sensors & Setting & Main Techniques & Classification Classes & Accuracy\\
 			\midrule[0.5pt]
-			\multirow{4}{3cm}{\shortstack{~~~Gyrophone \\ ~~\cite{michalevsky2014gyrophone}}}& \multirow{4}{*}{Gyroscopes} & \multirow{4}{*}{\parbox{3cm}{\centering 10 people from TIDIGITS \\ Desktop\\ Loudspeakers}} & \multirow{4}{*}{\parbox{1.8cm}{\centering SVM\\ GMM\\ DTW}} & \multirow{2}{*}{1 to 9, Oh, Zero  (11)}& Speaker-independent: 26\% \\ 
+			\multirow{4}{3cm}{\shortstack{~~~Gyrophone \\ ~~\cite{michalevsky2014gyrophone}}}& \multirow{4}{*}{Gyroscopes} & \multirow{4}{*}{\parbox{3cm}{\centering 10 people from TIDIGITS \\ Desktop\\ Loudspeakers}} & \multirow{4}{*}{\parbox{1.8cm}{\centering SVM\\ GMM\\ DTW}} & \multirow{2}{*}{1 to 9, Oh, Zero (11)}& Speaker-independent: 26\% \\ 
 			&&&&& Speaker-dependent: 65\%\\ \cline{5-6}
 			&&&&Speaker Identification& 65\%\\ \cline{5-6}
 			&&&&Speaker Gender& 84\%\\
 			\midrule[0.5pt]
-			\multirow{3}{*}{\shortstack{~Accelword \\ ~~\cite{zhang2015accelword}}}  & \multirow{3}{*}{Accelerometers }&\multirow{3}{*}{10 people} & \multirow{3}{*}{\parbox{1.8cm}{\centering Decision Tree} } & \multirow{2}{*}{\parbox{4cm}{\centering Ok Google, Hi Galaxy, Others (3)}}&\multirow{2}{*}{Speaker-dependent: 85\%}\\
+			\multirow{3}{*}{\shortstack{~Accelword \\ ~~\cite{zhang2015accelword}}} & \multirow{3}{*}{Accelerometers }&\multirow{3}{*}{10 people} & \multirow{3}{*}{\parbox{1.8cm}{\centering Decision Tree} } & \multirow{2}{*}{\parbox{4cm}{\centering Ok Google, Hi Galaxy, Others (3)}}&\multirow{2}{*}{Speaker-dependent: 85\%}\\
 			&&&&&\\ \cline{5-6}
 			&&&&Speaker Identification & 86\%\\
 			\midrule[0.5pt]
-			\multirow{4}{*}{\shortstack{~~SpearPhone \\ ~~\cite{anand2019spearphone}}}& \multirow{4}{*}{Accelerometers} & \multirow{4}{*}{\parbox{3cm}{\centering 326 people from TIDIGITS \\ Desktop\\ Loudspeakers}} & \multirow{4}{*}{\parbox{3cm}{\centering SVM with SMO\\ Logistic\\RF \\ RT}} & \multirow{2}{*}{1 to 9, Oh, Zero  (11)}& \multirow{2}{*}{Speaker-dependent: 71\%} \\ 
+			\multirow{4}{*}{\shortstack{~~SpearPhone \\ ~~\cite{anand2019spearphone}}}& \multirow{4}{*}{Accelerometers} & \multirow{4}{*}{\parbox{3cm}{\centering 326 people from TIDIGITS \\ Desktop\\ Loudspeakers}} & \multirow{4}{*}{\parbox{3cm}{\centering SVM with SMO\\ Logistic\\RF \\ RT}} & \multirow{2}{*}{1 to 9, Oh, Zero (11)}& \multirow{2}{*}{Speaker-dependent: 71\%} \\ 
 			&&&&& \\ \cline{5-6}
 			&&&&Speaker Identification& 80\%\\ \cline{5-6}
 			&&&&Speaker Gender& 90\%\\
 			\midrule[0.5pt]
-			\multirow{4}{*}{~~~\systemName} & \multirow{4}{*}{Both} & \multirow{4}{*}{\parbox{3.5cm}{\centering 225 people from TIDIGITS \\Built-in Speakers \\in Smartphones}} & \multirow{4}{*}{\parbox{1.8cm}{\centering Compressed Sensing\\Bi-LSTM} } &1 to 9, Oh, Zero  (11) &Speaker-independent: 90\%\\ \cline{5-6}
+			\multirow{4}{*}{~~~\systemName} & \multirow{4}{*}{Both} & \multirow{4}{*}{\parbox{3.5cm}{\centering 225 people from TIDIGITS \\Built-in Speakers \\in Smartphones}} & \multirow{4}{*}{\parbox{1.8cm}{\centering Compressed Sensing\\Bi-LSTM} } &1 to 9, Oh, Zero (11) &Speaker-independent: 90\%\\ \cline{5-6}
 			&&&&User Activity& 81\%\\ \cline{5-6}
 			&&&&Speaker Identification& 98\%\\ \cline{5-6}
 			&&&&Speaker Gender& 93\%\\
@@ -50,6 +39,18 @@ For each audio file, we play it by smartphones' built-in speakers for 30 times. 
 		%	}
 	\end{table}
 \end{landscape}
+
+%
+The main result and the comparison to prior works are summarized in Table~\ref{tab:comparison}. 
+
+
+\subsection{Speech Content Learning  (Digits)}
+
+The TIDIGITS dataset~\cite{leonard1993tidigits} has 7172 audio files of isolated digits. We use 3586 of them (3586~/~7172 =50\%) to train the dictionary. With the downsample rate $r$ set to 40, dictionary size set to ($N$=400, $K$=10), and the $p$-norm set to be the $\ell_1$-norm (absolute value), we learn an overall dictionary of size 400~$\times$~110 by concatenating each dictionary of each individual digit class. 
+%
+For each audio file, we play it by smartphones' built-in speakers for 30 times. Therefore, the size of the motion data is actually 30 times of the size of the sound data in the training dataset. The Bi-LSTM network is actually trained with 3586~$\times$~30=107,580 data, which are the resulted signals after preprocessing and signal reconstruction. Note that although this number seems big, each data is just 1-second data at a sampling rate of 400 Hz, and each sample is 16 bits. So the total size is 107,580~$\times$~400~$\times$~16 = 688,512,000 bits = 86.1 MB, which is indeed not big at all.
+
+
 %%%TODO
 %result or results
 \begin{figure}[!h]
@@ -62,26 +63,22 @@ For each audio file, we play it by smartphones' built-in speakers for 30 times. 
 		Accuracy: 90.13\% & \hspace{-.55in} Error Rate: 9.87\% \\
 		Precision: 90.13\% & \hspace{-.55in} True Positive Rate (Sensitivity/Recall): 90.71\% \\
 		$F_1$ Score: 0.901 & \hspace{-.55in} True Negative Rate (Specificity): 99.02\% \\
-		False Negative Rate: 9.29\%  & \hspace{-.55in} False Positive Rate: 0.98\% \\
+		False Negative Rate: 9.29\% & \hspace{-.55in} False Positive Rate: 0.98\% \\
 		\bottomrule
 	\end{tabular}
-%}
-%	\vspace{-.25in}
-	\caption{The Confusion Matrix of the Digit Classification Result.
-	}
-%		 In each cell, the upper number is the percentage, while the lower number is the actual count of instances. For each target class (true class), there are 207$\times$2=414 instances.}
+
+	\caption{The Confusion Matrix of the Digit Classification Result.}
 	\label{fig:digitCFM}
 \end{figure}
 %\vspace{-.1in}
 %confusion matrix
 %
 The test data is motion data from the remaining 3586 audio files. This data has never been seen by the Bi-LSTM network before. The classification result is shown as a confusion matrix in Figure~\ref{fig:digitCFM}. In the confusion matrix, each row of the matrix represents the instances in a predicted/output class while each column represents the instances in an actual/target class. The digit class ``zero'' has the highest classification accuracy of 98.6\%. The digit class ``eight'' has the lowest accuracy: only 70.5\% instances are classified to the correct class, while 16.2\% are classified as ``six''.
-% Table~\ref{tab:digitTable} lists the result of statistical analysis of the confusion matrix.
 The overall accuracy of all 11 classes is 90.13\%, with a sensitivity (true positive rate) of 90.13\% and a specificity (true negative rate) of 99.02\%.
 
 
-\subsection{Speech Content Learning  (Commands)}\label{sec:word}
-The TensorFlow Speech Commands Dataset Version 2~\cite{warden2018speech} was used for limited-vocabulary speech recognition. This dataset is consisted of 105,829 utterances of 35 words such as forward, house, happy, etc. A random guessing provides accuracy of 1/35 = 2.9\%, but {\systemName} could achieve 73.4\%. The accuracy is relatively lower than TIDIGITS, as TIDIGITS are professionally recorded while the commands data are crowdsourced online. Using the original 16,000 Hz audio data  can only achieve accuracy of 88.2\%~\cite{warden2018speech}. {\systemName} (using 400 Hz motion data) has the correct rate of 73.4/88.2=83.2\%.
+\subsection{Speech Content Learning (Commands)}\label{sec:word}
+The TensorFlow Speech Commands Dataset Version 2~\cite{warden2018speech} was used for limited-vocabulary speech recognition. This dataset consists of 105,829 utterances of 35 words such as forward, house, happy, etc. A random guessing provides accuracy of 1/35 = 2.9\%, but {\systemName} could achieve 73.4\%. The accuracy is relatively lower than TIDIGITS, as TIDIGITS are professionally recorded while the commands data are crowdsourced online. Using the original 16,000 Hz audio data can only achieve accuracy of 88.2\%~\cite{warden2018speech}. {\systemName} (using 400 Hz motion data) has the correct rate of 73.4/88.2=83.2\%.
 
 \subsection{Speaker Gender Classification and Speaker Identification}
 
@@ -96,21 +93,12 @@ The TensorFlow Speech Commands Dataset Version 2~\cite{warden2018speech} was use
 %	\hfill
 		\begin{minipage}[b]{0.49\linewidth}
 			 \centering
-			%		\begin{tabular}{lr}
-			%			\toprule
-			%			Accuracy: 93.15\% & \hspace{-.2in} Error Rate: 6.85\% \\
-			%			Precision: 99.19\% & \hspace{-.2in} True Positive Rate (Sensitivity/Recall): 88.28\% \\
-			%			$F_1$ Score: 0.934 & \hspace{-.2in} True Negative Rate (Specificity): 99.12\% \\
-			%			False Negative Rate: 11.72\%  & \hspace{-.2in} False Positive Rate: 0.88\% \\
-			%			\bottomrule
-			%		\end{tabular}
-%			\resizebox{\linewidth}{!}{
 				\begin{tabular}{r}
 				\toprule
 				Accuracy: 93.15\% \\ Error Rate: 6.85\% \\
 				Precision: 99.19\% \\True Positive Rate : 88.28\% \\
 				$F_1$ Score: 0.934 \\ True Negative Rate: 99.12\% \\
-				False Negative Rate: 11.72\%  \\ False Positive Rate: 0.88\% \\
+				False Negative Rate: 11.72\% \\ False Positive Rate: 0.88\% \\
 				\bottomrule
 			\end{tabular}
 %		}
@@ -121,20 +109,7 @@ The TensorFlow Speech Commands Dataset Version 2~\cite{warden2018speech} was use
 %		The total number of instances of true class ``Female'' is 114$\times$11$\times$2=2508, while that of ``Male'' is 93$\times$11$\times$2=2046.}
 	\label{fig:genderCFM}
 \end{figure}
-%\begin{table}[!h]
-%	\caption{Statistical Analysis of the Gender Classification Result.}
-%	\label{tab:genderTable}
-%	\hspace{-.2in}
-%	\small \centering
-%	\begin{tabular}{lr}
-%		\toprule
-%		Accuracy: 93.15\% & \hspace{-.2in} Error Rate: 6.85\% \\
-%		Precision: 99.19\% & \hspace{-.2in} True Positive Rate (Sensitivity/Recall): 88.28\% \\
-%		$F_1$ Score: 0.934 & \hspace{-.2in} True Negative Rate (Specificity): 99.12\% \\
-%		False Negative Rate: 11.72\%  & \hspace{-.2in} False Positive Rate: 0.88\% \\
-%		\bottomrule
-%	\end{tabular}
-%\end{table}
+
 \begin{table}[!h]
 	\caption{Statistical Analysis of the Speaker Identification Result.}
 	\label{tab:idTable}
@@ -148,105 +123,61 @@ The TensorFlow Speech Commands Dataset Version 2~\cite{warden2018speech} was use
 		Accuracy: 97.56\% & \hspace{-.2in} Error Rate: 2.44\% \\
 		Precision: 97.69\% & \hspace{-.2in} True Positive Rate (Sensitivity/Recall): 97.56\% \\
 		$F_1$ Score: 0.976 & \hspace{-.2in} True Negative Rate (Specificity): 99.99\% \\
-		False Negative Rate: 2.44\%  & \hspace{-.2in} False Positive Rate: 0.01\% \\
+		False Negative Rate: 2.44\% & \hspace{-.2in} False Positive Rate: 0.01\% \\
 		\bottomrule
 	\end{tabular}
 %}
 %	\vspace{-.1in}
 \end{table}
 
-%Accuracy: 0.9315
-%Error: 0.0685
-%Sensitivity: 0.8828
-%Specificity: 0.9912
-%Precision: 0.9919
-%FalsePositiveRate: 0.0088
-%F1_score: 0.9342
-%MatthewsCorrelationCoefficient: 0.8698
-%Kappa: 0.8634
-
 The same training and testing data are also used for gender classification and speaker identification, since the TIDIGITS audio files are labeled with gender and speaker ID. The result for gender classification is shown in Figure~\ref{fig:genderCFM}.
-% and Table~\ref{tab:genderTable}. 
-% The overall accuracy is 93.15\%, with a sensitivity of  88.28\% and a specificity of 99.12\%. Note that here we regard ``female'' as ``True'' and ``male'' as ``false''. If we choose the other way, then the sensitivity is 99.12\% and the specificity is 88.28\%.
-%
 For speaker identification, since the number of classes is 225, we do not show the confusion matrix, but show the result of statistical analysis as in Table~\ref{tab:idTable}. The overall accuracy is 97.56\% with the sensitivity of 97.56\% and the specificity is 99.99\%.
 
 
 
 
-
-%%TODO
-%IN OTHER WORD
-
 \subsection{User Activity Classification (Sound Type)}
+
+
 We also test whether the {\systemName} can classify the type of sound signals played by smartphone speakers. The dataset consists of two parts: the first is the built-in (default) alarm sounds, notification sounds and ringtones provided by the Android operating system, the other is the speech sounds from the TIMIT~\cite{garofolo1993timit} dataset where 10 sentences are spoken by each speaker.
 %
-In detail, we obtain 18 alarm sounds, 11 notification sounds, and 12 ringtones from \verb|/system/media/sound/| on a Google Nexus 6P smartphone with an Android 8.1 ``Oreo'' system. The speech data consist of 10 sentences from a male speaker and 10 sentences from a female speaker.  We increase the atom size $N$ to 800 when building the dictionary, so that the measurement size is 800 as well, which means a piece of motion data of 800~/~400 Hz = 2~seconds. In other words, when classifying the sound type, we evaluate the motion data using a 2-second threshold, which is longer than that of classifying the digit (1~second).
+In detail, we obtain 18 alarm sounds, 11 notification sounds, and 12 ringtones from \verb|/system/media/sound/| on a Google Nexus 6P smartphone with an Android 8.1 ``Oreo'' system. The speech data consist of 10 sentences from a male speaker and 10 sentences from a female speaker. We increase the atom size $N$ to 800 when building the dictionary, so that the measurement size is 800 as well, which means a piece of motion data of 800~/~400 Hz = 2~seconds. In other words, when classifying the sound type, we evaluate the motion data using a 2-second threshold, which is longer than that of classifying the digit (1~second).
 
-The result is shown in Figure~\ref{fig:activityCFM}.
-% and Table~\ref{tab:activityTable}. 
- The {\systemName} system can successfully differentiate between different sound types with overall accuracy of 80.56\%, which means attackers can know when you get up in the morning (``Alarm''),  when you receive a notifications (``Notification''), when you are called by others (``Ringtone''), and when the person from the other end of call starts speaking (``Ringtone'' followed by ``Speech''). Moreover, attackers can also infer activities such as watching videos or listening to audio books (``Speech'' without ``Ringtone'' as a precursor). In other words, various sound-related user activities are not secrets to {\attackName} attackers, not to mention that  motion-related activities can be monitored by motion sensors as a default.
-%
-Note that the average accuracy of identifying ``speech'' is 94.7\%, so the {\systemName} system can first determine whether the input belongs to ``speech'', then classify the speaker gender/identity or the digit class as mentioned above. 
 
-%%TODO
-%Integrating
-
-The overall accuracy is much lower because of the other three classes.  These classes are misclassified since alarm sounds, notification sounds and ringtones are not strictly defined. Android groups them in a general convention way, not by scientific methods. In fact, smartphone users may choose to use ringtones as alarms, or use alarm sounds as ringtones. Such inherent ambiguity is the main reason for the low accuracy. To further improve the accuracy, more features such as the total duration (``notification'' tends to be shorter than ``ringtones'') or the repetitive (``alarm'' tends to ring once a day) should be considered. Integrating algorithms to learn these features is a potential future work for a better design of {\systemName}.
-\begin{figure}[!t]
-		\begin{minipage}{\linewidth}
+\begin{figure}[ht]
+	\begin{minipage}{\linewidth}
 		\centering
 		\begin{minipage}[c]{0.5\linewidth}			
 			\includegraphics[width=.8\linewidth]{activityCFM}
 		\end{minipage}
 		%	\hfill
 		\begin{minipage}[b]{0.49\linewidth}
-		\centering
-%			\resizebox{\linewidth}{!}{
-				\begin{tabular}{r}
+			\centering
+			%			\resizebox{\linewidth}{!}{
+			\begin{tabular}{r}
 				\toprule
 				Accuracy: 80.56\% \\ Error Rate: 19.44\% \\
 				Precision: 72.22\% \\ True Positive Rate: 72.49\% \\
 				$F_1$ Score: 0.720\\ True Negative Rate: 94.07\% \\
-				False Negative Rate: 27.51\%  \\  False Positive Rate: 5.93\% \\
+				False Negative Rate: 27.51\% \\ False Positive Rate: 5.93\% \\
 				\bottomrule
 			\end{tabular}
-%		}
+			%		}
 		\end{minipage}
 	\end{minipage}
 	
-%\small \centering
-%\begin{tabular}{lr}
-%	\toprule
-%	Accuracy: 80.56\% & \hspace{-.2in} Error Rate: 19.44\% \\
-%	Precision: 72.22\% & \hspace{-.2in} True Positive Rate (Sensitivity/Recall): 72.49\% \\
-%	$F_1$ Score: 0.720 & \hspace{-.2in} True Negative Rate (Specificity): 94.07\% \\
-%	False Negative Rate: 27.51\%  & \hspace{-.2in} False Positive Rate: 5.93\% \\
-%	\bottomrule
-%\end{tabular}
 	\vspace{-.1in}
 	\caption{The Confusion Matrix of the Sound Type Classification Result.}
 	\label{fig:activityCFM}
 	\vspace{-.1in}
 \end{figure}
 
-
-%\begin{table}[!t]
-%	\caption{Statistical Analysis of the Sound Type Classification Result.}
-%	\label{tab:activityTable}
-%	\hspace{-.2in}
-%	\vspace{-.1in}
-%	\small \centering
-%	\begin{tabular}{lr}
-%		\toprule
-%		Accuracy: 80.56\% & \hspace{-.2in} Error Rate: 19.44\% \\
-%		Precision: 72.22\% & \hspace{-.2in} True Positive Rate (Sensitivity/Recall): 72.49\% \\
-%		$F_1$ Score: 0.720 & \hspace{-.2in} True Negative Rate (Specificity): 94.07\% \\
-%		False Negative Rate: 27.51\%  & \hspace{-.2in} False Positive Rate: 5.93\% \\
-%		\bottomrule
-%	\end{tabular}
-%\end{table}
+The result is shown in Figure~\ref{fig:activityCFM}.
+ The {\systemName} system can successfully differentiate between different sound types with an overall accuracy of 80.56\%, which means attackers can know when you get up in the morning (``Alarm''), when you receive a notification (``Notification''), when you are called by others (``Ringtone''), and when the person from the other end of call starts speaking (``Ringtone'' followed by ``Speech''). Moreover, attackers can also infer activities such as watching videos or listening to audio-books (``Speech'' without ``Ringtone'' as a precursor). In other words, various sound-related user activities are not secrets to {\attackName} attackers, not to mention that motion-related activities can be monitored by motion sensors as a default.
+%
+Note that the average accuracy of identifying ``speech'' is 94.7\%, so the {\systemName} system can first determine whether the input belongs to ``speech'', then classify the speaker gender/identity or the digit class as mentioned above. 
 
 
-%compare to gyrophone
-%%TODO: add techniques
+The overall accuracy is much lower because of the other three classes. These classes are misclassified since alarm sounds, notification sounds and ringtones are not strictly defined. Android groups them in a generally conventional way, not by scientific methods. In fact, smartphone users may choose to use ringtones as alarms, or use alarm sounds as ringtones. Such inherent ambiguity is the main reason for the low accuracy. To further improve the accuracy, more features such as the total duration (``notification'' tends to be shorter than ``ringtones'') or the repetitive (``alarm'' tends to ring once a day) should be considered. Integrating algorithms to learn these features is a potential future work for a better design of {\systemName}.
+
+

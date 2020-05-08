@@ -9,14 +9,14 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces The Magnitude and Phase Response of the FIR Highpass filter.\relax }}{25}{figure.caption.16}% 
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Preprocessing of Motion Data. }}{26}{figure.caption.17}% 
 \contentsline {figure}{\numberline {2.10}{\ignorespaces The Bidirectional Long Short-Term Memory Network (Bi-LSTM Network).\relax }}{29}{figure.caption.18}% 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces The Confusion Matrix of the Digit Classification Result. \relax }}{32}{figure.caption.20}% 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces The Confusion Matrix of the Digit Classification Result.\relax }}{32}{figure.caption.20}% 
 \contentsline {figure}{\numberline {2.12}{\ignorespaces The Confusion Matrix of the Speaker Gender Classification Result. \relax }}{33}{figure.caption.21}% 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces The Confusion Matrix of the Sound Type Classification Result.\relax }}{35}{figure.caption.23}% 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Impact of Training Data Size.\relax }}{36}{figure.caption.24}% 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Impact of Downsample Rate.\relax }}{37}{figure.caption.25}% 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Impact of Sound Volume.\relax }}{38}{figure.caption.27}% 
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Impact of Surrounding Environment.\relax }}{39}{figure.caption.28}% 
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Testing Setup.\relax }}{39}{figure.caption.29}% 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces The Confusion Matrix of the Sound Type Classification Result.\relax }}{34}{figure.caption.23}% 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Impact of Training Data Size.\relax }}{35}{figure.caption.24}% 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Impact of Downsampling Rate.\relax }}{36}{figure.caption.25}% 
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Impact of Sound Volume.\relax }}{37}{figure.caption.27}% 
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Impact of Surrounding Environment.\relax }}{38}{figure.caption.28}% 
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Testing Setup.\relax }}{38}{figure.caption.29}% 
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Impact of Surrounding Environments.}}{40}{figure.caption.30}% 
 \contentsline {figure}{\numberline {2.20}{\ignorespaces Impact of User Mobility.\relax }}{41}{figure.caption.31}% 
 \contentsline {figure}{\numberline {2.21}{\ignorespaces Accuracy in the walking (left) and driving (right) scenario.}}{42}{figure.caption.32}% 

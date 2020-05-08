@@ -5,41 +5,42 @@ The internal parameters control how the dictionary is learned and the external p
 Note that a random guess results in an accuracy of 1/11 = 9.09\%.
 
 \subsection{Impact of Training Data Size}\label{sec:impact:trainsize}
-The size of training data for dictionary learning is an internal parameter. In the previous section, we use 3586 audio files (50\% of full dataset)  to train the dictionary. In this section, we vary the size from 660 to 1760 and show the experiment results in Figure~\ref{fig:trainSize}, which is a box and whisker plot.
-%\footnote{The ends of the box are the upper and lower quartiles (25th and 75th percentiles), the central line inside the box indicates the median, the whiskers extend to the highest and lowest accuracy values not considered outliers, and the outliers are plotted individually using the `+' symbol.}.  
-We can see that the classification accuracy increases from $\sim$56\% to $\sim$78\% as the data size increases.  This result is reasonable since the more data is used in training, the learned dictionary is more representative and the machine learning model is more accurate. 
-%
-In fact, recent researches have shown that to build a representation dictionary, the typically sufficient number of training samples grows up quasilinearly with the signal dimension, i.e., $\mathcal{O}(N\log N)$~\cite{remi2010dictionary}. In our experiment, the atom size $N$ is set to be 400, therefore, several hundred or a few thousand of training data should be enough.
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=.5\linewidth]{trainSize}
-		\vspace{-.1in}
+	\vspace{-.1in}
 	\caption{Impact of Training Data Size.}
 	\label{fig:trainSize}
-		\vspace{-.1in}
+	\vspace{-.1in}
 \end{figure}
 
-%Last but not least, the buffer size or atom length $N$ is an important parameter in the algorithm. On the one hand, 
-
-%%TODO figure size
-\subsection{Impact of Downsample Rate}\label{sec:impact:downrate}
-The downsample rate $r$ is the other internal parameter to study. This parameter is influenced by four frequencies: the sampling rate of smartphones' built-in speakers (48,000~Hz in Nexus 6P), the sampling rate to record human speech (20,000 Hz in TIDIGIT), the frequency range of human speech (100-4,000~Hz), and the sampling rate of motion sensors (400 Hz in Nexus 6P). 
+The size of training data for dictionary learning is an internal parameter. In the previous section, we use 3586 audio files (50\% of full dataset) to train the dictionary. In this section, we vary the size from 660 to 1760 and show the experiment results in Figure~\ref{fig:trainSize}, which is a box and whisker plot\footnote{The ends of the box are the upper and lower quartiles (25th and 75th percentiles), the central line inside the box indicates the median, the whiskers extend to the highest and lowest accuracy values not considered outliers, and the outliers are plotted individually using the `+' symbol.}. 
+We can see that the classification accuracy increases from $\sim$56\% to $\sim$78\% as the data size increases. This result is reasonable since the more data is used in training, the learned dictionary is more representative and the machine learning model is more accurate. 
 %
-We vary this rate from 5 to 50 and find that the performance of {\systemName}  improves with the increase of the downsample rate at the beginning, then the accuracy enters a relatively stable stage when $r=30$ and $r=40$. The accuracy declines if a higher downsample rate is used ($r=50$). From Figure~\ref{fig:downsample}, when  $r \in [20, 50]$, the average accuracy is above 90\%. 
-%
-We do not test the cases when $r > 50$, because $50 = 20,000 Hz / 400 Hz$ is the gap between sampling rate of training sound data and that of motion data.  If we use a larger downsample rate, the learned atoms would contain less information than the motion data, which invalidates the dictionary and contradicts with the goal of using compressed sensing to reconstruct more signal samples. 
+In fact, recent researches have shown that to build a representation dictionary, the typically sufficient number of training samples grows up quasilinearly with the signal dimension, i.e., $\mathcal{O}(N\log N)$~\cite{remi2010dictionary}. In our experiment, the atom size $N$ is set to be 400, therefore, several hundred or a few thousand of training data should be enough.
 
+
+
+
+\subsection{Impact of Downsampling Rate}\label{sec:impact:downrate}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=.6\linewidth]{downsample}
 	\vspace{-.1in}
-	\caption{Impact of Downsample Rate.}
-	\label{fig:downsample}
-		\vspace{-.1in}
+	\caption{Impact of Downsampling Rate.}
+	\label{fig:downsampling}
+	\vspace{-.1in}
 \end{figure}
 
-%\subsection{impact of dictionary learning algorithms}\label{sec:impact:dicalgo}
+The downsampling rate $r$ is the other internal parameter to study. This parameter is influenced by four frequencies: the sampling rate of smartphones' built-in speakers (48,000~Hz in Nexus 6P), the sampling rate to record human speech (20,000 Hz in TIDIGIT), the frequency range of human speech (100-4,000~Hz), and the sampling rate of motion sensors (400 Hz in Nexus 6P). 
+%
+We vary this rate from 5 to 50 and find that the performance of {\systemName} improves with the increase of the downsampling rate at the beginning, then the accuracy enters a relatively stable stage when $r=30$ and $r=40$. The accuracy declines if a higher downsampling rate is used ($r=50$). From Figure~\ref{fig:downsampling}, when $r \in [20, 50]$, the average accuracy is above 90\%. 
+%
+We do not test the cases when $r > 50$, because $50 = 20,000 Hz / 400 Hz$ is the gap between the sampling rate of training sound data and that of motion data. If we use a larger downsampling rate, the learned atoms would contain less information than the motion data, which invalidates the dictionary and contradicts with the goal of using compressed sensing to reconstruct more signal samples. 
+
+
+
+
 \subsection{Impact of Training Device}\label{sec:impact:device}
 We tested whether the trained LSTM network is robust across different devices. Due to time limit, only two devices are tested with the result shown in Table~\ref{tab:device}. Different devices with same model, and different devies with different model will be tested as a future work.
 \begin{table}[!h]
@@ -50,28 +51,17 @@ We tested whether the trained LSTM network is robust across different devices. D
 	\centering
 %	\vspace{-.1in}
 	\begin{tabular}{ccc}
-		\toprule[0.5pt]\
-		%		& \multicolumn{2}{c}{Training}\\
+		\toprule[0.5pt]
 		& Nexus 6P Training& Galaxy S8 Training\\
 		\midrule[0.5pt]
-		%		\hline
 		Nexus 6P Testing & 90.52\% & 83.26\%\\
 		Galaxy S8 Testing & 84.39\% & 90.48\% \\
-		%		& Google Nexus 6P Training & Samsung Galaxy S8 Training \\
-		%		Google Nexus 6P Testing &  &\\
-		%		Samsung Galaxy S8 Testing && \\
 		\bottomrule[0.5pt]
 	\end{tabular}
 %	\vspace{-.1in}
 \end{table}
 
 \subsection{Impact of Sound Volume}\label{sec:impact:volume}
-In this section, we study how the sound volume affects the  performance  of {\systemName}. 
-%
-By calling the \verb|getStreamVolume(AudioManager.STREAM_MUSIC)| for the \verb|AudioManager| class, the Google Nexus 6P device supports 15 volume levels. All these volume levels are tested and the results are shown in Figure~\ref{fig:volume}. 
-%
-The accuracy goes up when the volume goes up. The classification accuracy is above 60\% when the volume is set to be level 10 or larger, and the accuracy goes to above 90\% when the volume is set to be the highest two levels. Even when the volume is low, the average accuracy is about 30-40\%, over 3 times higher than the random guess accuracy of 9.09\%.
-
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=.9\linewidth]{volume}
@@ -79,26 +69,38 @@ The accuracy goes up when the volume goes up. The classification accuracy is abo
 	\label{fig:volume}
 \end{figure}
 
-\subsection{Impact of Surrounding Environment}\label{sec:impact:noise}
-In this section, we test how background noises like real human talking influence the classification accuracy. When the smartphone speakers are playing sounds, a real person talks 20 cm away from the smartphone, with a similar volume.  The result is shown in Figure~\ref{fig:noise}, the overall accuracy for all classes is about 60\%. Since {\systemName} still works in this experiment, it is an evidence that motion sensors are more sensitive to the built-in speakers than other sound sources which transmit signals through the air. 
-%
-It is worth mentioning that the performance of {\systemName} can be further improved if more training data is added. At this time, all training data are collected in a quiet environment, so directly feeding an input data from noisy environment decreases the accuracy from 91\% to 60\%. Adding data from various environment, however, is expected to increase the robustness of the system and therefore a future research direction. 
 
-%We have planned to collect these data and retrain the Bi-LSTM network in future.
-\begin{figure}[!h]
+In this section, we study how the sound volume affects the performance of {\systemName}. 
+%
+By calling the \verb|getStreamVolume(AudioManager.STREAM_MUSIC)| for the \verb|AudioManager| class, the Google Nexus 6P device supports 15 volume levels. All these volume levels are tested and the results are shown in Figure~\ref{fig:volume}. 
+%
+The accuracy goes up when the volume goes up. The classification accuracy is above 60\% when the volume is set to be level 10 or larger, and the accuracy goes to above 90\% when the volume is set to be the highest two levels. Even when the volume is low, the average accuracy is about 30-40\%, over 3 times higher than the random guess accuracy of 9.09\%.
+
+
+\subsection{Impact of Surrounding Environment}\label{sec:impact:noise}
+
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width=.6\linewidth]{noise}
 	\caption{Impact of Surrounding Environment.}
 	\label{fig:noise}
 \end{figure}
 
-To further test the impact of noises, we use a babble noise file and play the noise with different volume. We control the sound pressure level received by the target phone to 55dB (quiet urban street), 60dB (normal conversation), and 65 dB (busy street). The results are shown in Figure ~\ref{fig:noisetestresult}.
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=.5\linewidth]{noisetest}
 	\caption{Testing Setup.}
 	\label{fig:noisetest}
 \end{figure}
+
+In this section, we test how background noises like real human talking influence the classification accuracy. When the smartphone speakers are playing sounds, a real person talks 20 cm away from the smartphone, with a similar volume. The result is shown in Figure~\ref{fig:noise}, the overall accuracy for all classes is about 60\%. Since {\systemName} still works in this experiment, it is an evidence that motion sensors are more sensitive to the built-in speakers than other sound sources that transmit signals through the air. 
+%
+It is worth mentioning that the performance of {\systemName} can be further improved if more training data is added. At this time, all training data are collected in a quiet environment, so directly feeding an input data from a noisy environment decreases the accuracy from 91\% to 60\%. Adding data from various environments, however, is expected to increase the robustness of the system and therefore a future research direction. 
+
+
+
+To further test the impact of noises, we use a babble noise file and play the noise with different volumes. We control the sound pressure level received by the target phone to 55dB (quiet urban street), 60dB (normal conversation), and 65 dB (busy street). The results are shown in Figure ~\ref{fig:noisetestresult}.
+
 \begin{landscape}
 	\begin{figure}[!h]
 		
@@ -111,7 +113,7 @@ To further test the impact of noises, we use a babble noise file and play the no
 				Accuracy: 88.87\% & \hspace{-.00in} Error Rate: 11.13\% \\
 				Precision: 88.87\% & \hspace{-.00in} True Positive Rate: 89.20\% \\
 				$F_1$ Score: 0.889 & \hspace{-.00in} True Negative Rate: 98.89\% \\
-				False Negative: 10.80\%  & \hspace{-.00in} False Positive Rate: 1.11\% \\
+				False Negative: 10.80\% & \hspace{-.00in} False Positive Rate: 1.11\% \\
 				\bottomrule
 			\end{tabular}
 			\subcaption{Quiet Street (55 dB noise)}
@@ -125,7 +127,7 @@ To further test the impact of noises, we use a babble noise file and play the no
 				Accuracy: 85.48\% & \hspace{-.00in} Error Rate: 14.52\% \\
 				Precision: 85.49\% & \hspace{-.00in} True Positive Rate: 86.16\% \\
 				$F_1$ Score: 0.855 & \hspace{-.00in} True Negative Rate: 98.55\% \\
-				False Negative: 13.84\%  & \hspace{-.00in} False Positive Rate: 1.45\% \\
+				False Negative: 13.84\% & \hspace{-.00in} False Positive Rate: 1.45\% \\
 				\bottomrule
 			\end{tabular}
 			\subcaption{Normal Conversation (60 dB noise)}
@@ -139,23 +141,23 @@ To further test the impact of noises, we use a babble noise file and play the no
 				Accuracy: 77.50\% & \hspace{-.00in} Error Rate: 22.50\% \\
 				Precision: 77.47\% & \hspace{-.00in} True Positive Rate: 77.61\% \\
 				$F_1$ Score: 0.773 & \hspace{-.00in} True Negative Rate: 97.76\% \\
-				False Negative: 22.39\%  & \hspace{-.00in} False Positive Rate: 2.24\% \\
+				False Negative: 22.39\% & \hspace{-.00in} False Positive Rate: 2.24\% \\
 				\bottomrule
 			\end{tabular}
 		\subcaption{Noisy Street (65 dB noise)}
 		\end{minipage}
-		\caption[Impact of Surrounding Environments.]{The Impact of Surrounding Environments: Quiet Street, Normal Conversation, and Noisy Street. Note that the decibel values are  the average sound pressure levels received by the smartphone. }
+		\caption[Impact of Surrounding Environments.]{The Impact of Surrounding Environments: Quiet Street, Normal Conversation, and Noisy Street. Note that the decibel values are the average sound pressure levels received by the smartphone. }
 		\label{fig:noisetestresult}
 	\end{figure}
 \end{landscape}
 
 
 \subsection{Impact of User Mobility}\label{sec:impact:move}
-All previous experiments are conducted when the smartphone is placed on a desk, without being touched or moved during the data collection stage.  As illustrated in Figure~\ref{fig:spyphonepreprocess}, user movements are regarded as noises. Fortunately, since user movement is very slow and are unlikely to generate signals as high as 50 Hz. Thus, we can apply a high pass filter to mitigate the noise. In Figure~\ref{fig:newspec}, we see noises are removed after the filter.  In this section, we validate the performance of {\systemName} with the presence of user mobility. 
+All previous experiments are conducted when the smartphone is placed on a desk, without being touched or moved during the data collection stage. As illustrated in Figure~\ref{fig:spyphonepreprocess}, user movements are regarded as noises. Fortunately, since user movement is very slow and is unlikely to generate signals as high as 50 Hz. Thus, we can apply a high pass filter to mitigate the noise. In Figure~\ref{fig:newspec}, we see noises are removed after the filter. In this section, we validate the performance of {\systemName} with the presence of user mobility. 
 
-We conduct two experiments: walking scenario and the driving scenario. The users put the phone in their pockets while playing the sounds using the speakers. The results are shown in Figure~\ref{fig: walkanddrive}. The accuracy for the walking scenario is 83.94\% and that of driving scenario is 73.34\%. The accuracy of driving scenario is relatively lower because of the noises are 
+We conduct two experiments: the walking scenario and the driving scenario. The users put the phone in their pockets while playing the sounds using the speakers. The results are shown in Figure~\ref{fig: walkanddrive}. The accuracy for the walking scenario is 83.94\% and that of driving scenario is 73.34\%. The accuracy of the driving scenario is relatively lower because of frequencies of the noises are relatively higher and thus close to the aliasing of human speech.
 
-Moreover, we conduct an experiment in the extreme case that the user holds the phone in in the hand and keeps moving it. The results are plotted in Figure~\ref{fig:move}, the average accuracy can still achieve 45\%.
+Moreover, we conduct an experiment in the extreme case that the user holds the phone in the hand and keeps moving it. The results are plotted in Figure~\ref{fig:move}, the average accuracy can still achieve 45\%.
 
 \begin{figure}[!h]
 	\centering
@@ -176,7 +178,7 @@ Moreover, we conduct an experiment in the extreme case that the user holds the p
 				Accuracy: 83.94\% & \hspace{-.00in} Error Rate: 16.06\% \\
 				Precision: 83.94\% & \hspace{-.00in} True Positive Rate: 84.05\% \\
 				$F_1$ Score: 0.839 & \hspace{-.00in} True Negative Rate: 98.39\% \\
-				False Negative Rate: 15.95\%  & \hspace{-.00in} False Positive Rate: 1.61\% \\
+				False Negative Rate: 15.95\% & \hspace{-.00in} False Positive Rate: 1.61\% \\
 				\bottomrule
 			\end{tabular}
 		\end{minipage}
@@ -188,7 +190,7 @@ Moreover, we conduct an experiment in the extreme case that the user holds the p
 				Accuracy: 73.34\% & \hspace{-.00in} Error Rate: 26.66\% \\
 				Precision: 73.34\% & \hspace{-.00in} True Positive Rate: 73.59\% \\
 				$F_1$ Score: 0.733 & \hspace{-.00in} True Negative Rate: 97.34\% \\
-				False Negative Rate: 26.41\%  & \hspace{-.00in} False Positive Rate: 2.66\% \\
+				False Negative Rate: 26.41\% & \hspace{-.00in} False Positive Rate: 2.66\% \\
 				\bottomrule
 			\end{tabular}
 		\end{minipage}
@@ -199,36 +201,3 @@ Moreover, we conduct an experiment in the extreme case that the user holds the p
 
 
 
-
-%We first test the scenario where the smartphone is held in the hands and the user is free to move when collecting the motion data. As plotted in Figure~\ref{fig:move}, the average accuracy is about 45\%. This indicates that the impact of user mobility is larger than that of surrounding environment, but we believe this impact can be mitigated by adding more training data too. However, holding and keeping moving the phone is labor intensive. We may using crowdsourcing methods to collect more of such data in the future.
-%
-%\begin{figure}[!h]
-%	\centering
-%	\includegraphics[width=.6\linewidth]{move}
-%	\caption{Impact of User Mobility.}
-%	\label{fig:move}
-%\end{figure}
-%impact of moving smartphones
-
-
-%
-%because of the orientation change, long term learning or use a axis-invariant machine learning algorithm, future work.
-
-%TODO
-%on the table
-%holding the phone when sitting / walking;
-%in the pocket when sitting/ walking
-
-
-%TODO
-%impact of difference phone models
-
-
-
-%%TODO 
-%on Classification Accuray
-
-
-
-%TODO
-%figure without dictionary learning 
