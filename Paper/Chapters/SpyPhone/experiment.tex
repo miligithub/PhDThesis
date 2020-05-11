@@ -10,13 +10,12 @@ In this section, we validate the {\systemName} system and show it can eavesdrop 
 		\caption{Comparison with Prior Works}
 		\label{tab:comparison}
 		\centering
-		\centering
 		%		\resizebox{\textwidth}{!}{
 		\begin{tabular}{cccccc}
 			\toprule[1pt]\midrule[0.3pt]
 			Work & Sensors & Setting & Main Techniques & Classification Classes & Accuracy\\
 			\midrule[0.5pt]
-			\multirow{4}{3cm}{\shortstack{~~~Gyrophone \\ ~~\cite{michalevsky2014gyrophone}}}& \multirow{4}{*}{Gyroscopes} & \multirow{4}{*}{\parbox{3cm}{\centering 10 people from TIDIGITS \\ Desktop\\ Loudspeakers}} & \multirow{4}{*}{\parbox{1.8cm}{\centering SVM\\ GMM\\ DTW}} & \multirow{2}{*}{1 to 9, Oh, Zero (11)}& Speaker-independent: 26\% \\ 
+			\multirow{4}{*}{\shortstack{~~~Gyrophone \\ ~~\cite{michalevsky2014gyrophone}}}& \multirow{4}{*}{Gyroscopes} & \multirow{4}{*}{\parbox{3cm}{\centering 10 people from TIDIGITS \\ Desktop\\ Loudspeakers}} & \multirow{4}{*}{\parbox{1.8cm}{\centering SVM\\ GMM\\ DTW}} & \multirow{2}{*}{1 to 9, Oh, Zero (11)}& Speaker-independent: 26\% \\ 
 			&&&&& Speaker-dependent: 65\%\\ \cline{5-6}
 			&&&&Speaker Identification& 65\%\\ \cline{5-6}
 			&&&&Speaker Gender& 84\%\\
@@ -25,12 +24,12 @@ In this section, we validate the {\systemName} system and show it can eavesdrop 
 			&&&&&\\ \cline{5-6}
 			&&&&Speaker Identification & 86\%\\
 			\midrule[0.5pt]
-			\multirow{4}{*}{\shortstack{~~SpearPhone \\ ~~\cite{anand2019spearphone}}}& \multirow{4}{*}{Accelerometers} & \multirow{4}{*}{\parbox{3cm}{\centering 326 people from TIDIGITS \\ Desktop\\ Loudspeakers}} & \multirow{4}{*}{\parbox{3cm}{\centering SVM with SMO\\ Logistic\\RF \\ RT}} & \multirow{2}{*}{1 to 9, Oh, Zero (11)}& \multirow{2}{*}{Speaker-dependent: 71\%} \\ 
+			\multirow{4}{*}{\shortstack{~~SpearPhone \\ ~~\cite{anand2019spearphone}}}& \multirow{4}{*}{Accelerometers} & \multirow{4}{*}{\parbox{3.5cm}{\centering 326 people from TIDIGITS \\Built-in Speakers \\in Smartphones}} & \multirow{4}{*}{\parbox{3cm}{\centering SVM with SMO\\ Logistic\\RF \\ RT}} & \multirow{2}{*}{1 to 9, Oh, Zero (11)}& \multirow{2}{*}{Speaker-dependent: 71\%} \\ 
 			&&&&& \\ \cline{5-6}
 			&&&&Speaker Identification& 80\%\\ \cline{5-6}
 			&&&&Speaker Gender& 90\%\\
 			\midrule[0.5pt]
-			\multirow{4}{*}{~~~\systemName} & \multirow{4}{*}{Both} & \multirow{4}{*}{\parbox{3.5cm}{\centering 225 people from TIDIGITS \\Built-in Speakers \\in Smartphones}} & \multirow{4}{*}{\parbox{1.8cm}{\centering Compressed Sensing\\Bi-LSTM} } &1 to 9, Oh, Zero (11) &Speaker-independent: 90\%\\ \cline{5-6}
+			\multirow{4}{*}{~~~\systemName} & \multirow{4}{*}{Both} & \multirow{4}{*}{\parbox{3.5cm}{\centering 326 people from TIDIGITS \\Built-in Speakers \\in Smartphones}} & \multirow{4}{*}{\parbox{1.8cm}{\centering Compressed Sensing\\Bi-LSTM} } &1 to 9, Oh, Zero (11) &Speaker-independent: 90\%\\ \cline{5-6}
 			&&&&User Activity& 81\%\\ \cline{5-6}
 			&&&&Speaker Identification& 98\%\\ \cline{5-6}
 			&&&&Speaker Gender& 93\%\\
