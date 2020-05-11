@@ -78,7 +78,31 @@ For example, Lee et al.~\cite{lee2015multi} proposed a multi-sensor authenticati
 Roy et al.~\cite{roy2016ripple} developed the Ripple II system, which uses microphones as a receiver of vibrations to achieve secure short-range communication. Compared to the `normal' case where accelerometers are used as the receiver, `misusing' microphone increases the data rate from  200 bits/s to 30,000 bits/s.  
 Chen et al.~\cite{chen2017you} utilized magnetometers to differ an electronic speaker from a real person. Their work will detect the magnetic field emitted from loudspeakers as the essential characteristic to defend the smartphone against machine-based voice impersonation attacks.
 
-In this thesis, {\spp} is an instance where `misusing' motion sensors causes information leakage on smartphones, while {\uu} and {\mv} use sensors to solve security problems. In the remainder of this thesis, we will discuss each system in each chapter, and conclude the thesis in Chapter~\ref{chap:concl}. 
+In this thesis, {\spp} is an instance where `misusing' motion sensors causes information leakage on smartphones, while {\uu} and {\mv} use sensors to solve security problems. 
+
+{\color{blue}
+
+%========================================
+%                            Section                             
+%======================================== 	 
+\section{Objectives and Contributions}
+	The research objective of this thesis is to come up with new security and privacy (S\&P) issues related to smartphone sensors, and to solve existing S\&P problems by utilizing those embedded sensors. 
+	
+	In the thesis, one new attack is proposed and two novel solutions are introduced to improve smartphone authentication schemes. A summary of the main  contributions are:
+	\begin{itemize}
+		\item We proposed a new attack on smartphones that uses the data from zero-permission motion sensors to infer permission-required acoustic information. With {\spp}, a seemingly harmless app will keep eavesdropping on smartphone speakers covertly. Compared to existing works, this {\spp} system is based on a speaker-independent machine learning model and therefore smartphones becomes more vulnerable to such attacks.
+		
+		\item We proposed {\mv}, a new authentication method that is able to authenticates smartphone users and defend against various voice-spoofing attacks at the same time. Utilizing motion sensors and microphones, {\mv} can successfully detect replay attackers with an average accuracy of 90.43\%. 
+		
+		\item We proposed a silent and quick authentication method {\uu} that allow users to unlock and control smartphones without touching the phone. The idea is to treat hand movements as I/Q modulation on ultrasound signals. This system is a good alternative to other authentication methods when users have wet/dirty hands or wear gloves/goggles/masks.
+	\end{itemize}
+ }
+
+
+
+
+In the remainder of this thesis, we will discuss each system in each chapter, and conclude the thesis in Chapter~\ref{chap:concl}. 
+
 %========================================
 %                            Section                             
 %======================================== 	 
