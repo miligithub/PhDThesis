@@ -29,9 +29,9 @@ In this section, we validate the {\systemName} system and show it can eavesdrop 
 			&&&&Speaker Identification& 80\%\\ \cline{5-6}
 			&&&&Speaker Gender& 90\%\\
 			\midrule[0.5pt]
-			\multirow{4}{*}{~~~\systemName} & \multirow{4}{*}{Both} & \multirow{4}{*}{\parbox{3.5cm}{\centering 326 people from TIDIGITS \\Built-in Speakers \\in Smartphones}} & \multirow{4}{*}{\parbox{1.8cm}{\centering Compressed Sensing\\Bi-LSTM} } &1 to 9, Oh, Zero (11) &Speaker-independent: 90\%\\ \cline{5-6}
+			\multirow{4}{*}{~~~\systemName} & \multirow{4}{*}{Both} & \multirow{4}{*}{Same as above} & \multirow{3}{*}{\parbox{1.8cm}{\centering Compressed Sensing\\Bi-LSTM} } &1 to 9, Oh, Zero (11) &Speaker-independent: 90\%\\ \cline{5-6}
 			&&&&User Activity& 81\%\\ \cline{5-6}
-			&&&&Speaker Identification& 98\%\\ \cline{5-6}
+%			&&&&Speaker Identification& 98\%\\ \cline{5-6}
 			&&&&Speaker Gender& 93\%\\
 			\midrule[0.3pt]\bottomrule[1pt]
 		\end{tabular}
@@ -109,28 +109,28 @@ The TensorFlow Speech Commands Dataset Version 2~\cite{warden2018speech} was use
 	\label{fig:genderCFM}
 \end{figure}
 
-\begin{table}[!h]
-	\caption{Statistical Analysis of the Speaker Identification Result.}
-	\label{tab:idTable}
-	\centering	
-%	\small 
-	\centering
-%		\vspace{-.1in}
-%	\resizebox{\linewidth}{!}{
-		\begin{tabular}{lr}
-		\toprule
-		Accuracy: 97.56\% & \hspace{-.2in} Error Rate: 2.44\% \\
-		Precision: 97.69\% & \hspace{-.2in} True Positive Rate (Sensitivity/Recall): 97.56\% \\
-		$F_1$ Score: 0.976 & \hspace{-.2in} True Negative Rate (Specificity): 99.99\% \\
-		False Negative Rate: 2.44\% & \hspace{-.2in} False Positive Rate: 0.01\% \\
-		\bottomrule
-	\end{tabular}
-%}
-%	\vspace{-.1in}
-\end{table}
+%\begin{table}[!h]
+%	\caption{Statistical Analysis of the Speaker Identification Result.}
+%	\label{tab:idTable}
+%	\centering	
+%%	\small 
+%	\centering
+%%		\vspace{-.1in}
+%%	\resizebox{\linewidth}{!}{
+%		\begin{tabular}{lr}
+%		\toprule
+%		Accuracy: 97.56\% & \hspace{-.2in} Error Rate: 2.44\% \\
+%		Precision: 97.69\% & \hspace{-.2in} True Positive Rate (Sensitivity/Recall): 97.56\% \\
+%		$F_1$ Score: 0.976 & \hspace{-.2in} True Negative Rate (Specificity): 99.99\% \\
+%		False Negative Rate: 2.44\% & \hspace{-.2in} False Positive Rate: 0.01\% \\
+%		\bottomrule
+%	\end{tabular}
+%%}
+%%	\vspace{-.1in}
+%\end{table}
 
 The same training and testing data are also used for gender classification and speaker identification, since the TIDIGITS audio files are labeled with gender and speaker ID. The result for gender classification is shown in Figure~\ref{fig:genderCFM}.
-For speaker identification, since the number of classes is 225, we do not show the confusion matrix, but show the result of statistical analysis as in Table~\ref{tab:idTable}. The overall accuracy is 97.56\% with the sensitivity of 97.56\% and the specificity is 99.99\%.
+%For speaker identification, since the number of classes is 326, we do not show the confusion matrix, but show the result of statistical analysis as in Table~\ref{tab:idTable}. The overall accuracy is 97.56\% with the sensitivity of 97.56\% and the specificity is 99.99\%.
 
 
 

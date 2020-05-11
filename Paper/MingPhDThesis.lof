@@ -11,40 +11,40 @@
 \contentsline {figure}{\numberline {2.10}{\ignorespaces The Bidirectional Long Short-Term Memory Network (Bi-LSTM Network).\relax }}{29}{figure.caption.18}% 
 \contentsline {figure}{\numberline {2.11}{\ignorespaces The Confusion Matrix of the Digit Classification Result.\relax }}{32}{figure.caption.20}% 
 \contentsline {figure}{\numberline {2.12}{\ignorespaces The Confusion Matrix of the Speaker Gender Classification Result. \relax }}{33}{figure.caption.21}% 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces The Confusion Matrix of the Sound Type Classification Result.\relax }}{34}{figure.caption.23}% 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Impact of Training Data Size.\relax }}{35}{figure.caption.24}% 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Impact of Downsampling Rate.\relax }}{36}{figure.caption.25}% 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Impact of Sound Volume.\relax }}{37}{figure.caption.27}% 
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Impact of Surrounding Environment.\relax }}{38}{figure.caption.28}% 
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Testing Setup.\relax }}{38}{figure.caption.29}% 
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Impact of Surrounding Environments.}}{40}{figure.caption.30}% 
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Impact of User Mobility.\relax }}{41}{figure.caption.31}% 
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Accuracy in the walking (left) and driving (right) scenario.}}{42}{figure.caption.32}% 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces In-phase and Quadrature Components from Different View Angles\relax }}{51}{figure.caption.33}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sound Propagation Paths on a Smartphone.\relax }}{53}{figure.caption.34}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Android App design for {Ultra-Unlock}\relax }}{55}{figure.caption.35}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Frequency Response of the Cascaded Integrator-Comb Filter.\relax }}{56}{figure.caption.36}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Screenshots of the UltraUnlockApp\relax }}{58}{figure.caption.37}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces I/Q Components Collected by UltraUnlockApp}}{59}{figure.caption.38}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Gestures tested in {Ultra-Unlock}.\relax }}{60}{figure.caption.39}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces The Confusion Matrix of the Gesture Classification Result. \relax }}{60}{figure.caption.40}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The Confusion Matrix of the User Classification Result. \relax }}{61}{figure.caption.41}% 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Screenshots about Voice Match on Google Nexus 6P.\relax }}{67}{figure.caption.42}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Authentication Scenario of {MoVo}}}{73}{figure.caption.43}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Self Demodulation of Sound Signals When Transmitting Through the Human Body.\relax }}{76}{figure.caption.45}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces One user speaks ``Ok Google'' twice.\relax }}{80}{figure.caption.46}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Different users both speak ``Ok Google''.\relax }}{81}{figure.caption.47}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces One user speaks ``Ok Google'' and ``Hi Siri''.\relax }}{82}{figure.caption.48}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Live user speaks ``Ok Google'' once, then replay the recording by an electronic device.\relax }}{83}{figure.caption.49}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces MoVo Attack Model}}{85}{figure.caption.50}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces The flow of {MoVo}.\relax }}{87}{figure.caption.51}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Syllable Separation}}{88}{figure.caption.52}% 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Preprocessing and Segmentation. \relax }}{90}{figure.caption.53}% 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Classification result without syllable separation and majority voting: Falsely classifying an `Ok Google' sample to `Hi Siri'.\relax }}{92}{figure.caption.54}% 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Classification Result}}{92}{figure.caption.55}% 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Screenshots of the MoVo Data Collection App and MoVo Speaker Detection App\relax }}{94}{figure.caption.56}% 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Attacker Settings\relax }}{95}{figure.caption.57}% 
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Success rate of MoVo\nobreakspace {}on defending against various attacks. \relax }}{96}{figure.caption.58}% 
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Confusion Matrix of Matching Motion Data to Different Hot-Words. \relax }}{97}{figure.caption.59}% 
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Robustness of {MoVo} over time.\relax }}{98}{figure.caption.61}% 
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Confusion Matrix of Matching Motion Data to Different Users.\relax }}{100}{figure.caption.62}% 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces The Confusion Matrix of the Sound Type Classification Result.\relax }}{34}{figure.caption.22}% 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Impact of Training Data Size.\relax }}{35}{figure.caption.23}% 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Impact of Downsampling Rate.\relax }}{36}{figure.caption.24}% 
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Impact of Sound Volume.\relax }}{37}{figure.caption.26}% 
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Impact of Surrounding Environment.\relax }}{38}{figure.caption.27}% 
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Testing Setup.\relax }}{38}{figure.caption.28}% 
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Impact of User Mobility.\relax }}{39}{figure.caption.29}% 
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Impact of Surrounding Environments.}}{40}{figure.caption.30}% 
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Accuracy in the walking (left) and driving (right) scenario.}}{41}{figure.caption.31}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces In-phase and Quadrature Components from Different View Angles\relax }}{50}{figure.caption.32}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sound Propagation Paths on a Smartphone.\relax }}{52}{figure.caption.33}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Android App design for {Ultra-Unlock}\relax }}{54}{figure.caption.34}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Frequency Response of the Cascaded Integrator-Comb Filter.\relax }}{55}{figure.caption.35}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Screenshots of the UltraUnlockApp\relax }}{57}{figure.caption.36}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces I/Q Components Collected by UltraUnlockApp}}{58}{figure.caption.37}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Gestures tested in {Ultra-Unlock}.\relax }}{59}{figure.caption.38}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The Confusion Matrix of the Gesture Classification Result. \relax }}{59}{figure.caption.39}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The Confusion Matrix of the User Classification Result. \relax }}{60}{figure.caption.40}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Screenshots about Voice Match on Google Nexus 6P.\relax }}{66}{figure.caption.41}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Authentication Scenario of {MoVo}}}{72}{figure.caption.42}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Self Demodulation of Sound Signals When Transmitting Through the Human Body.\relax }}{75}{figure.caption.44}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces One user speaks ``Ok Google'' twice.\relax }}{79}{figure.caption.45}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Different users both speak ``Ok Google''.\relax }}{80}{figure.caption.46}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces One user speaks ``Ok Google'' and ``Hi Siri''.\relax }}{81}{figure.caption.47}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Live user speaks ``Ok Google'' once, then replay the recording by an electronic device.\relax }}{82}{figure.caption.48}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces MoVo Attack Model}}{84}{figure.caption.49}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The flow of {MoVo}.\relax }}{86}{figure.caption.50}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Syllable Separation}}{87}{figure.caption.51}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Preprocessing and Segmentation. \relax }}{89}{figure.caption.52}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Classification result without syllable separation and majority voting: Falsely classifying an `Ok Google' sample to `Hi Siri'.\relax }}{91}{figure.caption.53}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Classification Result}}{91}{figure.caption.54}% 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Screenshots of the MoVo Data Collection App and MoVo Speaker Detection App\relax }}{93}{figure.caption.55}% 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Attacker Settings\relax }}{94}{figure.caption.56}% 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Success rate of MoVo\nobreakspace {}on defending against various attacks. \relax }}{95}{figure.caption.57}% 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Confusion Matrix of Matching Motion Data to Different Hot-Words. \relax }}{96}{figure.caption.58}% 
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Robustness of {MoVo} over time.\relax }}{97}{figure.caption.60}% 
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Confusion Matrix of Matching Motion Data to Different Users.\relax }}{99}{figure.caption.61}% 

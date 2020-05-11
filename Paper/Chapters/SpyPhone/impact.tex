@@ -101,6 +101,20 @@ It is worth mentioning that the performance of {\systemName} can be further impr
 
 To further test the impact of noises, we use a babble noise file and play the noise with different volumes. We control the sound pressure level received by the target phone to 55dB (quiet urban street), 60dB (normal conversation), and 65 dB (busy street). The results are shown in Figure ~\ref{fig:noisetestresult}.
 
+
+\subsection{Impact of User Mobility}\label{sec:impact:move}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=.6\linewidth]{move}
+	\caption{Impact of User Mobility.}
+	\label{fig:move}
+\end{figure}
+All previous experiments are conducted when the smartphone is placed on a desk, without being touched or moved during the data collection stage. As illustrated in Figure~\ref{fig:spyphonepreprocess}, user movements are regarded as noises. Fortunately, since user movement is very slow and is unlikely to generate signals as high as 50 Hz. Thus, we can apply a high pass filter to mitigate the noise. In Figure~\ref{fig:newspec}, we see noises are removed after the filter. In this section, we validate the performance of {\systemName} with the presence of user mobility. 
+
+We conduct two experiments: the walking scenario and the driving scenario. The users put the phone in their pockets while playing the sounds using the speakers. The results are shown in Figure~\ref{fig: walkanddrive}. The accuracy for the walking scenario is 83.94\% and that of driving scenario is 73.34\%. The accuracy of the driving scenario is relatively lower because of frequencies of the noises are relatively higher and thus close to the aliasing of human speech.
+
+
+
 \begin{landscape}
 	\begin{figure}[!h]
 		
@@ -152,19 +166,9 @@ To further test the impact of noises, we use a babble noise file and play the no
 \end{landscape}
 
 
-\subsection{Impact of User Mobility}\label{sec:impact:move}
-All previous experiments are conducted when the smartphone is placed on a desk, without being touched or moved during the data collection stage. As illustrated in Figure~\ref{fig:spyphonepreprocess}, user movements are regarded as noises. Fortunately, since user movement is very slow and is unlikely to generate signals as high as 50 Hz. Thus, we can apply a high pass filter to mitigate the noise. In Figure~\ref{fig:newspec}, we see noises are removed after the filter. In this section, we validate the performance of {\systemName} with the presence of user mobility. 
 
-We conduct two experiments: the walking scenario and the driving scenario. The users put the phone in their pockets while playing the sounds using the speakers. The results are shown in Figure~\ref{fig: walkanddrive}. The accuracy for the walking scenario is 83.94\% and that of driving scenario is 73.34\%. The accuracy of the driving scenario is relatively lower because of frequencies of the noises are relatively higher and thus close to the aliasing of human speech.
 
-Moreover, we conduct an experiment in the extreme case that the user holds the phone in the hand and keeps moving it. The results are plotted in Figure~\ref{fig:move}, the average accuracy can still achieve 45\%.
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=.6\linewidth]{move}
-	\caption{Impact of User Mobility.}
-	\label{fig:move}
-\end{figure}
 
 
 \begin{landscape}
@@ -201,3 +205,4 @@ Moreover, we conduct an experiment in the extreme case that the user holds the p
 
 
 
+Moreover, we conduct an experiment in the extreme case that the user holds the phone in the hand and keeps moving it. The results are plotted in Figure~\ref{fig:move}, the average accuracy can still achieve 45\%.
