@@ -1,6 +1,7 @@
 \contentsline {chapter}{ABSTRACT}{iii}{chapter*.1}% 
 \contentsline {chapter}{LIST OF FIGURES}{vii}{section*.2}% 
 \contentsline {chapter}{LIST OF TABLES}{x}{section*.3}% 
+\contentsline {chapter}{ACKNOWLEDGMENTS}{xi}{chapter*.4}% 
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introduction}}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Security and Privacy on Smartphones}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Smartphone Sensors: Causes or Solutions}{2}{section.1.2}% 
@@ -67,4 +68,4 @@
 \contentsline {section}{\numberline {4.7}Implementation and Evaluation}{93}{section.4.7}% 
 \contentsline {section}{\numberline {4.8}conclusion}{99}{section.4.8}% 
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusion}}{101}{chapter.5}% 
-\contentsline {chapter}{REFERENCES}{102}{chapter*.62}% 
+\contentsline {chapter}{REFERENCES}{102}{chapter*.63}% 
